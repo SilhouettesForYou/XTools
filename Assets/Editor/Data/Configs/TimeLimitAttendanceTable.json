@@ -1,0 +1,119 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "TimeLimitAttendanceTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "TimeLimitAttendanceTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200827202823,
+            "ServerPosTimeStamp" : 20200827202823,
+            "EditorPosTimeStamp" : 20200827202823,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MainSonId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200827202823,
+            "ServerPosTimeStamp" : 20200827202823,
+            "EditorPosTimeStamp" : 20200827202823,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Type",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200827202823,
+            "ServerPosTimeStamp" : 20200827202823,
+            "EditorPosTimeStamp" : 20200827202823,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Day",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200827202823,
+            "ServerPosTimeStamp" : 20200827202823,
+            "EditorPosTimeStamp" : 20200827202823,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Award",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200827202823,
+            "ServerPosTimeStamp" : 20200827202823,
+            "EditorPosTimeStamp" : 20200827202823,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ChargeAward",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20210604145248,
+            "ServerPosTimeStamp" : 20210604145248,
+            "EditorPosTimeStamp" : 20210604145248,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

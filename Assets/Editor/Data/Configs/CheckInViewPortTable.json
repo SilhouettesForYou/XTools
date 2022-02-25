@@ -1,0 +1,169 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "CheckInViewPortTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "CheckInViewPortTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "Id",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200525200843,
+            "ServerPosTimeStamp" : 20200525200843,
+            "EditorPosTimeStamp" : 20200525200843,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Position",
+            "FieldTypeName" : "Sequence<float, 3>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200525200843,
+            "ServerPosTimeStamp" : 20200525200843,
+            "EditorPosTimeStamp" : 20200525200843,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Range",
+            "FieldTypeName" : "float",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200525200843,
+            "ServerPosTimeStamp" : 20200525200843,
+            "EditorPosTimeStamp" : 20200525200843,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TriggerId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200525200843,
+            "ServerPosTimeStamp" : 20200525200843,
+            "EditorPosTimeStamp" : 20200525200843,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AngleRange",
+            "FieldTypeName" : "Sequence<float, 2>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200525200843,
+            "ServerPosTimeStamp" : 20200525200843,
+            "EditorPosTimeStamp" : 20200525200843,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SceneId",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200525200843,
+            "ServerPosTimeStamp" : 20200525200843,
+            "EditorPosTimeStamp" : 20200525200843,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "SceneTable",
+                        "ID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "IsUsedId",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20190323112819,
+            "ServerPosTimeStamp" : 20200525200843,
+            "EditorPosTimeStamp" : 20200525200843,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "IsHideIcon",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200525200843,
+            "ServerPosTimeStamp" : 20200525200842,
+            "EditorPosTimeStamp" : 20200525200843,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

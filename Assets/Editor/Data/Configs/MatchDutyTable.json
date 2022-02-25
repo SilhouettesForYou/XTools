@@ -1,0 +1,90 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "MatchDutyTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "MatchDutyTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200210173101,
+            "ServerPosTimeStamp" : 20200210173101,
+            "EditorPosTimeStamp" : 20200210173101,
+            "IndexType"          : 2,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "DutyName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200210173101,
+            "ServerPosTimeStamp" : 20200210173101,
+            "EditorPosTimeStamp" : 20200210173101,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "Atlas",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200210173101,
+            "ServerPosTimeStamp" : 20200210173101,
+            "EditorPosTimeStamp" : 20200210173101,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Icon",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200210173101,
+            "ServerPosTimeStamp" : 20200210173101,
+            "EditorPosTimeStamp" : 20200210173101,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

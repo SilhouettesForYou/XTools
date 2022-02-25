@@ -1,0 +1,157 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 7,
+    "TableBytesTarget" : 3,
+    "MainTableName"    : "ItemUseCountTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "ItemUseCountTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "Type",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200527180700,
+            "ServerPosTimeStamp" : 20200527180700,
+            "EditorPosTimeStamp" : 20200527180700,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ItemID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200527180700,
+            "ServerPosTimeStamp" : 20200527180700,
+            "EditorPosTimeStamp" : 20200527180700,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Count",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200527180700,
+            "ServerPosTimeStamp" : 20200527180700,
+            "EditorPosTimeStamp" : 20200527180700,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AwardID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200527180700,
+            "ServerPosTimeStamp" : 20200527180700,
+            "EditorPosTimeStamp" : 20200527180700,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "AwardTable",
+                        "AwardId",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Conditions",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200527180700,
+            "ServerPosTimeStamp" : 20200527180700,
+            "EditorPosTimeStamp" : 20200527180700,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MaxCount",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200527180700,
+            "ServerPosTimeStamp" : 20200527180700,
+            "EditorPosTimeStamp" : 20200527180700,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Subclass",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200527180700,
+            "ServerPosTimeStamp" : 20200527180700,
+            "EditorPosTimeStamp" : 20200527180700,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : null,
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

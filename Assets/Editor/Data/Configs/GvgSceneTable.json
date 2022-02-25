@@ -1,0 +1,107 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "GvgSceneTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "GvgSceneTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200814162036,
+            "ServerPosTimeStamp" : 20200814162036,
+            "EditorPosTimeStamp" : 20200814162036,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SceneNumber",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200814162036,
+            "ServerPosTimeStamp" : 20200814162036,
+            "EditorPosTimeStamp" : 20200814162036,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Listeners",
+            "FieldTypeName" : "vector<Sequence<int, 3>>",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200814162036,
+            "ServerPosTimeStamp" : 20200814162036,
+            "EditorPosTimeStamp" : 20200814162036,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LuaFunction",
+            "FieldTypeName" : "vector<string>",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200814162036,
+            "ServerPosTimeStamp" : 20200814162036,
+            "EditorPosTimeStamp" : 20200814162036,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "GateSwitchId",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200831104755,
+            "ServerPosTimeStamp" : 20200831104755,
+            "EditorPosTimeStamp" : 20200831104755,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

@@ -1,0 +1,209 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "GuildHuntBuffTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "GuildHuntBuffTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "BUFFID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20190821212931,
+            "ServerPosTimeStamp" : 20190821212931,
+            "EditorPosTimeStamp" : 20190821212931,
+            "IndexType"          : 2,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Name",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20190821212931,
+            "ServerPosTimeStamp" : 20190821212931,
+            "EditorPosTimeStamp" : 20190821212931,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "PicAtlas",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20190821212931,
+            "ServerPosTimeStamp" : 20190821212931,
+            "EditorPosTimeStamp" : 20190821212931,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Pic",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20190821212931,
+            "ServerPosTimeStamp" : 20190821212931,
+            "EditorPosTimeStamp" : 20190821212931,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Effect",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20190821212931,
+            "ServerPosTimeStamp" : 20190821212931,
+            "EditorPosTimeStamp" : 20190821212931,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "NextEffect",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20190821212931,
+            "ServerPosTimeStamp" : 20190821212931,
+            "EditorPosTimeStamp" : 20190821212931,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "Access",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20190821212931,
+            "ServerPosTimeStamp" : 20190821212931,
+            "EditorPosTimeStamp" : 20190821212931,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "NextAccess",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20190821212931,
+            "ServerPosTimeStamp" : 20190821212931,
+            "EditorPosTimeStamp" : 20190821212931,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "Type",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20190821212931,
+            "ServerPosTimeStamp" : 20190821212931,
+            "EditorPosTimeStamp" : 20190821212931,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Times",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20190821212931,
+            "ServerPosTimeStamp" : 20190821212931,
+            "EditorPosTimeStamp" : 20190821212931,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Config",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 10,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20190822115003,
+            "ServerPosTimeStamp" : 20190822115003,
+            "EditorPosTimeStamp" : 20190822115003,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

@@ -1,0 +1,123 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 5,
+    "TableBytesTarget" : 3,
+    "MainTableName"    : "EquipCardSeal",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "EquipCardSeal.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "SealCardId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200208102748,
+            "ServerPosTimeStamp" : 20200208102748,
+            "EditorPosTimeStamp" : 20200208102748,
+            "IndexType"          : 2,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SealCardName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200208102748,
+            "ServerPosTimeStamp" : 20200208102547,
+            "EditorPosTimeStamp" : 20200208102748,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "ItemCost",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200208102748,
+            "ServerPosTimeStamp" : 20200208102748,
+            "EditorPosTimeStamp" : 20200208102748,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "Split_Base",
+                        "Split_Base",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "CardId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200208102748,
+            "ServerPosTimeStamp" : 20200208102748,
+            "EditorPosTimeStamp" : 20200208102748,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

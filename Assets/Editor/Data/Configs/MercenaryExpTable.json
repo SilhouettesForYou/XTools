@@ -1,0 +1,56 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 1,
+    "TableBytesTarget" : 1,
+    "MainTableName"    : "MercenaryExpTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "MercenaryExpTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "MercenaryDamage",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20190828164655,
+            "ServerPosTimeStamp" : 20190828164655,
+            "EditorPosTimeStamp" : 20190828164655,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PlayerExp",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20190828164655,
+            "ServerPosTimeStamp" : 20190828164655,
+            "EditorPosTimeStamp" : 20190828164655,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

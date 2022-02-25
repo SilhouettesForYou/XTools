@@ -1,0 +1,69 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 5,
+    "TableBytesTarget" : 3,
+    "MainTableName"    : "SkillEffectUuidTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "SkillEffectUuidTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "SkillEffectId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20220219160610,
+            "ServerPosTimeStamp" : 20201126164948,
+            "EditorPosTimeStamp" : 20201126164948,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "UUID",
+            "FieldTypeName" : "vector<string>",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20201126165032,
+            "ServerPosTimeStamp" : 20201126164948,
+            "EditorPosTimeStamp" : 20201126164948,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MaxLevel",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20220219145120,
+            "ServerPosTimeStamp" : 20220219145120,
+            "EditorPosTimeStamp" : 20220219145120,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : null,
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

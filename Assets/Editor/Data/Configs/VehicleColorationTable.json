@@ -1,0 +1,155 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "VehicleColorationTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "VehicleColorationTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ColorationID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200929103744,
+            "ServerPosTimeStamp" : 20200929103744,
+            "EditorPosTimeStamp" : 20200929103744,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Model",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200929103744,
+            "ServerPosTimeStamp" : 20200929103744,
+            "EditorPosTimeStamp" : 20200929103744,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ItemCost",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200929103744,
+            "ServerPosTimeStamp" : 20200929103744,
+            "EditorPosTimeStamp" : 20200929103744,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RgbValue",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200929103744,
+            "ServerPosTimeStamp" : 20200929103744,
+            "EditorPosTimeStamp" : 20200929103744,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "IsNew",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200929103744,
+            "ServerPosTimeStamp" : 20200929103744,
+            "EditorPosTimeStamp" : 20200929103744,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ItemAtlas",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200929103744,
+            "ServerPosTimeStamp" : 20200728152228,
+            "EditorPosTimeStamp" : 20200929103744,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ItemIcon",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200929103744,
+            "ServerPosTimeStamp" : 20200929103744,
+            "EditorPosTimeStamp" : 20200929103744,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RgbLevel",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200929103744,
+            "ServerPosTimeStamp" : 20200929103744,
+            "EditorPosTimeStamp" : 20200929103744,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

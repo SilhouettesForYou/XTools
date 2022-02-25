@@ -1,0 +1,84 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4,
+    "TableBytesTarget" : 2,
+    "MainTableName"    : "AuctionIndexTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "AuctionIndexTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "IndexID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20191230172120,
+            "ServerPosTimeStamp" : 20191230172120,
+            "EditorPosTimeStamp" : 20191230172120,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "IndexName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20191230172120,
+            "ServerPosTimeStamp" : 20191230172120,
+            "EditorPosTimeStamp" : 20191230172120,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "IndexType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20191230172120,
+            "ServerPosTimeStamp" : 20191230172120,
+            "EditorPosTimeStamp" : 20191230172120,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "AuctionIndexTable",
+                        "IndexID",
+                        "Split_Base",
+                        "Split_Positive",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

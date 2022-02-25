@@ -1,0 +1,95 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 5,
+    "TableBytesTarget" : 3,
+    "MainTableName"    : "TimeLimitTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "TimeLimitTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "TimeId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200606111006,
+            "ServerPosTimeStamp" : 20200606111006,
+            "EditorPosTimeStamp" : 20200606111006,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LoopType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200606111006,
+            "ServerPosTimeStamp" : 20200606111006,
+            "EditorPosTimeStamp" : 20200606111006,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ShowTime",
+            "FieldTypeName" : "vector<vector<int>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200606111006,
+            "ServerPosTimeStamp" : 20200606111006,
+            "EditorPosTimeStamp" : 20200606111006,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "StartTime",
+            "FieldTypeName" : "vector<vector<int>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200606111006,
+            "ServerPosTimeStamp" : 20200606111006,
+            "EditorPosTimeStamp" : 20200606111006,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+        {
+            "Enable" : true,
+            "CheckerType" : "ToolLib.Excel.LuaTableChecker",
+            "CheckArgs"   : [
+                "TimeLimitTable",
+                "TimeLimitTable",
+                "Warning"
+            ]
+        }
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

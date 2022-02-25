@@ -1,0 +1,72 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "AttributeAttrLimit",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "AttributeAttrLimit.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "AttributeAttr",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20190424154750,
+            "ServerPosTimeStamp" : 20190424154750,
+            "EditorPosTimeStamp" : 20190424154750,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AttributeLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20190424154750,
+            "ServerPosTimeStamp" : 20190424154750,
+            "EditorPosTimeStamp" : 20190424154750,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AttributeLowerLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20190523100958,
+            "ServerPosTimeStamp" : 20190523100958,
+            "EditorPosTimeStamp" : 20190523100958,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : null,
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

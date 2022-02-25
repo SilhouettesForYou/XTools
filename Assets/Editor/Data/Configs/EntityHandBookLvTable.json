@@ -1,0 +1,134 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "EntityHandBookLvTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "EntityHandBookLvTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "Lv",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200523153959,
+            "ServerPosTimeStamp" : 20200523153959,
+            "EditorPosTimeStamp" : 20200523153959,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Point",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200523153959,
+            "ServerPosTimeStamp" : 20200523153959,
+            "EditorPosTimeStamp" : 20200523153959,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Atlas",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200523153959,
+            "ServerPosTimeStamp" : 20200523153959,
+            "EditorPosTimeStamp" : 20200523153959,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Icon",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200523153959,
+            "ServerPosTimeStamp" : 20200523153959,
+            "EditorPosTimeStamp" : 20200523153959,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Award",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200523153959,
+            "ServerPosTimeStamp" : 20200523153959,
+            "EditorPosTimeStamp" : 20200523153959,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AddAttr",
+            "FieldTypeName" : "vector<Sequence<int, 3>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200523153959,
+            "ServerPosTimeStamp" : 20200523153959,
+            "EditorPosTimeStamp" : 20200523153959,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Unlock",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200523153959,
+            "ServerPosTimeStamp" : 20200523153959,
+            "EditorPosTimeStamp" : 20200523153959,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

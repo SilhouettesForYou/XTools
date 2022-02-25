@@ -1,0 +1,114 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 7,
+    "TableBytesTarget" : 3,
+    "MainTableName"    : "GiftTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "GiftTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ItemID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200429170945,
+            "ServerPosTimeStamp" : 20200429170945,
+            "EditorPosTimeStamp" : 20200429170945,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "GiftType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200429170945,
+            "ServerPosTimeStamp" : 20200429170945,
+            "EditorPosTimeStamp" : 20200429170945,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "GiftLimitTable",
+                        "GiftType",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                },
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "GiftRecieveLimitTable",
+                        "GiftType",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "FriendDegree",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200429170945,
+            "ServerPosTimeStamp" : 20200429170945,
+            "EditorPosTimeStamp" : 20200429170945,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+        {
+            "Enable" : true,
+            "CheckerType" : "ToolLib.Excel.LuaTableChecker",
+            "CheckArgs"   : [
+                "GiftTable",
+                "GiftTable",
+                "Warning"
+            ]
+        }
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

@@ -1,0 +1,158 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4,
+    "TableBytesTarget" : 2,
+    "MainTableName"    : "DotHudTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "DotHudTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200303183257,
+            "ServerPosTimeStamp" : 20190826171428,
+            "EditorPosTimeStamp" : 20200303183257,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Position",
+            "FieldTypeName" : "Sequence<float, 3>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200303183257,
+            "ServerPosTimeStamp" : 20190826171428,
+            "EditorPosTimeStamp" : 20200303183257,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SpriteSize",
+            "FieldTypeName" : "Sequence<float, 2>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200303183257,
+            "ServerPosTimeStamp" : 20190826171428,
+            "EditorPosTimeStamp" : 20200303183257,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "DotsPerRow",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200303183257,
+            "ServerPosTimeStamp" : 20190826171428,
+            "EditorPosTimeStamp" : 20200303183257,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "HorizontalSpacing",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200303183257,
+            "ServerPosTimeStamp" : 20190826171428,
+            "EditorPosTimeStamp" : 20200303183257,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "VerticalSpacing",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200303183257,
+            "ServerPosTimeStamp" : 20190826171428,
+            "EditorPosTimeStamp" : 20200303183257,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MaxShowCount",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200303183257,
+            "ServerPosTimeStamp" : 20190826171428,
+            "EditorPosTimeStamp" : 20200303183257,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Type",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200303183257,
+            "ServerPosTimeStamp" : 20200303174705,
+            "EditorPosTimeStamp" : 20200303183257,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

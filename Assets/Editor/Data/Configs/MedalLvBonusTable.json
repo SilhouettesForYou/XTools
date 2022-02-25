@@ -1,0 +1,69 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 7,
+    "TableBytesTarget" : 3,
+    "MainTableName"    : "MedalLvBonusTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "MedalLvBonusTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "Id",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200730095945,
+            "ServerPosTimeStamp" : 20200730095945,
+            "EditorPosTimeStamp" : 20200730095945,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LevelDiffer",
+            "FieldTypeName" : "Sequence<int, 2>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200730095945,
+            "ServerPosTimeStamp" : 20200730095945,
+            "EditorPosTimeStamp" : 20200730095945,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ExpRate",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200730095945,
+            "ServerPosTimeStamp" : 20200730095945,
+            "EditorPosTimeStamp" : 20200730095945,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : null,
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

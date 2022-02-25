@@ -1,0 +1,102 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "TipsTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "TipsTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "TipsID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TipsType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LevelLimit",
+            "FieldTypeName" : "Sequence<int, 2>",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TipsContent",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "SystemId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20210203185643,
+            "ServerPosTimeStamp" : 20210203185643,
+            "EditorPosTimeStamp" : 20210203185643,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : null,
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

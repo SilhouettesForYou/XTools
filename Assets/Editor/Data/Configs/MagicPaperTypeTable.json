@@ -1,0 +1,158 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "MagicPaperTypeTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "MagicPaperTypeTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "MagicPaperID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20191211150717,
+            "ServerPosTimeStamp" : 20191211150717,
+            "EditorPosTimeStamp" : 20191211150717,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MagicPaperBuff",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20191211150717,
+            "ServerPosTimeStamp" : 20191211150717,
+            "EditorPosTimeStamp" : 20191211150717,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MagicPaperVideo",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20191211150717,
+            "ServerPosTimeStamp" : 20191211150717,
+            "EditorPosTimeStamp" : 20191211150717,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MagicPaperExpend",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20191211154831,
+            "ServerPosTimeStamp" : 20191211154831,
+            "EditorPosTimeStamp" : 20191211154831,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MagicPaperTItle",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20191218151930,
+            "ServerPosTimeStamp" : 20191218151948,
+            "EditorPosTimeStamp" : 20191218151930,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MagicPaperText",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20191218152351,
+            "ServerPosTimeStamp" : 20191218152351,
+            "EditorPosTimeStamp" : 20191218152351,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MagicPaperDisTime",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "0",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20191225185623,
+            "ServerPosTimeStamp" : 20191225185623,
+            "EditorPosTimeStamp" : 20191225185623,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MagicPaperEffects",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20191227160717,
+            "ServerPosTimeStamp" : 20191227160717,
+            "EditorPosTimeStamp" : 20191227160717,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

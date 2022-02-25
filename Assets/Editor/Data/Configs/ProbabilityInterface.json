@@ -1,0 +1,107 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "ProbabilityInterface",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "ProbabilityInterface.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "InterfaceID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200511165834,
+            "ServerPosTimeStamp" : 20200511165834,
+            "EditorPosTimeStamp" : 20200511165834,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ButtonName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200511165834,
+            "ServerPosTimeStamp" : 20200511165834,
+            "EditorPosTimeStamp" : 20200511165834,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "ProbabilityInstructions",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200511165834,
+            "ServerPosTimeStamp" : 20200511165834,
+            "EditorPosTimeStamp" : 20200511165834,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "URLDescribe",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200707163356,
+            "ServerPosTimeStamp" : 20200707163356,
+            "EditorPosTimeStamp" : 20200707163356,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "ProbabilityURL",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200707163356,
+            "ServerPosTimeStamp" : 20200707163356,
+            "EditorPosTimeStamp" : 20200707163356,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

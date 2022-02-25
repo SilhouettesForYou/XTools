@@ -1,0 +1,107 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4,
+    "TableBytesTarget" : 2,
+    "MainTableName"    : "ReturnPrivilege",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "ReturnPrivilege.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200625095122,
+            "ServerPosTimeStamp" : 20200625095122,
+            "EditorPosTimeStamp" : 20200625095122,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PicAltas",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200625095122,
+            "ServerPosTimeStamp" : 20200625095122,
+            "EditorPosTimeStamp" : 20200625095122,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PicName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200625095122,
+            "ServerPosTimeStamp" : 20200625095122,
+            "EditorPosTimeStamp" : 20200625095122,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TitleText",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200625095122,
+            "ServerPosTimeStamp" : 20200625095122,
+            "EditorPosTimeStamp" : 20200625095122,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "ContentText",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200625095122,
+            "ServerPosTimeStamp" : 20200625095122,
+            "EditorPosTimeStamp" : 20200625095122,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

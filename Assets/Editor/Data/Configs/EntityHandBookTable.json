@@ -1,0 +1,158 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "EntityHandBookTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "EntityHandBookTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200115092729,
+            "ServerPosTimeStamp" : 20200115092729,
+            "EditorPosTimeStamp" : 20200115092729,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Group",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200115092729,
+            "ServerPosTimeStamp" : 20200115092729,
+            "EditorPosTimeStamp" : 20200115092729,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PointAward",
+            "FieldTypeName" : "vector<Sequence<int, 3>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200115092729,
+            "ServerPosTimeStamp" : 20200115092729,
+            "EditorPosTimeStamp" : 20200115092729,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LevelAward",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200115092729,
+            "ServerPosTimeStamp" : 20200115092729,
+            "EditorPosTimeStamp" : 20200115092729,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ObjectAwardId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20200115092729,
+            "ServerPosTimeStamp" : 20200115092729,
+            "EditorPosTimeStamp" : 20200115092729,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "AwardTable",
+                        "AwardId",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ProfilePhotoId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20200115092729,
+            "ServerPosTimeStamp" : 20200115092729,
+            "EditorPosTimeStamp" : 20200115092729,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RelationEntityId",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20201105155826,
+            "ServerPosTimeStamp" : 20201105155826,
+            "EditorPosTimeStamp" : 20201105155826,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

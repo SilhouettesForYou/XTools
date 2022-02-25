@@ -1,0 +1,168 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "TitleTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "TitleTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "TitleID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20191102152932,
+            "ServerPosTimeStamp" : 20191102152932,
+            "EditorPosTimeStamp" : 20191102152932,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRepeatChecker",
+                    "CheckArgs"   : [
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TitleName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "0",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20191102152932,
+            "ServerPosTimeStamp" : 20191120141906,
+            "EditorPosTimeStamp" : 20191102152932,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "SortID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20191102152932,
+            "ServerPosTimeStamp" : 20191102152932,
+            "EditorPosTimeStamp" : 20191102152932,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Index",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20191102152932,
+            "ServerPosTimeStamp" : 20191118141710,
+            "EditorPosTimeStamp" : 20191102152932,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "TitleIndexTable",
+                        "ID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "StickersID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "0",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20191102152932,
+            "ServerPosTimeStamp" : 20191102152932,
+            "EditorPosTimeStamp" : 20191102152932,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "StickersTable",
+                        "StickersID",
+                        "Split_Base",
+                        "Split_Positive",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Description",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20191102152932,
+            "ServerPosTimeStamp" : 20191102152932,
+            "EditorPosTimeStamp" : 20191102152932,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "isHide",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20210714212620,
+            "ServerPosTimeStamp" : 20210714212620,
+            "EditorPosTimeStamp" : 20210714212620,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

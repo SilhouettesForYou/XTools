@@ -1,0 +1,322 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "OrnamentBarterTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "OrnamentBarterTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "OrnamentID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 2,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "OrnamentName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20181229110931,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "LevelLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "0",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ItemCost",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "Split_Base",
+                        "Split_Base",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "NpcID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "0",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "NpcTable",
+                        "Id",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "NpcDialog",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EntityLimit",
+            "FieldTypeName" : "Sequence<int, 2>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AchievementPointLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AchievementLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "AchievementDetailTable",
+                        "ID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TaskLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "TaskTable",
+                        "Id",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "CollectionScoreLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 10,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AchievementLevelLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 11,
+            "ServerPosID"   : 10,
+            "EditorPosID"   : 11,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EntityHandBookLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 12,
+            "ServerPosID"   : 11,
+            "EditorPosID"   : 12,
+            "ClientPosTimeStamp" : 20200225102241,
+            "ServerPosTimeStamp" : 20200225102241,
+            "EditorPosTimeStamp" : 20200225102241,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EquipCost",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 13,
+            "ServerPosID"   : 12,
+            "EditorPosID"   : 13,
+            "ClientPosTimeStamp" : 20200911185024,
+            "ServerPosTimeStamp" : 20200911185024,
+            "EditorPosTimeStamp" : 20200911185024,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+        {
+            "Enable" : true,
+            "CheckerType" : "ToolLib.Excel.LuaTableChecker",
+            "CheckArgs"   : [
+                "OrnamentBarterTable",
+                "OrnamentBarterTable",
+                "Warning"
+            ]
+        }
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

@@ -1,0 +1,53 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 2,
+    "TableBytesTarget" : 2,
+    "MainTableName"    : "EffectLodTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "EffectLodTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "GroupId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200908142605,
+            "ServerPosTimeStamp" : 20200908142605,
+            "EditorPosTimeStamp" : 20200908142605,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "NumLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200908142605,
+            "ServerPosTimeStamp" : 20200908142605,
+            "EditorPosTimeStamp" : 20200908142605,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : null,
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

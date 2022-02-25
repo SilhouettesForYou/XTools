@@ -1,0 +1,214 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 5,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "PostcardDisplayTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "PostcardDisplayTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200612161259,
+            "ServerPosTimeStamp" : 20200612161259,
+            "EditorPosTimeStamp" : 20200612161259,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Target",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200612161259,
+            "ServerPosTimeStamp" : 20200612161259,
+            "EditorPosTimeStamp" : 20200612161259,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "TaskTable",
+                        "Id",
+                        "Split_Base",
+                        "Split_Base",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Awardid",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200612161259,
+            "ServerPosTimeStamp" : 20200612161259,
+            "EditorPosTimeStamp" : 20200612161259,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "AwardTable",
+                        "AwardId",
+                        "Split_Base",
+                        "Split_Base",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ShowMoveButton",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200612161259,
+            "ServerPosTimeStamp" : 20190117160718,
+            "EditorPosTimeStamp" : 20200612161259,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Chapter",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200612161259,
+            "ServerPosTimeStamp" : 20200612161259,
+            "EditorPosTimeStamp" : 20200612161259,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Res",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200612161259,
+            "ServerPosTimeStamp" : 20190318214529,
+            "EditorPosTimeStamp" : 20200612161259,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SmallPicAtlas",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200612161259,
+            "ServerPosTimeStamp" : 20190327110447,
+            "EditorPosTimeStamp" : 20200612161259,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SmallPicIcon",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200612161259,
+            "ServerPosTimeStamp" : 20190327110447,
+            "EditorPosTimeStamp" : 20200612161259,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TrackTaskIds",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20200612161259,
+            "ServerPosTimeStamp" : 20200612161250,
+            "EditorPosTimeStamp" : 20200612161259,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "FinishTaskId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20200612161259,
+            "ServerPosTimeStamp" : 20200612210246,
+            "EditorPosTimeStamp" : 20200612161259,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

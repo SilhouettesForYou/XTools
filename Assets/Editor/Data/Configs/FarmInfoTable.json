@@ -1,0 +1,55 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 6,
+    "TableBytesTarget" : 2,
+    "MainTableName"    : "FarmInfoTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "FarmInfoTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ProfessionId",
+            "FieldTypeName" : "vector<uint>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20190424154750,
+            "ServerPosTimeStamp" : 20210127111055,
+            "EditorPosTimeStamp" : 20190424154750,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MonsterID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20210127111055,
+            "ServerPosTimeStamp" : 20210127111055,
+            "EditorPosTimeStamp" : 20210127111055,
+            "IndexType"          : 2,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 4,
+    "ServerCacheTableFlags" : 0
+}

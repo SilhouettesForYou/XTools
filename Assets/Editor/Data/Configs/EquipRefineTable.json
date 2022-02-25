@@ -1,0 +1,473 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "EquipRefineTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "EquipRefineTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 2,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Position",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RefineLevel",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RefineConsume",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "Split_Base",
+                        "Split_Base",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RestoreConsume",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "Split_Base",
+                        "Split_Base",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RollBack",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "Split_Base",
+                        "Split_Base",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Beecham",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "Split_Base",
+                        "Split_Base",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "CompensationId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SuccessRate",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "FailureResultRate",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RefineAttr",
+            "FieldTypeName" : "vector<Sequence<int, 3>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 10,
+            "ServerPosID"   : 10,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SafeLevel",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 11,
+            "ServerPosID"   : 11,
+            "EditorPosID"   : 11,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LuckyPro",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 12,
+            "EditorPosID"   : 12,
+            "ClientPosTimeStamp" : 20181229110931,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ShowRate",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 12,
+            "ServerPosID"   : 13,
+            "EditorPosID"   : 13,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AttrTips",
+            "FieldTypeName" : "vector<string>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 13,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 14,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20190903201223,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "ExtraAttr",
+            "FieldTypeName" : "Sequence<int, 3>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 14,
+            "ServerPosID"   : 14,
+            "EditorPosID"   : 15,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "DropRate",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 15,
+            "ServerPosID"   : 15,
+            "EditorPosID"   : 16,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "CompensateRate",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 16,
+            "ServerPosID"   : 16,
+            "EditorPosID"   : 17,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RateLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 17,
+            "ServerPosID"   : 17,
+            "EditorPosID"   : 18,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "damagedRate",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 18,
+            "ServerPosID"   : 18,
+            "EditorPosID"   : 19,
+            "ClientPosTimeStamp" : 20200108091921,
+            "ServerPosTimeStamp" : 20200108091921,
+            "EditorPosTimeStamp" : 20200108091921,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ProRollBack",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 19,
+            "ServerPosID"   : 19,
+            "EditorPosID"   : 20,
+            "ClientPosTimeStamp" : 20201207142801,
+            "ServerPosTimeStamp" : 20201207142801,
+            "EditorPosTimeStamp" : 20201207142801,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ProRate",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 20,
+            "ServerPosID"   : 20,
+            "EditorPosID"   : 21,
+            "ClientPosTimeStamp" : 20201207142847,
+            "ServerPosTimeStamp" : 20201207142847,
+            "EditorPosTimeStamp" : 20201207142847,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ProRateShow",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 21,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 22,
+            "ClientPosTimeStamp" : 20201207142906,
+            "ServerPosTimeStamp" : 20201207142906,
+            "EditorPosTimeStamp" : 20201207142906,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "coefficient",
+            "FieldTypeName" : "double",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 21,
+            "EditorPosID"   : 23,
+            "ClientPosTimeStamp" : 20201207143145,
+            "ServerPosTimeStamp" : 20201207143145,
+            "EditorPosTimeStamp" : 20201207143145,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : null,
+    "CheckInfos"       : [
+        {
+            "Enable" : true,
+            "CheckerType" : "ToolLib.Excel.LuaTableChecker",
+            "CheckArgs"   : [
+                "EquipRefineTable",
+                "EquipRefineTable",
+                "Warning"
+            ]
+        }
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

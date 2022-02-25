@@ -1,0 +1,232 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "MailTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "MailTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "Id",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "0",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Title",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "Content",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "AwardId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ExpireTime",
+            "FieldTypeName" : "float",
+            "DefaultValue"  : "30",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "IsTemplate",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : "0",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Sender",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MailGroupContent",
+            "FieldTypeName" : "vector<Sequence<int, 3>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "Split_Base",
+                        "Split_Base",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SendName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MinBaseLevel",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "0",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20190118151240,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Payment",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : 10,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20200519105317,
+            "ServerPosTimeStamp" : 20200626175911,
+            "EditorPosTimeStamp" : 20200519105317,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ImportantMail",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "0",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 10,
+            "ServerPosID"   : 11,
+            "EditorPosID"   : 11,
+            "ClientPosTimeStamp" : 20200703141507,
+            "ServerPosTimeStamp" : 20200716102753,
+            "EditorPosTimeStamp" : 20200703141507,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

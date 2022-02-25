@@ -1,0 +1,53 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 7,
+    "TableBytesTarget" : 3,
+    "MainTableName"    : "FirstComboSkillTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "FirstComboSkillTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "SkillID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200907095303,
+            "ServerPosTimeStamp" : 20200907095303,
+            "EditorPosTimeStamp" : 20200907095303,
+            "IndexType"          : 2,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "FirstComboSkillCondition",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200907103208,
+            "ServerPosTimeStamp" : 20200907103208,
+            "EditorPosTimeStamp" : 20200907103208,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : null,
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

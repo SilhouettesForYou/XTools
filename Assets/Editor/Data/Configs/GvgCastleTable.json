@@ -1,0 +1,349 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "GvgCastleTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "GvgCastleTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200814143824,
+            "ServerPosTimeStamp" : 20200814143824,
+            "EditorPosTimeStamp" : 20200814143824,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "CastleName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200814143824,
+            "ServerPosTimeStamp" : 20200910101939,
+            "EditorPosTimeStamp" : 20200814143824,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "MiniMapPos",
+            "FieldTypeName" : "Sequence<int, 2>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200814143824,
+            "ServerPosTimeStamp" : 20200814145705,
+            "EditorPosTimeStamp" : 20200814143824,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Scenes",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200814143824,
+            "ServerPosTimeStamp" : 20200814143824,
+            "EditorPosTimeStamp" : 20200814143824,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "GuildDungeon",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200814143824,
+            "ServerPosTimeStamp" : 20200814143824,
+            "EditorPosTimeStamp" : 20200814143824,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "IsCenter",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200814143824,
+            "ServerPosTimeStamp" : 20200814143824,
+            "EditorPosTimeStamp" : 20200814143824,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Sorting",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 10,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20201123201803,
+            "ServerPosTimeStamp" : 20200826150030,
+            "EditorPosTimeStamp" : 20200826150030,
+            "IndexType"          : 2,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRepeatChecker",
+                    "CheckArgs"   : [
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EmperiumID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200827173021,
+            "ServerPosTimeStamp" : 20200827173021,
+            "EditorPosTimeStamp" : 20200827173021,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TreasureRoomSceneID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20200907150108,
+            "ServerPosTimeStamp" : 20200907150108,
+            "EditorPosTimeStamp" : 20200907150108,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Leaderboard",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20201026145819,
+            "ServerPosTimeStamp" : 20200909170256,
+            "EditorPosTimeStamp" : 20200909170256,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Flag",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20200921163530,
+            "ServerPosTimeStamp" : 20200914160503,
+            "EditorPosTimeStamp" : 20200914160503,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AttackTransPos",
+            "FieldTypeName" : "vector<Sequence<uint, 2>>",
+            "DefaultValue"  : "0",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 10,
+            "EditorPosID"   : 11,
+            "ClientPosTimeStamp" : 20200914164334,
+            "ServerPosTimeStamp" : 20200914164334,
+            "EditorPosTimeStamp" : 20200914164334,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "DefenseRevivePos",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : "0",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 11,
+            "EditorPosID"   : 12,
+            "ClientPosTimeStamp" : 20200914164334,
+            "ServerPosTimeStamp" : 20200914164334,
+            "EditorPosTimeStamp" : 20200914164334,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TreasureRoomRewardsPublic",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 12,
+            "EditorPosID"   : 13,
+            "ClientPosTimeStamp" : 20200921154750,
+            "ServerPosTimeStamp" : 20200921154750,
+            "EditorPosTimeStamp" : 20200921154750,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TreasureRoomRewardsPersonal",
+            "FieldTypeName" : "Sequence<int, 4>",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 13,
+            "EditorPosID"   : 14,
+            "ClientPosTimeStamp" : 20200921154750,
+            "ServerPosTimeStamp" : 20200921154750,
+            "EditorPosTimeStamp" : 20200921154750,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "OpenSystemId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : 14,
+            "EditorPosID"   : 15,
+            "ClientPosTimeStamp" : 20200924201051,
+            "ServerPosTimeStamp" : 20200924111536,
+            "EditorPosTimeStamp" : 20200924111536,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AllyTreasureRoomSceneID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 11,
+            "ServerPosID"   : 15,
+            "EditorPosID"   : 16,
+            "ClientPosTimeStamp" : 20201201171944,
+            "ServerPosTimeStamp" : 20201125201436,
+            "EditorPosTimeStamp" : 20201125201436,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AllyTreasureRoomRewardsPublic",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 16,
+            "EditorPosID"   : 17,
+            "ClientPosTimeStamp" : 20201125201436,
+            "ServerPosTimeStamp" : 20201125201436,
+            "EditorPosTimeStamp" : 20201125201436,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AllyTreasureRoomRewardsPersonal",
+            "FieldTypeName" : "Sequence<int, 4>",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 17,
+            "EditorPosID"   : 18,
+            "ClientPosTimeStamp" : 20201125201436,
+            "ServerPosTimeStamp" : 20201125201436,
+            "EditorPosTimeStamp" : 20201125201436,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

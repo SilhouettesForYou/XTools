@@ -1,0 +1,101 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 6,
+    "TableBytesTarget" : 2,
+    "MainTableName"    : "ISMemoryTypeTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "istable/ISMemoryTypeTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "Type",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20201109103035,
+            "ServerPosTimeStamp" : 20201109103035,
+            "EditorPosTimeStamp" : 20201109103035,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Order",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20201109103035,
+            "ServerPosTimeStamp" : 20201109103035,
+            "EditorPosTimeStamp" : 20201109103035,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Description",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20201109103035,
+            "ServerPosTimeStamp" : 20201109103035,
+            "EditorPosTimeStamp" : 20201109103035,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "HideLocked",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : "0",
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20201124145413,
+            "ServerPosTimeStamp" : 20201124145413,
+            "EditorPosTimeStamp" : 20201124145413,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "UnlockedFirst",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : "0",
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20201124145413,
+            "ServerPosTimeStamp" : 20201124145413,
+            "EditorPosTimeStamp" : 20201124145413,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : null,
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

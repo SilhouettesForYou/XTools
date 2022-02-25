@@ -1,0 +1,209 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "DungeonStandardAttrTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "DungeonStandardAttrTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "Level",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 10,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20191209165613,
+            "ServerPosTimeStamp" : 20191209165613,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EDPS_Normal",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20191209165344,
+            "ServerPosTimeStamp" : 20191209165220,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EDPS_Hard",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20191209165350,
+            "ServerPosTimeStamp" : 20191209165220,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EHP_Normal",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20191209165613,
+            "ServerPosTimeStamp" : 20191209165220,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EHP_Hard",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20191209165613,
+            "ServerPosTimeStamp" : 20191209165220,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EBattleValue_2000",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20191209165613,
+            "ServerPosTimeStamp" : 20191209165220,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EBattleValue_3000",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20191209165613,
+            "ServerPosTimeStamp" : 20191209165220,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EBattleValue_4000",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20191209165613,
+            "ServerPosTimeStamp" : 20191209165220,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EBattleValue_5000",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20191209165613,
+            "ServerPosTimeStamp" : 20191209165220,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EBattleValue_6000",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20191209165613,
+            "ServerPosTimeStamp" : 20191209165220,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EBattleValue_7000",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20191209165613,
+            "ServerPosTimeStamp" : 20191209165220,
+            "EditorPosTimeStamp" : 20191209165220,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

@@ -1,0 +1,106 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "ElementAttr",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "ElementAttr.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "AttrId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20190424154750,
+            "ServerPosTimeStamp" : 20190424154750,
+            "EditorPosTimeStamp" : 20190424154750,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Text",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20190424154750,
+            "ServerPosTimeStamp" : 20190424154750,
+            "EditorPosTimeStamp" : 20190424154750,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "Colour",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20190424154750,
+            "ServerPosTimeStamp" : 20190319141307,
+            "EditorPosTimeStamp" : 20190424154750,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ColourText",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20190424154750,
+            "ServerPosTimeStamp" : 20190816150914,
+            "EditorPosTimeStamp" : 20190424154750,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "ColourTextDefence",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20190816150914,
+            "ServerPosTimeStamp" : 20190816150914,
+            "EditorPosTimeStamp" : 20190816150914,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        }
+    ],
+    "Children"         : null,
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

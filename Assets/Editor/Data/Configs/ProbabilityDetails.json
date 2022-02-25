@@ -1,0 +1,326 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "ProbabilityDetails",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "ProbabilityDetails.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200511165625,
+            "ServerPosTimeStamp" : 20200511165625,
+            "EditorPosTimeStamp" : 20200511165625,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RewardType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200511165625,
+            "ServerPosTimeStamp" : 20200511165625,
+            "EditorPosTimeStamp" : 20200511165625,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueEmptyChecker",
+                    "CheckArgs"   : [
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "RewardID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200511165625,
+            "ServerPosTimeStamp" : 20200511165625,
+            "EditorPosTimeStamp" : 20200511165625,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ShowInterfaceID",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200511165625,
+            "ServerPosTimeStamp" : 20200511165625,
+            "EditorPosTimeStamp" : 20200511165625,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SpecialDescription",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200511165625,
+            "ServerPosTimeStamp" : 20200511165625,
+            "EditorPosTimeStamp" : 20200511165625,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "TypeID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200511165625,
+            "ServerPosTimeStamp" : 20200511165625,
+            "EditorPosTimeStamp" : 20200511165625,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TypeName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200511165625,
+            "ServerPosTimeStamp" : 20200511165625,
+            "EditorPosTimeStamp" : 20200511165625,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "Value",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200511165625,
+            "ServerPosTimeStamp" : 20200511165625,
+            "EditorPosTimeStamp" : 20200511165625,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Probability",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20200511165625,
+            "ServerPosTimeStamp" : 20200511165625,
+            "EditorPosTimeStamp" : 20200511165625,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ServerDays",
+            "FieldTypeName" : "Sequence<int, 2>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20200711154307,
+            "ServerPosTimeStamp" : 20200711154307,
+            "EditorPosTimeStamp" : 20200711154307,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LimitProfession",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 10,
+            "ServerPosID"   : 10,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20200711154307,
+            "ServerPosTimeStamp" : 20200711154307,
+            "EditorPosTimeStamp" : 20200711154307,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LimitLevel",
+            "FieldTypeName" : "Sequence<int, 2>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 11,
+            "ServerPosID"   : 11,
+            "EditorPosID"   : 11,
+            "ClientPosTimeStamp" : 20200711154307,
+            "ServerPosTimeStamp" : 20200711154307,
+            "EditorPosTimeStamp" : 20200711154307,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LimitSex",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 12,
+            "ServerPosID"   : 12,
+            "EditorPosID"   : 12,
+            "ClientPosTimeStamp" : 20200711154307,
+            "ServerPosTimeStamp" : 20200711154307,
+            "EditorPosTimeStamp" : 20200711154307,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Underline",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 13,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 13,
+            "ClientPosTimeStamp" : 20200713192824,
+            "ServerPosTimeStamp" : 20200713192824,
+            "EditorPosTimeStamp" : 20200713192824,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ServerType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 14,
+            "ServerPosID"   : 13,
+            "EditorPosID"   : 14,
+            "ClientPosTimeStamp" : 20200907172843,
+            "ServerPosTimeStamp" : 20200907172843,
+            "EditorPosTimeStamp" : 20200907172843,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "DisplayType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 15,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 15,
+            "ClientPosTimeStamp" : 20201021102410,
+            "ServerPosTimeStamp" : 20201021102410,
+            "EditorPosTimeStamp" : 20201021102410,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "DisplayTime",
+            "FieldTypeName" : "vector<vector<int>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 16,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 16,
+            "ClientPosTimeStamp" : 20201021102410,
+            "ServerPosTimeStamp" : 20201021102410,
+            "EditorPosTimeStamp" : 20201021102410,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+        {
+            "Enable" : true,
+            "CheckerType" : "ToolLib.Excel.LuaTableChecker",
+            "CheckArgs"   : [
+                "ProbabilityDetails",
+                "ProbabilityDetails",
+                "Warning"
+            ]
+        }
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

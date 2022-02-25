@@ -1,0 +1,362 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "GuildUpgradingTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "GuildUpgradingTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "Id",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Level",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "MemberAddNum",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20181229110931,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "BankrollAddMount",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20181229110931,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "BlessingStudyLev",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20181229110931,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "BlessingStudyExpPerHour",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 16,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20190702201816,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "BlessingFreeActiveTimes",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "GiftBoxStorageLimits",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "isMaxLevel",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "BankrollCost",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TimeCost",
+            "FieldTypeName" : "Sequence<float, 3>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 10,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "UpgradingLimits",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 11,
+            "EditorPosID"   : 11,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SectionA",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : 12,
+            "EditorPosID"   : 12,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "SectionAValue",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : 13,
+            "EditorPosID"   : 13,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SectionB",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 10,
+            "ServerPosID"   : 14,
+            "EditorPosID"   : 14,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "SectionBValue",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 11,
+            "ServerPosID"   : 15,
+            "EditorPosID"   : 15,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SectionC",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 12,
+            "ServerPosID"   : 16,
+            "EditorPosID"   : 16,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "SectionCValue",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 13,
+            "ServerPosID"   : 17,
+            "EditorPosID"   : 17,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ofBuildingId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 14,
+            "ServerPosID"   : 18,
+            "EditorPosID"   : 18,
+            "ClientPosTimeStamp" : 20190424154751,
+            "ServerPosTimeStamp" : 20190424154751,
+            "EditorPosTimeStamp" : 20190424154751,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "WarehouseStorageLimits",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 15,
+            "ServerPosID"   : 19,
+            "EditorPosID"   : 19,
+            "ClientPosTimeStamp" : 20190604112730,
+            "ServerPosTimeStamp" : 20190604112730,
+            "EditorPosTimeStamp" : 20190604112730,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

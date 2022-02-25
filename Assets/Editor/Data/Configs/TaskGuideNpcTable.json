@@ -1,0 +1,73 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4,
+    "TableBytesTarget" : 2,
+    "MainTableName"    : "TaskGuideNpcTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "tasktable/TaskGuideNpcTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "NPCid",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20190817144939,
+            "ServerPosTimeStamp" : 20190817144939,
+            "EditorPosTimeStamp" : 20190817144939,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Des",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : false,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : -1,
+            "ClientPosTimeStamp" : 20190817144939,
+            "ServerPosTimeStamp" : 20190817144939,
+            "EditorPosTimeStamp" : 20190817144939,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "NpcDate",
+            "FieldTypeName" : "vector<vector<string>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20190817144939,
+            "ServerPosTimeStamp" : 20190817144939,
+            "EditorPosTimeStamp" : 20190817144939,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

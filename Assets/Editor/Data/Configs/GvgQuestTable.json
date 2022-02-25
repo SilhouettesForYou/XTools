@@ -1,0 +1,141 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "GvgQuestTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "GvgQuestTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200814161156,
+            "ServerPosTimeStamp" : 20200814161156,
+            "EditorPosTimeStamp" : 20200814161156,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Des",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200814161156,
+            "ServerPosTimeStamp" : 20200814161156,
+            "EditorPosTimeStamp" : 20200814161156,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "Type",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200814161156,
+            "ServerPosTimeStamp" : 20200814161156,
+            "EditorPosTimeStamp" : 20200814161156,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Arg",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200814161156,
+            "ServerPosTimeStamp" : 20200814161156,
+            "EditorPosTimeStamp" : 20200814161156,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PreQuest",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200814161156,
+            "ServerPosTimeStamp" : 20200814161156,
+            "EditorPosTimeStamp" : 20200814161156,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Points",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200814161156,
+            "ServerPosTimeStamp" : 20200814161156,
+            "EditorPosTimeStamp" : 20200814161156,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "IsActive",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200814161156,
+            "ServerPosTimeStamp" : 20200814161156,
+            "EditorPosTimeStamp" : 20200814161156,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

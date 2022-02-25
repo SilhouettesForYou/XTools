@@ -1,0 +1,343 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "ThemeDungeonTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "ThemeDungeonTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ThemeDungeonID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191223210134,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ThemeName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191220160558,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "TeamTargetID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191220160558,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ChapterLevel",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191223210134,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ScenePic",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191217164824,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ChapterContent",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191220160558,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "SortChapterText",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20190119145846,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "LeaderDesc",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191216182528,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "LeaderName",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191216182528,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "Painting",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 10,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191216182528,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LeaderFeatureDesc",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 11,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 11,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191216182528,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "LeaderFileDesc",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 12,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 12,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191216182528,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "StoryDungeonID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 13,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 13,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191223210134,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "NormalDungeonID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 14,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 14,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191223210134,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "HardDungeonID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 15,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 15,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191223210134,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ServerLv",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 16,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 16,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191223210134,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "IsRemove",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 17,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 17,
+            "ClientPosTimeStamp" : 20191223210134,
+            "ServerPosTimeStamp" : 20191223210134,
+            "EditorPosTimeStamp" : 20191223210134,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LeaderID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 18,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 18,
+            "ClientPosTimeStamp" : 20191226093948,
+            "ServerPosTimeStamp" : 20191226093948,
+            "EditorPosTimeStamp" : 20191226093948,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SingleDungeonID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20210514143139,
+            "ServerPosTimeStamp" : 20210514143139,
+            "EditorPosTimeStamp" : 20210514143139,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : null,
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

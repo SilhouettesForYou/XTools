@@ -1,0 +1,129 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4,
+    "TableBytesTarget" : 6,
+    "MainTableName"    : "BusinessNpcInfoTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "BusinessNpcInfoTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20190704145120,
+            "ServerPosTimeStamp" : 20190215170236,
+            "EditorPosTimeStamp" : 20190704145120,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "NpcTable",
+                        "Id",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "sceneId",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20190704145120,
+            "ServerPosTimeStamp" : 20190215170236,
+            "EditorPosTimeStamp" : 20190704145120,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "SceneTable",
+                        "ID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "X",
+            "FieldTypeName" : "double",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20190704145120,
+            "ServerPosTimeStamp" : 20190704145120,
+            "EditorPosTimeStamp" : 20190704145120,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Y",
+            "FieldTypeName" : "double",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20190704145120,
+            "ServerPosTimeStamp" : 20190704145120,
+            "EditorPosTimeStamp" : 20190704145120,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Z",
+            "FieldTypeName" : "double",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20190704145120,
+            "ServerPosTimeStamp" : 20190704145120,
+            "EditorPosTimeStamp" : 20190704145120,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

@@ -1,0 +1,141 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 5,
+    "TableBytesTarget" : 1,
+    "MainTableName"    : "BlessedExperienceTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "BlessedExperienceTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "0",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20191112152832,
+            "ServerPosTimeStamp" : 20191112152832,
+            "EditorPosTimeStamp" : 20191112152832,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ExchangeType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "1",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20191112152832,
+            "ServerPosTimeStamp" : 20191112152832,
+            "EditorPosTimeStamp" : 20191112152832,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Level",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "1",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20191112152832,
+            "ServerPosTimeStamp" : 20191112152832,
+            "EditorPosTimeStamp" : 20191112152832,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ExchangeBaseNum",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "0",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20191112152832,
+            "ServerPosTimeStamp" : 20191112152832,
+            "EditorPosTimeStamp" : 20191112152832,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ExchangeJobNum",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "0",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20191112152832,
+            "ServerPosTimeStamp" : 20191112152832,
+            "EditorPosTimeStamp" : 20191112152832,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "BaseMinimumExperience",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "0",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20191112152832,
+            "ServerPosTimeStamp" : 20191112152832,
+            "EditorPosTimeStamp" : 20191112152832,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "JobMinimumExperience",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20191112152832,
+            "ServerPosTimeStamp" : 20191112152832,
+            "EditorPosTimeStamp" : 20191112152832,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

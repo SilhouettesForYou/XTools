@@ -1,0 +1,482 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "MvpTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "MvpTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EventID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "EntityID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 2,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "EntityTable",
+                        "Id",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "HeadAtlas",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "HeadIcon",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SceneID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "BgAtlas",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "BgIcon",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "AvatarPos",
+            "FieldTypeName" : "Sequence<float, 3>",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Des",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "Type",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 10,
+            "ServerPosID"   : 10,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "WinAward",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 11,
+            "ServerPosID"   : 11,
+            "EditorPosID"   : 11,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "AwardTable",
+                        "AwardId",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PublicReward",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 12,
+            "ServerPosID"   : 12,
+            "EditorPosID"   : 12,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "AwardTable",
+                        "AwardId",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PersonalMvpAward",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 13,
+            "ServerPosID"   : 13,
+            "EditorPosID"   : 13,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "AwardTable",
+                        "AwardId",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "FinallyKillEffect",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 14,
+            "ServerPosID"   : 14,
+            "EditorPosID"   : 14,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PartsInAward",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 15,
+            "EditorPosID"   : 15,
+            "ClientPosTimeStamp" : 20200611173417,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ClickAction",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 15,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 16,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20181229110931,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Postion",
+            "FieldTypeName" : "Sequence<float, 3>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 16,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 17,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20181229110931,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Rotation",
+            "FieldTypeName" : "Sequence<float, 3>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 17,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 18,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20181229110931,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Scale",
+            "FieldTypeName" : "Sequence<float, 3>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 18,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 19,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20181229110931,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "HPRatio",
+            "FieldTypeName" : "Sequence<float, 2>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 19,
+            "ServerPosID"   : 16,
+            "EditorPosID"   : 20,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ELifeTime",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "100",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 17,
+            "EditorPosID"   : 21,
+            "ClientPosTimeStamp" : 20191119172945,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "CompensatePara",
+            "FieldTypeName" : "float",
+            "DefaultValue"  : "0",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 18,
+            "EditorPosID"   : 22,
+            "ClientPosTimeStamp" : 20191120111416,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PartsInAwardPreview",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 20,
+            "ServerPosID"   : 19,
+            "EditorPosID"   : 23,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ActivityPartsInAward",
+            "FieldTypeName" : "Sequence<int, 2>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 21,
+            "ServerPosID"   : 20,
+            "EditorPosID"   : 24,
+            "ClientPosTimeStamp" : 20200908213514,
+            "ServerPosTimeStamp" : 20200908213514,
+            "EditorPosTimeStamp" : 20200908213514,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : null,
+    "CheckInfos"       : [
+    ],
+    "ClientCacheTableFlags" : 4,
+    "ServerCacheTableFlags" : 0
+}

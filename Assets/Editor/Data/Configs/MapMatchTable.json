@@ -1,0 +1,399 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 5,
+    "TableBytesTarget" : 3,
+    "MainTableName"    : "MapMatchTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "MapMatchTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "MapId",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20210414105309,
+            "ServerPosTimeStamp" : 20201210180214,
+            "EditorPosTimeStamp" : 20201210180214,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRepeatChecker",
+                    "CheckArgs"   : [
+                    ]
+                },
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueEmptyChecker",
+                    "CheckArgs"   : [
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "CampNum",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20201210180214,
+            "ServerPosTimeStamp" : 20201210180214,
+            "EditorPosTimeStamp" : 20201210180214,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "1",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "CampMember",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20201210180214,
+            "ServerPosTimeStamp" : 20201210180214,
+            "EditorPosTimeStamp" : 20201210180214,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "1",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TeamMemberLimit",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20201210180214,
+            "ServerPosTimeStamp" : 20201210180214,
+            "EditorPosTimeStamp" : 20201210180214,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "1",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TimeOutLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20201218160104,
+            "ServerPosTimeStamp" : 20201218160104,
+            "EditorPosTimeStamp" : 20201218160104,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ConfirmTimeOut",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "-1",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20210203191047,
+            "ServerPosTimeStamp" : 20210203191047,
+            "EditorPosTimeStamp" : 20210203191047,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "1",
+                        "99999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "JobLimit",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20210322171929,
+            "ServerPosTimeStamp" : 20210322171929,
+            "EditorPosTimeStamp" : 20210322171929,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TimeRemoveJobLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "-1",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20210322172851,
+            "ServerPosTimeStamp" : 20210322172851,
+            "EditorPosTimeStamp" : 20210322172851,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LevelRange",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20210322172851,
+            "ServerPosTimeStamp" : 20210322172851,
+            "EditorPosTimeStamp" : 20210322172851,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "0",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ExpandLvRange",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20210322172851,
+            "ServerPosTimeStamp" : 20210322172851,
+            "EditorPosTimeStamp" : 20210322172851,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "0",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LvExpandInterval",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : "",
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 10,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20210322172851,
+            "ServerPosTimeStamp" : 20210322172851,
+            "EditorPosTimeStamp" : 20210322172851,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "0",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "LvExpandTimes",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 11,
+            "EditorPosID"   : 11,
+            "ClientPosTimeStamp" : 20210322172916,
+            "ServerPosTimeStamp" : 20210322172916,
+            "EditorPosTimeStamp" : 20210322172916,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "0",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ExpandScoreRange",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 12,
+            "EditorPosID"   : 12,
+            "ClientPosTimeStamp" : 20210322175116,
+            "ServerPosTimeStamp" : 20210322174929,
+            "EditorPosTimeStamp" : 20210322174929,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "0",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ScExpandInterval",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 13,
+            "EditorPosID"   : 13,
+            "ClientPosTimeStamp" : 20210322175116,
+            "ServerPosTimeStamp" : 20210322175039,
+            "EditorPosTimeStamp" : 20210322175039,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "0",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ScExpandTimes",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 14,
+            "EditorPosID"   : 14,
+            "ClientPosTimeStamp" : 20210322175116,
+            "ServerPosTimeStamp" : 20210322175116,
+            "EditorPosTimeStamp" : 20210322175116,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "0",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "TimeOutBan",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : null,
+            "ForClient"     : false,
+            "ForServer"     : true,
+            "ClientPosID"   : -1,
+            "ServerPosID"   : 15,
+            "EditorPosID"   : 15,
+            "ClientPosTimeStamp" : 20210322175153,
+            "ServerPosTimeStamp" : 20210322175153,
+            "EditorPosTimeStamp" : 20210322175153,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRangeChecker",
+                    "CheckArgs"   : [
+                        "0",
+                        "999999"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : null,
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

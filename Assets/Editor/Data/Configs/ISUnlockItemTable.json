@@ -1,0 +1,175 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 7,
+    "TableBytesTarget" : 3,
+    "MainTableName"    : "ISUnlockItemTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "istable/ISUnlockItemTable.csv",
+            "SheetName" : null
+        },
+        {
+            "ExcelPath" : "istable/ISUnlockItemSplitCutSceneTable.csv",
+            "SheetName" : [
+            ]
+        },
+        {
+            "ExcelPath" : "istable/ISUnlockItemSplitMainMemoryTable.csv",
+            "SheetName" : [
+            ]
+        },
+        {
+            "ExcelPath" : "istable/ISUnlockItemSplitStoryBoardTable.csv",
+            "SheetName" : [
+            ]
+        },
+        {
+            "ExcelPath" : "istable/ISUnlockItemSplitLandscapeTable.csv",
+            "SheetName" : [
+            ]
+        },
+        {
+            "ExcelPath" : "istable/ISUnlockItemSplitTermTable.csv",
+            "SheetName" : [
+            ]
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20201106110234,
+            "ServerPosTimeStamp" : 20201106110234,
+            "EditorPosTimeStamp" : 20201106110234,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Type",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20201106110234,
+            "ServerPosTimeStamp" : 20210419103832,
+            "EditorPosTimeStamp" : 20201106110234,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SubType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20201106110234,
+            "ServerPosTimeStamp" : 20201106110234,
+            "EditorPosTimeStamp" : 20201106110234,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Title",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20201106110234,
+            "ServerPosTimeStamp" : 20201106110234,
+            "EditorPosTimeStamp" : 20201106110234,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "Content",
+            "FieldTypeName" : "vector<Sequence<int, 2>>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20201106110234,
+            "ServerPosTimeStamp" : 20201106110234,
+            "EditorPosTimeStamp" : 20201106110234,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "UnlockCondition",
+            "FieldTypeName" : "vector<int>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20201106110234,
+            "ServerPosTimeStamp" : 20201106110234,
+            "EditorPosTimeStamp" : 20201106110234,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Bonus",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20201106110234,
+            "ServerPosTimeStamp" : 20201106110234,
+            "EditorPosTimeStamp" : 20201106110234,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PreviewPath",
+            "FieldTypeName" : "vector<string>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20201118162110,
+            "ServerPosTimeStamp" : 20201118162110,
+            "EditorPosTimeStamp" : 20201118162110,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : null,
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

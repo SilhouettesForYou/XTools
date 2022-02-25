@@ -1,0 +1,126 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 6,
+    "TableBytesTarget" : 2,
+    "MainTableName"    : "ISContentTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "istable/ISContentTable.csv",
+            "SheetName" : null
+        },
+        {
+            "ExcelPath" : "istable/ISContentSplitCutSceneTable.csv",
+            "SheetName" : [
+            ]
+        },
+        {
+            "ExcelPath" : "istable/ISContentSplitMainMemoryTable.csv",
+            "SheetName" : [
+            ]
+        },
+        {
+            "ExcelPath" : "istable/ISContentSplitStoryBoardTable.csv",
+            "SheetName" : [
+            ]
+        },
+        {
+            "ExcelPath" : "istable/ISContentSplitLandscapeTable.csv",
+            "SheetName" : [
+            ]
+        },
+        {
+            "ExcelPath" : "istable/ISContentSplitTermTable.csv",
+            "SheetName" : [
+            ]
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "ID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20201109105732,
+            "ServerPosTimeStamp" : 20201109105732,
+            "EditorPosTimeStamp" : 20201109105732,
+            "IndexType"          : 1,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Type",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20201109105732,
+            "ServerPosTimeStamp" : 20201109105732,
+            "EditorPosTimeStamp" : 20201109105732,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ContentID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20201109105732,
+            "ServerPosTimeStamp" : 20201109105732,
+            "EditorPosTimeStamp" : 20201109105732,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Text",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20201109105732,
+            "ServerPosTimeStamp" : 20201109105732,
+            "EditorPosTimeStamp" : 20201109105732,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "ReaderPreviewPath",
+            "FieldTypeName" : "vector<string>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20201118162329,
+            "ServerPosTimeStamp" : 20201118162329,
+            "EditorPosTimeStamp" : 20201118162329,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : [
+    ],
+    "CheckInfos"       : null,
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}

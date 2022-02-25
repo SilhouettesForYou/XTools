@@ -1,0 +1,502 @@
+﻿
+{
+    "isNeedPre" : false,
+    "isNeedPost" : false,
+    "TableCodeTarget" : 4294967295,
+    "TableBytesTarget" : 4294967295,
+    "MainTableName"    : "CommoditTable",
+    "TableLocations"   : [
+        {
+            "ExcelPath" : "CommoditTable.csv",
+            "SheetName" : null
+        }
+    ],
+    "Fields"           : [
+        {
+            "FieldName" : "CommoditID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 0,
+            "ServerPosID"   : 0,
+            "EditorPosID"   : 0,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 1,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ItemTable",
+                        "ItemID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                },
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "CountTable",
+                        "Key",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                },
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ExpectPriceTable",
+                        "ItemID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "OfClassList",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 1,
+            "ServerPosID"   : 1,
+            "EditorPosID"   : 1,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "MerchantGuildTable",
+                        "ClassificationID",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "InitialPrice",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 2,
+            "ServerPosID"   : 2,
+            "EditorPosID"   : 2,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "InitialStock",
+            "FieldTypeName" : "uint",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 3,
+            "ServerPosID"   : 3,
+            "EditorPosID"   : 3,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "isPreviewed",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 4,
+            "ServerPosID"   : 4,
+            "EditorPosID"   : 4,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PerPurchaseLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 5,
+            "ServerPosID"   : 5,
+            "EditorPosID"   : 5,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PerSellLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 6,
+            "ServerPosID"   : 6,
+            "EditorPosID"   : 6,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "OpenSystemLev",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : "",
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 7,
+            "ServerPosID"   : 7,
+            "EditorPosID"   : 7,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+                {
+                    "Enable" : true,
+                    "CheckerType" : "ToolLib.Excel.ValueRelationChecker",
+                    "CheckArgs"   : [
+                        "ServerLevelTable",
+                        "ServeLevel",
+                        "",
+                        "",
+                        "Warning"
+                    ]
+                }
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "DayPurchaseLimitDisplay",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 8,
+            "ServerPosID"   : 8,
+            "EditorPosID"   : 8,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "SortID",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 9,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 9,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20190103102011,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ShowUpperLimit",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 10,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 10,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20190103102011,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "IsPublicity",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 11,
+            "ServerPosID"   : 9,
+            "EditorPosID"   : 11,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "NeedChangeState",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 12,
+            "ServerPosID"   : 10,
+            "EditorPosID"   : 12,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ChangeStateDay",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 13,
+            "ServerPosID"   : 11,
+            "EditorPosID"   : 13,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ChangeStateInventory1",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 14,
+            "ServerPosID"   : 12,
+            "EditorPosID"   : 14,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "ChangeStateInventory2",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 15,
+            "ServerPosID"   : 13,
+            "EditorPosID"   : 15,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PriceType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 16,
+            "ServerPosID"   : 14,
+            "EditorPosID"   : 16,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PublicityPriceType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 17,
+            "ServerPosID"   : 15,
+            "EditorPosID"   : 17,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Fliter",
+            "FieldTypeName" : "string",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : false,
+            "ClientPosID"   : 18,
+            "ServerPosID"   : -1,
+            "EditorPosID"   : 18,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20190103102011,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : true
+        },
+        {
+            "FieldName" : "SellTax",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 19,
+            "ServerPosID"   : 16,
+            "EditorPosID"   : 19,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "PriceLimit",
+            "FieldTypeName" : "Sequence<int, 2>",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 20,
+            "ServerPosID"   : 17,
+            "EditorPosID"   : 20,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "Enable",
+            "FieldTypeName" : "bool",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 21,
+            "ServerPosID"   : 18,
+            "EditorPosID"   : 21,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "InventoryRefreshType",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 22,
+            "ServerPosID"   : 19,
+            "EditorPosID"   : 22,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "DefaultState",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 23,
+            "ServerPosID"   : 20,
+            "EditorPosID"   : 23,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : [
+            ],
+            "NeedLocal"          : false
+        },
+        {
+            "FieldName" : "NormalTax",
+            "FieldTypeName" : "int",
+            "DefaultValue"  : null,
+            "ForClient"     : true,
+            "ForServer"     : true,
+            "ClientPosID"   : 24,
+            "ServerPosID"   : 21,
+            "EditorPosID"   : 24,
+            "ClientPosTimeStamp" : 20200413104443,
+            "ServerPosTimeStamp" : 20200413104443,
+            "EditorPosTimeStamp" : 20200413104443,
+            "IndexType"          : 0,
+            "CheckInfos"         : null,
+            "NeedLocal"          : false
+        }
+    ],
+    "Children"         : null,
+    "CheckInfos"       : [
+        {
+            "Enable" : true,
+            "CheckerType" : "ToolLib.Excel.LuaTableChecker",
+            "CheckArgs"   : [
+                "CommoditTable",
+                "CommoditTable",
+                "Warning"
+            ]
+        }
+    ],
+    "ClientCacheTableFlags" : 0,
+    "ServerCacheTableFlags" : 0
+}
