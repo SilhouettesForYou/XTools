@@ -1,0 +1,3 @@
+[submodule "Assets/ThirdParty/Sirenix"]
+	path = Assets/ThirdParty/Sirenix
+	url = https://github.com/SilhouettesForYou/Sirenix
