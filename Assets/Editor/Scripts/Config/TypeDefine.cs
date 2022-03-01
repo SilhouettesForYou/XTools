@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -53,6 +54,7 @@ namespace XTools
     {
         private static Dictionary<string, string> _typeStrMap;
         private static Dictionary<string, string> _basicTypeStrMap;
+        private static Dictionary<string, Type> _basicTypeMap;
         private static List<string> _basicTypeStr;
 
         public static Dictionary<string, string> GetTypeStrMap()
@@ -61,6 +63,12 @@ namespace XTools
             {
                 _typeStrMap = new Dictionary<string, string>();
                 _typeStrMap.Add("Char", "Char");
+                _typeStrMap.Add("Boolean", "Bool");
+                _typeStrMap.Add("Single", "Float");
+                _typeStrMap.Add("Int32", "Int");
+                _typeStrMap.Add("Int64", "Long");
+                _typeStrMap.Add("String", "String");
+                _typeStrMap.Add("UInt32", "UInt");
             }
             return _typeStrMap;
         }
@@ -69,7 +77,15 @@ namespace XTools
         {
             if (_basicTypeStrMap == null)
             {
+                _basicTypeStrMap = new Dictionary<string, string>();
                 _basicTypeStrMap.Add("char", "Char");
+                _basicTypeStrMap.Add("bool", "Bool");
+                _basicTypeStrMap.Add("double", "Double");
+                _basicTypeStrMap.Add("float", "Float");
+                _basicTypeStrMap.Add("int", "Int");
+                _basicTypeStrMap.Add("long long", "Long");
+                _basicTypeStrMap.Add("string", "String");
+                _basicTypeStrMap.Add("uint", "UInt");
             }
             return _basicTypeStrMap;
         }
@@ -78,9 +94,33 @@ namespace XTools
         {
             if (_basicTypeStr == null)
             {
+                _basicTypeStr = new List<string>();
                 _basicTypeStr.Add("char");
+                _basicTypeStr.Add("bool");
+                _basicTypeStr.Add("int");
+                _basicTypeStr.Add("uint");
+                _basicTypeStr.Add("float");
+                _basicTypeStr.Add("double");
+                _basicTypeStr.Add("long long");
+                _basicTypeStr.Add("string");
             }
             return _basicTypeStr;
+        }
+
+        public static Dictionary<string, Type> GetBasicTypeMap()
+        {
+            if (_basicTypeMap == null)
+            {
+                _basicTypeMap.Add("char", typeof(char));
+                _basicTypeMap.Add("bool", typeof(bool));
+                _basicTypeMap.Add("double", typeof(double));
+                _basicTypeMap.Add("float", typeof(float));
+                _basicTypeMap.Add("int", typeof(int));
+                _basicTypeMap.Add("long long", typeof(long));
+                _basicTypeMap.Add("string", typeof(string));
+                _basicTypeMap.Add("uint", typeof(uint));
+            }
+            return _basicTypeMap;
         }
     }
 }

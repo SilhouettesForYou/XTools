@@ -29,6 +29,28 @@ namespace Serializer
 
         private static string GetTypeFullName(string typeName)
         {
+            if (TypeDefine.GetBasicTypeMap().ContainsKey(typeName))
+            {
+                var type = TypeDefine.GetBasicTypeMap()[typeName];
+                return type.AssemblyQualifiedName;
+            }
+            else if (typeName.StartsWith("Sequence"))
+            {
+                typeName = typeName.Trim();
+                var subType = typeName.Substring("Sequence<".Length, typeName.Length - "Sequence<, 3>".Length);
+                var subTypeFullName = GetTypeFullName(subType);
+                var type = Type.GetType($"MoonCommonLib.MSeq`1[[{subTypeFullName}]], MoonCommonLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
+                return type.AssemblyQualifiedName;
+            }
+            else if (typeName.StartsWith("vector"))
+            {
+                typeName = typeName.Trim();
+                var subTypeName = typeName.Substring("vector<".Length, typeName.Length - "vector<>".Length);
+                var subTypeFullName = GetTypeFullName(subTypeName);
+                var subType = Type.GetType($"{subTypeFullName}");
+                var type = subType.MakeArrayType();
+                return type.AssemblyQualifiedName;
+            }
             return null;
         }
 
@@ -97,7 +119,6 @@ namespace Serializer
                 typeName = typeName.Trim();
                 var subType = typeName.Substring("vector<".Length, typeName.Length - "vector<>".Length);
                 var subTypeFullName = GetTypeFullName(subType);
-                var num = byte.Parse(typeName.Substring(typeName.Length - 2, 1));
                 var parserTypeName = "";
                 var type = Type.GetType(parserTypeName);
                 var subParser = GetParser(subType, false);
