@@ -2,3 +2,6 @@ UserSettings/
 ProjectSettings/
 Logs/
 Library/
+.vs/
+obj/
+Temp/
