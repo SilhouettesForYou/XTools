@@ -1,0 +1,14 @@
+﻿Id,SystemId,ProjectId,Name,AchievementLevel,CostItem,Tips,Icon,Atlas,Template
+,功能Id，其中：145代表技能，146代表加点，147代表装备,方案Id，2代表第二套方案，3代表第3套方案,初始名称(Chinese表里面的Key),成就等级要求，配置格式：数字，配10就代表成就等级10级可激活。支持配空,激活消耗，配置格式：材料Id=数量，多种材料时用竖线隔开，支持配空，注意：支持多材料配置的不要填0，没有就直接不填,帮助按钮描述描述(Chinese表里面的Key),图标,图标路径,程序提供TemplateName
+1,145,1,MULTI_DEFAULT_NAME_1,0,,MULTI_SKILL_TIPS,UI_Icon_Jineng.png,Icon01,MultiSkillWidget
+2,146,1,MULTI_DEFAULT_NAME_1,0,,MULTI_ATTR_TIPS,UI_Icon_Juesejiadian.png,Icon02,MultiAttributeWidget
+3,147,1,MULTI_DEFAULT_NAME_1,0,,MULTI_EQUIP_TIPS,UI_Icon_Zhuangbeifangan.png,Icon02,BodyEquipWidget
+4,145,2,MULTI_DEFAULT_NAME_2,0,102=20000,MULTI_SKILL_TIPS,UI_Icon_Jineng.png,Icon01,MultiSkillWidget
+5,146,2,MULTI_DEFAULT_NAME_2,0,102=20000,MULTI_ATTR_TIPS,UI_Icon_Juesejiadian.png,Icon02,MultiAttributeWidget
+6,147,2,MULTI_DEFAULT_NAME_2,0,102=20000,MULTI_EQUIP_TIPS,UI_Icon_Zhuangbeifangan.png,Icon02,BodyEquipWidget
+7,145,3,MULTI_DEFAULT_NAME_3,0,102=50000,MULTI_SKILL_TIPS,UI_Icon_Jineng.png,Icon01,MultiSkillWidget
+8,146,3,MULTI_DEFAULT_NAME_3,0,102=50000,MULTI_ATTR_TIPS,UI_Icon_Juesejiadian.png,Icon02,MultiAttributeWidget
+9,147,3,MULTI_DEFAULT_NAME_3,0,102=50000,MULTI_EQUIP_TIPS,UI_Icon_Zhuangbeifangan.png,Icon02,BodyEquipWidget
+10,149,1,MULTI_DEFAULT_NAME_1,0,,MULTI_BEILUZI_TIPS,UI_icon_item_beiluzhexin.png,Icon_ItemMaterial05,RoleBeiluziWidget
+11,149,2,MULTI_DEFAULT_NAME_2,0,102=20000,MULTI_BEILUZI_TIPS,UI_icon_item_beiluzhexin.png,Icon_ItemMaterial05,RoleBeiluziWidget
+12,149,3,MULTI_DEFAULT_NAME_3,0,102=50000,MULTI_BEILUZI_TIPS,UI_icon_item_beiluzhexin.png,Icon_ItemMaterial05,RoleBeiluziWidget

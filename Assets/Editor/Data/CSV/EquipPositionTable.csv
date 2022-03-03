@@ -1,0 +1,14 @@
+﻿EquipPosition,IsReform,HoleMaxNum,Note,Atlas,CardSpt1,CardSpt2,CardSpt3,CardSpt4
+装备孔位（1，主武器；2，副手；3，盔甲；4，披风；5，鞋子；6，饰品；7，头饰；8，脸饰；9，嘴饰；10，背饰；11，载具）,是否可以改造,最大允许洞数,备注,图集,绿卡图片,蓝卡图片,紫卡图片,橙卡图片
+1,1,4,武器,CardFrame,UI_CardFrame_Small_Wuqi.png,UI_CardFrame_Small_Wuqi.png,UI_CardFrame_Small_Wuqi.png,UI_CardFrame_Small_Wuqi.png
+2,1,1,副手,CardFrame,UI_CardFrame_Small_Dunpai.png,UI_CardFrame_Small_Dunpai.png,UI_CardFrame_Small_Dunpai.png,UI_CardFrame_Small_Dunpai.png
+3,1,1,盔甲,CardFrame,UI_CardFrame_Small_Yifu.png,UI_CardFrame_Small_Yifu.png,UI_CardFrame_Small_Yifu.png,UI_CardFrame_Small_Yifu.png
+4,1,1,披风,CardFrame,UI_CardFrame_Small_Pifeng.png,UI_CardFrame_Small_Pifeng.png,UI_CardFrame_Small_Pifeng.png,UI_CardFrame_Small_Pifeng.png
+5,1,1,鞋子,CardFrame,UI_CardFrame_Small_Xiezi.png,UI_CardFrame_Small_Xiezi.png,UI_CardFrame_Small_Xiezi.png,UI_CardFrame_Small_Xiezi.png
+6,1,1,饰品,CardFrame,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png
+7,1,1,头饰上,CardFrame,UI_CardFrame_Small_Toushi.png,UI_CardFrame_Small_Toushi.png,UI_CardFrame_Small_Toushi.png,UI_CardFrame_Small_Toushi.png
+8,0,0,头饰中,CardFrame,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png
+9,0,0,头饰下,CardFrame,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png
+10,0,0,头饰背,CardFrame,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png
+11,0,0,载具,CardFrame,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png,UI_CardFrame_Small_Zhuangshipin.png
+,,,,,,,,

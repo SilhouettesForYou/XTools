@@ -1,0 +1,5 @@
+﻿ID,Comment,Name,Description,Atlas,Icon,GuildPositionLimit,SexLimit,Cost,PersonalCountLimit,TotalCountLimit,Mail,Message
+ID,注释,名字,描述,物资图集,物资图标,公会职务限制（0：无 1：会长&副会长）,性别限制（0男1女2无限制）,消耗道具（道具ID=数量）,个人次数限制（0或留空表示无限制）,总次数限制（1或留空表示无限制）,发放物资的邮件,触发的消息
+1,,来自管理层的鼓舞,只有公会会长、副会长才能发放的物资，能提升公会成员在攻城战中的生存能力,Icon_ItemConsumables01,UI_icon_item_JuRenZhiXin.png,1,2,102=10000,2,10,1401,67201
+2,,来自大佬的支援,这些贵重的物资能大幅提升公会成员在攻城战中的战斗能力,Icon_ItemConsumables01,UI_icon_item_YingXiongHuoJu.png,0,2,103=500,8,8,1402,67202|67204
+3,,花环的祝福,完成“战前声援”任务有概率获得“充满思念的花环”。通过花环送出的祝福，能在攻城战中为公会成员带来好运。,Icon_ItemConsumables01,UI_icon_item_NvShenDeBiYou.png,0,2,3060812=1,1,5,1403,67203

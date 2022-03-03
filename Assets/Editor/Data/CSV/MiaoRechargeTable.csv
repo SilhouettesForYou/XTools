@@ -1,0 +1,9 @@
+﻿Id,Base,Atlas,Icon,AwardId
+编号,达成条件喵果数额,进度条喵果图集,进度条喵果图标,返利礼包主键（AwardTable中AwardId)
+1,200,Icon_ItemConsumables02,UI_icon_item_miaochucunguan1.png,6274011
+2,1150,Icon_ItemConsumables02,UI_icon_item_miaochucunguan2.png,6274021
+3,2850,Icon_ItemConsumables02,UI_icon_item_miaochucunguan3.png,6274031
+4,4500,Icon_ItemConsumables02,UI_icon_item_miaochucunguan4.png,6274041
+5,8500,Icon_ItemConsumables02,UI_icon_item_miaochucunguan5.png,6274051
+6,17000,Icon_ItemConsumables02,UI_icon_item_miaochucunguan6.png,6274061
+7,28500,Icon_ItemConsumables02,UI_icon_item_miaochucunguan7.png,6274071

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TaskAcceptTableEditorMetaData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTimeLimit>2021-09-20T15:30:00=2021-9-22T19:00:00|2021-09-25T15:30:00=2021-9-28T19:00:00</DateTimeLimit>
+  <DailyTimeLimit>00：01：00=05：59：59|12：00：00=17：59：59</DailyTimeLimit>
+  <Regular>固定条件（【TaskConditionTableID】=【次数】达成后，因特殊情况，计数不会更改的条件）</Regular>
+  <Triggercondition>参照条件（【TaskConditionTableID】=【次数】达成后，因特殊原因，计数会清零的条件。勋章、成就千万不要配到这里）</Triggercondition>
+  <Triggerchance>触发概率（奇遇任务触发概率，配有概率的，一定要配参照条件）</Triggerchance>
+  <Circulate>触发循环周期（【CountTable中的刷新类型】=【次数】，若是循环触发，一定要配参照条件）</Circulate>
+  <Release>是否受每日数量限制（填1则受每日数量限制，受每日数量限制的奇遇任务，一定要配参照条件）</Release>
+</TaskAcceptTableEditorMetaData>

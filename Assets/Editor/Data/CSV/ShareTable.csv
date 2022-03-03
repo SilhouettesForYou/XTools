@@ -1,0 +1,27 @@
+﻿Id,ShareId,ShareComment,ShareContentForm,SharePrefab,ShareLink,ShareBasePicture,GameLogoShow,QRCodeShow,PersonalInformationShow,InvitationCodeShow,MoblieButtonShow,AlbumButtonShow
+表id（仅排序用）,分享ID，提供索引的主键,注释说明,分享形式（1通用图片 2全屏全屏 3链接 ）,分享样式,分享链接地址,分享底图,控制Logo显示,控制二维码显示,控制个人信息显示,控制邀请码显示,是否显示保存手机按钮（0不显示1显示）,是否显示保存相簿按钮（0不显示1显示）
+1,10001,衣橱分享,2,ShareNormal, ,Share/UI_Share_Bg_shizhuang_01.png,1,1,1,0,1,1
+2,10002,角色分享,2,ShareCharacter, ,Share/UI_Share_Bg_shizhuang_01.png,1,1,1,0,1,1
+3,10003,拍照分享,1,ShowPhoto, ,,1,0,0,0,1,1
+4,10004,截图分享,1,ShowPhoto,,,1,1,0,0,0,0
+5,10005,剧情分享,1,ShareStory, ,UI_Share_Bg_01.png,1,1,1,0,1,1
+6,11006,头饰分享,2,ShareOrnament, ,Share/UI_Share_Bg_Shipin_01.png,1,1,1,0,1,1
+7,11007,时装分享,2,ShareFashion, ,Share/UI_Share_Bg_shizhuang_01.png,1,1,1,0,1,1
+8,11008,卡片分享,1,ShareCard, ,UI_Share_Bg_02.png,1,1,1,0,1,1
+9,10006,剧情动画分享建国神话,3,ShareSingleChannels,https://youtu.be/3cnmidPg0VQ,,,,,,,
+10,10007,剧情动画分享光明和暗黑之终结,3,ShareSingleChannels,https://youtu.be/xmaCWQurup8,,,,,,,
+11,10008,剧情动画分享奇艺之梦,3,ShareSingleChannels,https://youtu.be/Badk68TsvJ8,,,,,,,
+12,10009,剧情动画分享拉乐西斯之梦,3,ShareSingleChannels,https://youtu.be/08MN4Aqq8rw,,,,,,,
+13,10010,剧情动画分享露希尔帮忙,3,ShareSingleChannels,https://youtu.be/gDHJIygq5Pw,,,,,,,
+14,10011,剧情动画分享巴雷蒙德查明的死亡之卷抽1,3,ShareSingleChannels,https://youtu.be/ARH6ciqYC94,,,,,,,
+15,10012,剧情动画分享巴雷蒙德查明的死亡之卷抽2,3,ShareSingleChannels,https://youtu.be/z0K5-4ZQ8eA,,,,,,,
+16,10013,剧情动画分享巴雷蒙德查明的死亡之卷抽3,3,ShareSingleChannels,https://youtu.be/INNGOidVloo,,,,,,,
+17,10014,剧情动画分享脱出了圣痕,3,ShareSingleChannels,https://youtu.be/SNLhUko_4lQ,,,,,,,
+18,10015,剧情动画分享盐化的来源,3,ShareSingleChannels,https://youtu.be/WsAzaXgxFyA,,,,,,,
+19,10016,剧情动画分享刺客的壁画,3,ShareSingleChannels,https://youtu.be/Xh03iUcV-4U,,,,,,,
+20,10017,剧情动画分享人鱼剧情,3,ShareSingleChannels,https://youtu.be/imZNGwWCkds,,,,,,,
+21,10018,剧情动画分享爆发之回忆,3,ShareSingleChannels,https://youtu.be/119YSKihpS4,,,,,,,
+22,10019,剧情动画分享黑白双胞胎,3,ShareSingleChannels,https://youtu.be/4qXTyVeD02s,,,,,,,
+23,11009,载具分享,2,ShareVehicle, ,Share/UI_Share_Bg_shizhuang_01.png,1,1,1,0,1,1
+24,10020,招募活动分享,2,ShareReturn,,Share/UI_Share_Bg_Return.png,1,1,0,0,1,1
+25,10021,周年回顾分享,3,ShareSingleChannels,http://ro-activity-kr.huanle.com/kr-anniversary/2021/{0},,,,,,,

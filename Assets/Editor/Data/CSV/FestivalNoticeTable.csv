@@ -1,0 +1,7 @@
+﻿MainSonId,ActivityName,PictureName,NoticeLimitTime,,,,
+子活动主键ID（唯一标识） 对应TimeLimitActivityTable的MainSonId,活动名称,图标名称,通告倒计时限制时间（h）,,,,
+4001,疯狂万圣节,Ui_Fastival_WSJ_Tishi,24,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

@@ -1,0 +1,3 @@
+﻿MapId,CampNum,CampMember,TeamMemberLimit,LevelRange,ExpandScore,ExpandInterval,ExpandTimes,TimeOutLimit,ConfirmTimeOut,TimeOutBan,ProfessionLimit,
+副本id,阵营数量,阵营内成员数量,队伍成员上限,匹配等级范围差,每次扩张积分,范围扩张时间,范围扩张次数上限,超时时间限制(-1表示不限制),确认超时时间,确认超时惩罚时间,队伍职业人数限制,
+9000,2,5,5,5,200,5,5,-1,30,60,2,

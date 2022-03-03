@@ -1,0 +1,6 @@
+﻿PushMesId,ActivitiesId,ActivitiesName,MessageText,Parameter,ParameterExplain,PushLastTime
+主键,活动id（0客户端处理）,活动名（策划用）,消息ID，索引messagetable中的id,参数（根据规则需要填写）,参数说明（策划用）,推送持续时间（s）
+1,0,限时活动,{0}即将开始咯~,600,限时活动开始X秒推送,600
+2,9,魔物驱逐,今日祝福时间尚未使用，别忘记了~,30,魔物驱逐时间累积达到X分钟的时候推送,600
+3,15,公会狩猎,公会狩猎已经开启了~,,,600
+4,15,公会狩猎领奖用,公会狩猎宝箱可以领取了！,,,600

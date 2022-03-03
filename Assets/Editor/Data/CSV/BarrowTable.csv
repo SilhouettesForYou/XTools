@@ -1,0 +1,5 @@
+﻿Id,,Prefab,IdleAnim,RunAnim
+,名字(策划用),Prefab名字,待机动画,跑步动画
+1,yijieche,Prefabs/Mount_YiJieChe,Anims/Mount/Mount_ErJieChe/Mount_ErJieChe_Idle,Anims/Mount/Mount_ErJieChe/Mount_ErJieChe_Run
+2,erjieche,Prefabs/Mount_ErJieChe,Anims/Mount/Mount_ErJieChe/Mount_ErJieChe_Idle,Anims/Mount/Mount_ErJieChe/Mount_ErJieChe_Run
+3,sanjieche,Prefabs/Mount_SanJieChe,Anims/Mount/Mount_ErJieChe/Mount_ErJieChe_Idle,Anims/Mount/Mount_ErJieChe/Mount_ErJieChe_Run

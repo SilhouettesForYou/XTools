@@ -1,0 +1,11 @@
+﻿Index,Name,Type,Atlas,Icon
+成就分类(对应界面左侧的分类页签，ID暂定命名规则，能被1000整除，代表是主分类，不能被1000整除代表是子分类 注：总览和搜索的ID配置在Global表中字段AchieveIndexXXXX),分类名称(用于在页签上显示名称),分类类型(填0表示当前为主分类，填大于0的值，表示当前分类为子分类，配置的值是对应的主分类ID),分类图片图集,分类图标
+100,推荐,0,,
+102,即将完成,100,,
+103,最近完成,100,,
+200,个人成长,0,Achievement,UI_Achievement_Iconchengzhang.png
+300,日常活动,0,Achievement,UI_Achievement_Iconmeiri.png
+400,社交关系,0,Achievement,UI_Achievement_Iconshejiao.png
+500,冒险,0,Achievement,UI_Achievement_Iconmaoxian.png
+600,收集,0,Achievement,UI_Achievement_Iconshouji.png
+900,搜索,0,,

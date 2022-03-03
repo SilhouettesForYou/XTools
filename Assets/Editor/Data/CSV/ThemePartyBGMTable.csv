@@ -1,0 +1,17 @@
+﻿Id,BGMName,BGMEvent
+BGMId,BGM名,播放的BGM的Event
+1,AbSolitude,event:/BGM/Dance/BGM_AbSolitude
+2,Adios,event:/BGM/Dance/BGM_Adios
+3,CheongChoon,event:/BGM/Dance/BGM_CheongChoon
+4,DancingChristmasInThe13thMonth,event:/BGM/Dance/BGM_DancingChristmasInThe13thMonth
+5,HighRollerCoaster,event:/BGM/Dance/BGM_HighRollerCoaster
+6,JazzyFunkySweety,event:/BGM/Dance/BGM_JazzyFunkySweety
+7,LastmanDancing,event:/BGM/Dance/BGM_LastmanDancing
+8,LatinNova,event:/BGM/Dance/BGM_LatinNova
+9,MuchoGusto,event:/BGM/Dance/BGM_MuchoGusto
+10,Sleepless,event:/BGM/Dance/BGM_Sleepless
+11,TeMPotato,event:/BGM/Dance/BGM_TeMPotato
+12,TopHoppy,event:/BGM/Dance/BGM_TopHoppy
+13,DreamersDream,event:/BGM/BGM_DreamersDream
+14,Travel,event:/BGM/BGM_Travel_JiFenXiBu
+15,WelcomeMrHwang,event:/BGM/BGM_WelcomeMrHwang

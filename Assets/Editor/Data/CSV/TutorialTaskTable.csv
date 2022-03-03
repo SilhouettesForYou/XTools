@@ -1,0 +1,8 @@
+﻿TaskID,TaskStatus,TutorialID,
+任务ID,目标状态(0可接取;1已接取;2废弃;3已完成;4失败;5可完成;6不可接;)触发状态,引导ID(在状态切换和点击任务追踪面板时，均执行配置的引导ID，对应TutorialConfigTable表ID列),说明
+3000000,0,KnightSecTransferTaskGuide,骑士二转起始任务引导
+3001010,0,WizardSecTransferTaskGuide,巫师二转起始任务引导
+3002010,0,PriestSecTransferTaskGuide,牧师二转起始任务引导
+3003010,0,HunterSecTransferTaskGuide,猎人二转起始任务引导
+3005010,0,BlacksmithSecTransferTaskGuide,铁匠二转起始任务引导
+3004010,0,AssassinSecTransferTaskGuide,刺客二转起始任务引导

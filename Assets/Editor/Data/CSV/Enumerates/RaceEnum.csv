@@ -1,0 +1,13 @@
+﻿Id,Text
+id,文本
+0,<a href=MarkTips@@ATTR_TIPS_ANIMAL_RACE>动物</a>
+1,<a href=MarkTips@@ATTR_TIPS_HUMAN_RACE>人形</a>
+2,<a href=MarkTips@@ATTR_TIPS_DEVIL_RACE>恶魔</a>
+3,<a href=MarkTips@@ATTR_TIPS_PLANT_RACE>植物</a>
+4,<a href=MarkTips@@ATTR_TIPS_IMMORTAL_RACE>不死</a>
+5,<a href=MarkTips@@ATTR_TIPS_SHAPELESS_RACE>无形</a>
+6,<a href=MarkTips@@ATTR_TIPS_FISHSHELL_RACE>鱼贝</a>
+7,<a href=MarkTips@@ATTR_TIPS_ANGEL_RACE>天使</a>
+8,<a href=MarkTips@@ATTR_TIPS_INSECT_RACE>昆虫</a>
+9,<a href=MarkTips@@ATTR_TIPS_DRAGON_RACE>龙族</a>
+10,机械

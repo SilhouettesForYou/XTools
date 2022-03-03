@@ -1,0 +1,4 @@
+﻿LabelId,,SortId,ServeLevelLimit,BaseLevelLimit,LabelAtlas,LabelIcon
+标签ID,标签名称\r\n（策划用）,标签排序ID\r\n（排序低→高）,服务器等级限制区间,角色等级限制区间,标签图片图集,标签图标
+1001,萌新,1,55=999,1=40,CommonIcon,UI_CommonIcon_Icon_MengXin.png
+1002,回归,2,50=999,55=999,CommonIcon,UI_CommonIcon_Icon_HuiGui.png

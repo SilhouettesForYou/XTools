@@ -1,0 +1,2 @@
+﻿ID,Type,ContentID,Text,ReaderPreviewPath,LocalizationArea
+ID,类型,内容对应ID,文本,文本预览图片路径,本地化区域划分(0所有1中2日4香港8韩16北美，多地区时数字叠加，例：日韩都上就配4+8=12)

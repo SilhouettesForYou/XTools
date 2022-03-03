@@ -1,0 +1,8 @@
+﻿CrystalId,CrystalName,Comment,CrystalIconAltas,CrystalIconName
+水晶ID,水晶名字,水晶名注释（策划用）,图标图集,图标名称
+1,GUILD_CRYSTAL_NAME_WUGONG,物攻,GuildBanquet,UI_Icon_GuildCrystal06.png
+2,GUILD_CRYSTAL_NAME_MOGONG,魔攻,GuildBanquet,UI_Icon_GuildCrystal02.png
+3,GUILD_CRYSTAL_NAME_WUFANG,物防,GuildBanquet,UI_Icon_GuildCrystal04.png
+4,GUILD_CRYSTAL_NAME_MOFANG,魔防,GuildBanquet,UI_Icon_GuildCrystal03.png
+5,GUILD_CRYSTAL_NAME_SHENGMINGZHI,生命值,GuildBanquet,UI_Icon_GuildCrystal01.png
+6,GUILD_CRYSTAL_NAME_ZHUIJIASHANGHAI,追加伤害,GuildBanquet,UI_Icon_GuildCrystal05.png

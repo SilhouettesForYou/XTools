@@ -1,0 +1,2 @@
+﻿Id,Comment,Path,PlayTime,ScaleX,ScaleY,ScaleZ,FollowPostion,FollowRotation,FollowScale,CameraFxType,UseVector3OneScale,EffectLodGroup
+特效ID,效果说明（策划用）,特效路径（从prefabs开始）,播放时间,X轴缩放,Y轴缩放,Z轴缩放,位置跟随（0.不跟随1.跟随）,旋转跟随（0.不跟随1.跟随2.仅第一帧跟随）,大小跟随（0.不跟随1.跟随）,全屏特效类型（0不是全屏特效，1触发型全屏特效，2持续型全屏特效，3阿修罗霸凰拳效果）,是否为流光特效（流光特效必须填1）,特效LOD管理组

@@ -1,0 +1,9 @@
+﻿Group,Role,Monster,Neutral,Enemy,SpecialNpc,SpecialNpc2
+组（x：友善（可释放加血等），o：敌对 n：中立）,角色,怪物,中立NPC,敌对,特殊NPC,特殊NPC2
+-1,0,1,2,3,4,5
+0,x,o,n,o,n,n
+1,o,x,n,o,o,o
+2,n,n,n,n,n,n
+3,o,o,n,o,o,o
+4,n,o,n,o,x,o
+5,n,o,n,o,o,x

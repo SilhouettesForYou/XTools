@@ -1,0 +1,12 @@
+﻿MonthCardId,MonthCardDes,SortId,GlobleValue,ShowMonthCardTips,AtlasName,IconName,LinkId,LinkDes
+月卡特权ID,月卡特权描述,排序ID（月卡界面显示顺序，不填不显示）,{0}在global表字段,是否在特权卡tips显示（依次配置显示顺序，未配置的不显示，配置同一数字的随机排）,图集,图标,跳转功能ID（有则显示，无则不显示）,跳转链接描述
+1001,卡普拉随身服务：仓库,1,,1,CapraCard,UI_CapraCard_Btn_Warehouse.png,120,开启
+1002,卡普拉随身服务：道具商店,2,,2,CapraCard,UI_CapraCard_Btn_Shop.png,3010,开启
+1005,完成委托的经验增加<color=$$Yellow$$>{0}%</color>,3,MonthCardEntrustTicketRaise,,,,,
+1006,挂机祈福经验找回提升<color=$$Yellow$$>{0}%</color>,4,MonthCardAutoCombatExpBlessBonus,,,,,
+1007,委托祈福经验找回提升<color=$$Yellow$$>{0}%</color>,5,MonthCardEntrustTicketBlessBonus,,,,,
+1008,祈福经验保留时间从24小时提升至<color=$$Yellow$$>{0}小时</color>,6,MonthCardBlessedExperienceTime,,,,,
+1010,每天在野外可原地复活<color=$$Yellow$$>{0}次</color>（PVE副本，PVP副本不享用）,7,OriginReviveTimes,,,,,
+1011,猫手商队贸易次数上限提升至<color=$$Yellow$$>{0}次</color>,8,MaoshouUpActiveTimes,,,,,
+1012,购买后可获得[{0}],9,MonthCardAwardId,,,,,
+1013,更多特权查看月卡界面,,,3,CapraCard,UI_CapraCard_Btn_More.png,11204,前往

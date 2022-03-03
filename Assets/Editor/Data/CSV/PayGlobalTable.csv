@@ -1,0 +1,9 @@
+﻿PayGlobalKey,Value,
+paymenttable表中的productid,值,策划备注
+MonthCardPay,100203|100303|200203|200303|100503|300014|300017,卡普拉贵宾卡韩国安卓|韩国IOS|中国安卓|中国IOS|韩国OneStore|日本AOS|日本IOS
+CommonCardPay,100201|100301|200201|200301|100501|300012|300015,普通返利月卡韩国安卓|韩国IOS|中国安卓|中国IOS|韩国OneStore|日本AOS|日本IOS
+SuperCardPay,100202|100302|200202|200302|100502|300013|300016,超级返利月卡韩国安卓|韩国IOS|中国安卓|中国IOS|韩国OneStore|日本AOS|日本IOS
+PassCheckPay,200204|200304|100204|100304|100504|300018|300020,嘉年华通行证韩国安卓|韩国IOS|中国安卓|中国IOS|韩国OneStore|日本AOS|日本IOS
+SuperPassCheckPay,200205|200305|100205|100305|100505|300019|300021,嘉年华超级通行证韩国安卓|韩国IOS|中国安卓|中国IOS|韩国OneStore|日本AOS|日本IOS
+PaidSignInPay,101052|101053|101054|200700|200701|300113|300114,特权签到韩国安卓|韩国IOS|中国安卓|中国IOS|韩国OneStore|日本AOS|日本IOS
+FirstRechargePay,300022|300023,付费首充礼包日本AOS|日本IOS

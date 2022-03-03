@@ -1,0 +1,8 @@
+﻿ID,Name,SortID,EntityID,Atlas,Icon,Atlas2,Icon2,ShowAnim,ShowBG,Award,AchievementID,Description
+精灵ID,名称,排序ID（升序）,模版ID,图集,图标,未解锁图集,未解锁图标,展示动画,展示背景,奖励,成就ID,简介
+101,喵利,1,25004,BoliIllustration,UI_BoliIllustration_Boli_L1.png,BoliIllustration,UI_BoliIllustration_Boli_Lock1.png,NPC_M_MiaoLi_Run,BoliFind/UI_BoliFind_Bg01.png,1=4410010|3=4410020|5=4410030|9=4410040,50002701,波利提示：如果你看到了我留下的标记，就来找我吧！
+102,波利兔,2,25182,BoliIllustration,UI_BoliIllustration_Boli_L4.png,BoliIllustration,UI_BoliIllustration_Boli_Lock4.png,NPC_M_BoLiTu_Run,BoliFind/UI_BoliFind_Bg01.png,1=4410060|3=4410070|5=4410080|9=4410090,50002801,波利提示：不要再问我爱不爱吃胡萝卜了，我是波利兔，最爱吃橘子！
+103,哼利,3,25301,BoliIllustration,UI_BoliIllustration_Boli_L2.png,BoliIllustration,UI_BoliIllustration_Boli_Lock2.png,NPC_M_HengLi_Run,BoliFind/UI_BoliFind_Bg01.png,1=4410110|3=4410120|5=4410130|9=4410140,50002901,波利提示：我知道有一群小野猪，长得十分英俊，很像我
+104,土拨利,4,25451,BoliIllustration,UI_BoliIllustration_Boli_L3.png,BoliIllustration,UI_BoliIllustration_Boli_Lock3.png,NPC_M_TuBoLi_Run,BoliFind/UI_BoliFind_Bg01.png,1=4410160|2=4410170|3=4410180|4=4410190,50003001,波利提示：虽然吃了很多土，但是我还是爱着这片沙漠
+111,幽灵波利,5,25871,BoliIllustration,UI_BoliIllustration_Boli_L6.png,BoliIllustration,UI_BoliIllustration_Boli_Lock6.png,NPC_M_YouLingBoLi_Run,BoliFind/UI_BoliFind_Bg03.png,1=4410210|3=4410220|6=4410230|10=4410240,50003101,波利提示：完美融入人群的方式，就是让自己隐身！如果你的相机不小心拍到我，可不要被吓到哦
+121,波波鱼,6,25541,BoliIllustration,UI_BoliIllustration_Boli_L5.png,BoliIllustration,UI_BoliIllustration_Boli_Lock5.png,NPC_M_BoLiYu_Run,BoliFind/UI_BoliFind_Bg02.png,1=4410260|2=4410270|3=4410280|4=4410290,50003201,波利提示：炎热的天气和雨天时要出来透透气，小心窒息！

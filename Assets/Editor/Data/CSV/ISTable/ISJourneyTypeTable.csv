@@ -1,0 +1,6 @@
+﻿Type,Order,Description,HideLocked,UnlockedFirst,AtlasName,SpriteName
+类型,顺序,描述,隐藏上锁单元,解锁内容排序优先,图集名,贴图名
+1,1,风物游记,,,CommonIcon,UI_CommonIcon_BagTab_dili.png
+2,2,情报笔记|势力,,,CommonIcon,UI_CommonIcon_BagTab_citiao.png
+3,2,情报笔记|事件,,,,
+4,2,情报笔记|重要道具,,,,

@@ -1,0 +1,4 @@
+﻿Type,Order,Description,AtlasName,SpriteName,HideLocked,UnlockedFirst
+类型,顺序,描述,图集名,贴图名,隐藏上锁单元,解锁内容排序优先
+1,1,图片收集,Storybook,UI_Storybook_tupianshoucang_btn.png,,1
+2,2,动画放映,Storybook,UI_Storybook_donghua_btn.png,,1

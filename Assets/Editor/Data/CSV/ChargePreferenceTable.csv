@@ -1,0 +1,15 @@
+﻿Description,Name,Value
+参数描述,名字,值
+"返利比例，配置格式：服务器等级区间1=比例|服务器等级区间2=比例，备注：30=40代表区间[30,40)，比例配置为万分位",Ratio,30=-1=2500
+活动开启延时，单位秒,DelayedTimer,10
+待机状态未监听到Ui事件时间，单位秒,ReadyTimer,1200
+活动持续时间，单位秒,ActivityTimer,14400
+CD基准时间，单位天,CdTimer,6
+充值浮动区间，单位小时,FloatTimer,0=24
+未充值浮动区间，单位小时,FloatTimer1,0=48
+充值档位，配置格式：1档ID|2档ID|……|6档ID,ChargeLevel,1|2|3|4|5|6
+返利货币类型,RebateCurrencyType,104
+刷新喵喵丰收规则(0为单独刷新；1为日本固定周一刷新）,RefreshType,0
+活动周时间（周一为1；周二周四为2|4）,TimeCycle,1
+活动时间,TimePass,0000=2359
+返利喵果发送方式（0为之前的发邮件，1为直接发到玩家身上）,RebateSendType,0

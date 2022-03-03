@@ -1,0 +1,6 @@
+﻿ID,DutyName,Atlas,Icon
+职责ID,职责名称,图标Atlas,图标
+0,任意职责,CommonIcon,UI_Commonicon_Icon_Random_01.png
+1,坦克,CommonIcon,UI_Commonicon_Icon_Tank_01.png
+2,治疗,CommonIcon,UI_Commonicon_Icon_Treatment_01.png
+3,输出,CommonIcon,UI_Commonicon_Icon_Output_01.png

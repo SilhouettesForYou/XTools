@@ -1,0 +1,23 @@
+﻿ID,Point,AwardId,Atlas,Icon,Color,NumberColor,ListAtlas,ListIcon,AddAttr
+ID,典藏值点数(领取奖励所需典藏值),典藏值奖励（awardid),等级图标图集,等级图标名称,进度条颜色,等级字体颜色,等级列表图集,等级列表图标名称,属性
+0,,,GarderobeNew,UI_Garderobe_Fashion_Icon_white.png,e6ecf3,607A90,,,
+1,5,4500010,GarderobeNew,UI_Garderobe_Fashion_Icon_white.png,e6ecf3,607A90,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=27=5|0=36=5
+2,20,4500020,GarderobeNew,UI_Garderobe_Fashion_Icon_white.png,e6ecf3,607A90,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=47=50
+3,40,4500030,GarderobeNew,UI_Garderobe_Fashion_Icon_white.png,e6ecf3,607A90,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=28=100|0=37=100
+4,60,4500040,GarderobeNew,UI_Garderobe_Fashion_Icon_white.png,e6ecf3,607A90,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=48=100
+5,80,4500050,GarderobeNew,UI_Garderobe_Fashion_Icon_white.png,e6ecf3,607A90,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=65=100|0=66=100
+6,100,4500060,GarderobeNew,UI_Garderobe_Fashion_Icon_green.png,d0ede2,4D8660,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=27=5|0=36=5
+7,130,4500070,GarderobeNew,UI_Garderobe_Fashion_Icon_green.png,d0ede2,4D8660,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=47=50
+8,160,4500080,GarderobeNew,UI_Garderobe_Fashion_Icon_green.png,d0ede2,4D8660,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=28=100|0=37=100
+9,190,4500090,GarderobeNew,UI_Garderobe_Fashion_Icon_green.png,d0ede2,4D8660,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=48=100
+10,220,4500100,GarderobeNew,UI_Garderobe_Fashion_Icon_green.png,d0ede2,4D8660,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=65=100|0=66=100
+11,250,4500110,GarderobeNew,UI_Garderobe_Fashion_Icon_blue.png,b4d9fd,3F6C9B,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=27=5|0=36=5
+12,300,4500120,GarderobeNew,UI_Garderobe_Fashion_Icon_blue.png,b4d9fd,3F6C9B,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=47=50
+13,350,4500130,GarderobeNew,UI_Garderobe_Fashion_Icon_blue.png,b4d9fd,3F6C9B,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=28=100|0=37=100
+14,400,4500140,GarderobeNew,UI_Garderobe_Fashion_Icon_blue.png,b4d9fd,3F6C9B,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=48=100
+15,450,4500150,GarderobeNew,UI_Garderobe_Fashion_Icon_blue.png,b4d9fd,3F6C9B,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=65=100|0=66=100
+16,520,4500160,GarderobeNew,UI_Garderobe_Fashion_Icon_purple.png,e0d2f3,75469C,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=27=5|0=36=5
+17,590,4500170,GarderobeNew,UI_Garderobe_Fashion_Icon_purple.png,e0d2f3,75469C,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=47=50
+18,660,4500180,GarderobeNew,UI_Garderobe_Fashion_Icon_purple.png,e0d2f3,75469C,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=28=100|0=37=100
+19,730,4500190,GarderobeNew,UI_Garderobe_Fashion_Icon_purple.png,e0d2f3,75469C,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=48=100
+20,800,4500200,GarderobeNew,UI_Garderobe_Fashion_Icon_purple.png,e0d2f3,75469C,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=65=100|0=66=100

@@ -1,0 +1,17 @@
+﻿Id,BGMName,CoverAtlas,CoverSprite,BGMEvent,Comment
+BGMId,BGM名,封面Atlas名,封面Sprite名,播放的BGM的Event,BGM介绍
+1,Wanna Be Free!!,BgmHouse,ui_BgmHouse_Disc09.png,event:/BGM/BGM_WannaBeFree_LeYuanChang,渴望自由!!
+2,Streamside,BgmHouse,ui_BgmHouse_Disc02.png,event:/BGM/BGM_Streamside_NanMen,河滨
+3,Theme of Geffen,BgmHouse,ui_BgmHouse_Disc04.png,event:/BGM/BGM_ThemeOfGeffen_JiFen,吉芬主题曲
+4,Theme of Payon,BgmHouse,ui_BgmHouse_Disc19.png,event:/BGM/BGM_ThemeOfPayon_FeiYang,斐扬主题曲
+5,One Step Closer,BgmHouse,ui_BgmHouse_Disc20.png,event:/BGM/BGM_OneStepCloser_XinShouCun,步步逼近
+6,I miss you,BgmHouse,ui_BgmHouse_Disc05.png,event:/BGM/BGM_IMissYou,我想念你
+7,Theme of Prontera,BgmHouse,ui_BgmHouse_Disc16.png,event:/BGM/BGM_ThemeOfProntera_PuLongDeLa,普隆德拉主题曲
+8,Theme of Morroc,BgmHouse,ui_BgmHouse_Disc17.png,event:/BGM/BGM_ThemeOfMorroc_MengLuoKe,梦罗克主题曲
+9,Ancient groover,BgmHouse,ui_BgmHouse_Disc10.png,event:/BGM/BGM_AicientGroover_FeiYangDongXue,远古洞穴
+10,Brassy Road,BgmHouse,ui_BgmHouse_Disc07.png,event:/BGM/BGM_BrassyRoad,铜制的路
+11,Welcome Mr. Hwang,BgmHouse,ui_BgmHouse_Disc01.png,event:/BGM/BGM_WelcomeMrHwang,欢迎Hwang先生的到来
+12,"Welcome, my lord",BgmHouse,ui_BgmHouse_Disc12.png,event:/BGM/BGM_WelcomeMyLord,欢迎您的到来，君主
+13,Antique Cowboy,BgmHouse,ui_BgmHouse_Disc08.png,event:/BGM/BGM_AntiqueCowboy,过时的牛仔
+14,Purity of your smile,BgmHouse,ui_BgmHouse_Disc15.png,event:/BGM/BGM_PurityOfYourSmile,你那纯洁的微笑
+15,Dreamer's Dream,BgmHouse,ui_BgmHouse_Disc18.png,event:/BGM/BGM_DreamersDream,梦想家的梦

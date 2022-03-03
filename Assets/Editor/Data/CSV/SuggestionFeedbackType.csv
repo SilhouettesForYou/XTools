@@ -1,0 +1,7 @@
+﻿Type,Description,DescriptionKey,TlogType,NPCBubbleDialog,ICON
+类型,注释(策划自用),对应文本表的字段key,对应Tlog中的Type,npc气泡对话，填写文本表中对应的Key,对应图标workspace\clientproj\Assets\artres\_UI\Suggestioncollect\XXX.png
+1,我要吐槽,SuggestionCollect1,1,SuggestionBubble1,UI_Suggestioncollect_icon_01
+2,BUG反馈,SuggestionCollect2,2,SuggestionBubble2,UI_Suggestioncollect_icon_02
+3,玩法意见,SuggestionCollect3,3,SuggestionBubble3,UI_Suggestioncollect_icon_03
+4,疑难问题,SuggestionCollect4,4,SuggestionBubble4,UI_Suggestioncollect_icon_04
+5,后续愿景,SuggestionCollect5,5,SuggestionBubble5,UI_Suggestioncollect_icon_05

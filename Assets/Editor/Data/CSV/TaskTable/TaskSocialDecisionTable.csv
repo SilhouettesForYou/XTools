@@ -1,0 +1,4 @@
+﻿ID,MemberSize,DentityLimit,SynAction,FriendDegree,Relationship,MemberDistance
+社交关系ID,组队人数,社交身份限制,交接任务同步操作,好友度,成员特殊关系,是否判断同队人员距离
+1,2=2,1,0,20,2,30
+2,2=2,0,0,20,2,0

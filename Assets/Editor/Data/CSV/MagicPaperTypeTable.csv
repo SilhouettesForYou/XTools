@@ -1,0 +1,5 @@
+﻿MagicPaperID,MagicPaperTItle,MagicPaperBuff,MagicPaperDisTime,MagicPaperVideo,MagicPaperExpend,MagicPaperText,MagicPaperEffects
+信笺ID,信笺描述,信笺buff,特效消失时间,信笺演示视频,发送信笺消耗,发送信笺寓意文字,发送信笺UI对应特效
+1,MagicPaper_Title_PLDL,907901,600,MagicPLDL,2040011=1|103=2999,MagicPaper_Moral_PLDL,Fx_Ui_XinJian_Red_01
+2,MagicPaper_Title_FY,908001,600,MagicFY,2040011=1|103=2999,MagicPaper_Moral_FY,Fx_Ui_XinJian_Green_01
+3,MagicPaper_Title_MLK,908101,600,MagicMLK,2040011=1|103=2999,MagicPaper_Moral_MLK,Fx_Ui_XinJian_Golden_01

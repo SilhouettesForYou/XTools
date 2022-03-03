@@ -1,0 +1,10 @@
+﻿ID,Comment,LevelName,LevelImgAtlas,LevelImg,BossModelName,BossAnimIdle,BossAnimPose,DungeonID,DungeonID1,DungeonID2,DungeonID3,TeamTargetID,TargetTime,RandomLevel
+关卡ID,注释,关卡名字,关卡面板图片图集,关卡面板图片,Boss模型名字,Boss待机动画,Boss摆Pose动画,副本ID(1|2|3星),策划用,策划用,策划用,组队大厅队伍目标（TeamTargetTable）,难度目标时间（秒）,最低随机等级
+1,关卡3,哥布林首领挑战,HeroChallenge,UI_HeroChallenge_Boss03.png,Monster_GeBuLinShouLing,Monster_GeBuLinShouLing_Idle,Monster_GeBuLinShouLing_Skill_EarthQuake,903|933|963,903,933,963,,300=350=400,10
+2,关卡4,海盗之王挑战,HeroChallenge,UI_HeroChallenge_Boss04.png,Monster_HaiDaoZhiWang,Monster_HaiDaoZhiWang_Idle,Monster_HaiDaoZhiWang_Skill_ChaoXiZhiRen,904|934|964,904,934,964,,300=350=400,10
+3,关卡6,兽人酋长挑战,HeroChallenge,UI_HeroChallenge_Boss06.png,Monster_ShouRenQiuZhang,Monster_ShouRenQiuZhang_Idle,Monster_ShouRenQiuZhang_DiZheng,906|936|966,906,936,966,,300=350=400,10
+4,关卡7,俄赛里斯挑战,HeroChallenge,UI_HeroChallenge_Boss07.png,Monster_ESaiLiSi,Monster_ESaiLiSi_Idle,Monster_ESaiLiSi_Skill_HeiAnShunJian,907|937|967,907,937,967,,300=350=400,10
+5,关卡8,虎王挑战,HeroChallenge,UI_HeroChallenge_Boss08.png,Monster_HuWang,Monster_HuWang_Idle,Monster_HuWang_Skill_NuBao,908|938|968,908,938,968,,300=350=400,10
+6,关卡9,巴风特挑战,HeroChallenge,UI_HeroChallenge_Boss09.png,Monster_DaBaFengTe,Monster_DaBaFengTe_Idle,Monster_DaBaFengTe_Attack,909|939|969,909,939,969,,300=350=400,10
+7,关卡10,德古拉男爵挑战,HeroChallenge,UI_HeroChallenge_Boss09.png,Monster_DeGuLaBoJue,Monster_DeGuLaBoJue_Idle,Monster_DeGuLaBoJue_Skill_FenNuQingXie,910|940|970,910,940,970,,300=350=400,10
+8,关卡11,法老王挑战,HeroChallenge,UI_HeroChallenge_Boss09.png,Monster_FaLaoWang,Monster_FaLaoWang_Idle,Monster_FaLaoWang_Attack,911|941|971,911,941,971,,300=350=400,10

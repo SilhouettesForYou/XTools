@@ -1,0 +1,4 @@
+﻿ColorSuitId,suitBoy,suitGirl,ItemCost,Progress,weight,ItemAtlasBoy,ItemIconBoy,ItemAtlasGirl,ItemIconGirl
+染色套装ID，与LegendCollectSuit的SuitId保持一致,男性对应套装内染色id,女性对应套装内染色id,激活所需材料,每次染色增加的倍率,每个染色进度值触发权重,套装道具图集,套装道具图标,套装道具图集,套装道具图标
+3,1078001|1088001|1098001|1108001|1018001,1078003|1088003|1098003|1108003|1018002,2060100=2,1|2|3|5|10,20|40|30|7|3,GarderobeNew,UI_Garderobe_Dyetap1.png,GarderobeNew,UI_Garderobe_Dyetap2.png
+4,1078002|1088002|1098002|1108002|1018003,1078004|1088004|1098004|1108004|1018004,2060100=2,1|2|3|5|10,20|40|30|7|3,GarderobeNew,UI_Garderobe_Dyetap4.png,GarderobeNew,UI_Garderobe_Dyetap3.png

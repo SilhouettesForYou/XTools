@@ -1,0 +1,7 @@
+﻿Chapter,Name,UnlockLevel,Atlas,Icon,AwardId
+章节ID,章节名称,解锁所需等级,按钮图集,按钮图标,章节奖励Id
+1,初心者毕业,1,Postcard,UI_Postcard_TogBG_00.png,4210410
+2,踏上旅途,30,Postcard,UI_Postcard_TogBG_01.png,4210420
+3,小试牛刀,40,Postcard,UI_Postcard_TogBG_02.png,4210430
+4,迅速变强,50,Postcard,UI_Postcard_TogBG_03.png,4210440
+5,实力的验证,55,Postcard,UI_Postcard_TogBG_04.png,4210450

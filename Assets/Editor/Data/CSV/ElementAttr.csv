@@ -1,0 +1,49 @@
+﻿AttrId,Text,Colour,ColourText,ColourTextDefence
+枚举值,属性描述,属性底框色,攻击属性描述,防御属性描述
+0,无Lv1,None,<a href=MarkTips@@ATTR_TIPS_NILL_ATTR>无属性</a>,<a href=MarkTips@@ATTR_TIPS_NILL_DEFENCE_ATTR>无属性</a>
+1,风Lv1,Green,<a href=MarkTips@@ATTR_TIPS_WIND_ATTR>风属性</a>,<a href=MarkTips@@ATTR_TIPS_WIND_DEFENCE_ATTR>风属性</a>
+2,地Lv1,Coffee,<a href=MarkTips@@ATTR_TIPS_LAND_ATTR>地属性</a>,<a href=MarkTips@@ATTR_TIPS_LAND_DEFENCE_ATTR>地属性</a>
+3,火Lv1,Red,<a href=MarkTips@@ATTR_TIPS_FIRE_ATTR>火属性</a>,<a href=MarkTips@@ATTR_TIPS_FIRE_DEFENCE_ATTR>火属性</a>
+4,水Lv1,Blue,<a href=MarkTips@@ATTR_TIPS_WATER_ATTR>水属性</a>,<a href=MarkTips@@ATTR_TIPS_WATER_DEFENCE_ATTR>水属性</a>
+5,毒Lv1,Purple,<a href=MarkTips@@ATTR_TIPS_POISON_ATTR>毒属性</a>,<a href=MarkTips@@ATTR_TIPS_POISON_DEFENCE_ATTR>毒属性</a>
+6,圣Lv1,Yellow,<a href=MarkTips@@ATTR_TIPS_HOLY_ATTR>圣属性</a>,<a href=MarkTips@@ATTR_TIPS_HOLY_DEFENCE_ATTR>圣属性</a>
+7,暗Lv1,Lavender,<a href=MarkTips@@ATTR_TIPS_DARK_ATTR>暗属性</a>,<a href=MarkTips@@ATTR_TIPS_DARK_DEFENCE_ATTR>暗属性</a>
+8,念Lv1,Pink,<a href=MarkTips@@ATTR_TIPS_THOUGHT_ATTR>念属性</a>,<a href=MarkTips@@ATTR_TIPS_THOUGHT_DEFENCE_ATTR>念属性</a>
+9,不死Lv1,DarkBlue,<a href=MarkTips@@ATTR_TIPS_IMMORTAL_ATTR>不死属性</a>,<a href=MarkTips@@ATTR_TIPS_IMMORTAL_DEFENCE_ATTR>不死属性</a>
+10,强制无属性Lv1,Red,强制无属性,强制无属性
+100,无Lv2,None,无属性,无属性
+101,风Lv2,Green,风属性,风属性
+102,地Lv2,Coffee,地属性,地属性
+103,火Lv2,Red,火属性,火属性
+104,水Lv2,Blue,水属性,水属性
+105,毒Lv2,Purple,毒属性,毒属性
+106,圣Lv2,Yellow,圣属性,圣属性
+107,暗Lv2,Lavender,暗属性,暗属性
+108,念Lv2,Pink,念属性,念属性
+109,不死Lv2,DarkBlue,不死属性,不死属性
+110,强制无属性Lv2,Red,强制无属性,强制无属性
+200,无Lv3,None,无属性,无属性
+201,风Lv3,Green,风属性,风属性
+202,地Lv3,Coffee,地属性,地属性
+203,火Lv3,Red,火属性,火属性
+204,水Lv3,Blue,水属性,水属性
+205,毒Lv3,Purple,毒属性,毒属性
+206,圣Lv3,Yellow,圣属性,圣属性
+207,暗Lv3,Lavender,暗属性,暗属性
+208,念Lv3,Pink,念属性,念属性
+209,不死Lv3,DarkBlue,不死属性,不死属性
+210,强制无属性Lv3,Red,强制无属性,强制无属性
+300,无Lv4,None,无属性,无属性
+301,风Lv4,Green,风属性,风属性
+302,地Lv4,Coffee,地属性,地属性
+303,火Lv4,Red,火属性,火属性
+304,水Lv4,Blue,水属性,水属性
+305,毒Lv4,Purple,毒属性,毒属性
+306,圣Lv4,Yellow,圣属性,圣属性
+307,暗Lv4,Lavender,暗属性,暗属性
+308,念Lv4,Pink,念属性,念属性
+309,不死Lv4,DarkBlue,不死属性,不死属性
+310,强制无属性Lv4,Red,强制无属性,强制无属性
+10000,战场大炮能量,None,不跟任何属性产生相克,不跟任何属性产生相克
+10001,疾风乱舞,None,,
+10010,积雪值,Blue,积雪,积雪

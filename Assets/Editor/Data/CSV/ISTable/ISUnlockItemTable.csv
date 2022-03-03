@@ -1,0 +1,2 @@
+﻿ID,Comment,Type,SubType,Title,Content,UnlockCondition,Bonus,PreviewPath,LocalizationArea
+ID,策划备注,类型,子类型,标题,包含内容,解锁条件,积分,预览图片路径,本地化区域划分(0所有1中2日4香港8韩16北美，多地区时数字叠加，例：日韩都上就配4+8=12)

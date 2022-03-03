@@ -1,0 +1,15 @@
+﻿NewsID,NewsType,NewsBelong,Annotation,NewsContent,TalkWeight,ZDorNot,ZDTime,IsGood,CongratulationTitle,CongratulationTalk
+新闻ID,提示类型(根据这个类型来控制显示的方式),新闻归属 1点滴  0新闻 --  小类划分 0点滴 1成就 2装备精炼 3华丽水晶 4公会宴会 5装备 6卡片获得 7贝鲁兹齿轮 8宠物 9载具 10公会玩法 11头衔 12卡片升星 ) 根据这个小类来确定归属关系,注释,内容,精灵喊话权重,是否置顶,置顶时间,是否支持点赞,点赞标题,默认点赞语
+1,0,1=0,创建公会（会长、公会名）,69001,,,,,,
+2,0,1=0,修改公会宣言,69002,,,,,,
+3,0,1=0,成员任命（成员名、职务）,69003,,,,,,
+4,0,1=0,成员加入,69004,,,,,,
+5,0,1=0,公会升级,69005,,,,,,
+6,1,0=1,解锁成就,66001,,,,1,Achi_Congratulation_Title,Weapon_Strong_Congratulation_Content
+9,2,0=2,装备精炼,110001,,1,5,1,Weapon_Strong_Congratulation_Title,Weapon_Strong_Congratulation_Content
+10,4,0=4,购买华丽水晶,62023,,,,,,
+11,4,0=4,开启香槟祝福,62040,,,,1,Champagne_Congratulation_Title,Weapon_Strong_Congratulation_Content_1
+12,6,0=6,卡片额外掉落,69010,,,,1,Card_Congratulation_Title,Weapon_Strong_Congratulation_Content
+13,6,0=6,卡片获得,69011,,,,1,Card_Congratulation_Title,Weapon_Strong_Congratulation_Content
+14,12,0=12,卡片升星,69012,,,,1,Card_Congratulation_Title,Weapon_Strong_Congratulation_Content
+15,11,0=11,头衔升级,69013,,,,1,Title_Congratulation_Title,Weapon_Strong_Congratulation_Content

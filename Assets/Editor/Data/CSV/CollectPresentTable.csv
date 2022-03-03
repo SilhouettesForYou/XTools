@@ -1,0 +1,6 @@
+﻿Id,Comment,DefaultAnimFx,DefaultFxOffest,Default2OpenAnim,Default2OpenFx,Default2OpenFxOffset,Default2OpenAudio,OpenAnim,OpenAnimFx,OpenAnimFxOffset,NoneAnim,NoneAnimFx,NoneAnimFxOffset,NoneAnimTime,DestroyAnim,DestroyAnimFx,DestroyAnimFxOffset,DestroyTime
+表现ID,注释,动作0效果（不循环），比如宝箱从无到有出现,动作0效果偏移,宝箱打开（不循环）,宝箱打开效果,宝箱打开效果偏移,宝箱打开音效,宝箱打开后（循环）,宝箱打开后效果,宝箱打开后效果偏移,不可采状态,不可采状态效果,不可采状态效果偏移,不可采状态持续时长（秒）,宝箱消失（不循环）,消失动作效果,消失动作偏移,淡出消失时间（没有DestroyAnim的时候走这边）
+1,无限塔宝箱动作,200034,0=0=0,6100,200035,0=0=0,27,6101,200035,0=0=0,6101,200035,0=0=0,7,,200037,0=0=0,1.5
+2,露克希的灵魂碎片,319,0=0=0,,,,,,,,,,,,,,,
+3,魔物宝藏宝箱,200034,0=0=0,6102,200035,0=0=0,27,6103,200035,0=0=0,6103,200035,0=0=0,7,,200037,0=0=0,1.5
+4,罐子,,,20042,1201,0=0=0,,,,,,,,,,,,

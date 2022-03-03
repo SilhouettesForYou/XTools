@@ -1,0 +1,6 @@
+﻿BUFFID,Name,PicAtlas,Pic,Effect,NextEffect,Access,NextAccess,Type,Times,Config
+编号,BUFF名称,图标Atlas,对应图片名称,效果,下一级效果,获得途径,下一级途径,Buff类型（1为到达指定次数才生效buff，且高级生效后，低级效果消失；2为随着数量增加BUFF效果变化的BUFF）,次数参数（Type=1则 通关简单难度副本X次  Type=2时为使用封印道具的次数上限）,权值参数（Type=1则表示上一级ID和下一级ID，Type=2时表示每一级对应属性加成）
+1,力量增幅,Buffbox,UI_Icon_Buff_Merchant_WuQiZhiZuiDaHua.png,困难难度狩猎中玩家攻击力，魔法攻击力+5%,困难难度狩猎中玩家攻击力，魔法攻击力+12%,公会简单难度狩猎完成5次,公会简单难度狩猎完成10次,1,5,0|2
+2,力量增幅,Buffbox,UI_Icon_Buff_Merchant_WuQiZhiZuiDaHua.png,困难难度狩猎中玩家攻击力，魔法攻击力+12%,困难难度狩猎中玩家攻击力，魔法攻击力+20%,公会简单难度狩猎完成10次,公会简单难度狩猎完成15次,1,10,1|3
+3,力量增幅,Buffbox,UI_Icon_Buff_Merchant_WuQiZhiZuiDaHua.png,困难难度狩猎中玩家攻击力，魔法攻击力+20%,,公会简单难度狩猎完成15次,,1,15,2|0
+4,魔物镇压,Buffbox,UI_Icon_Buff_Tongyong_ZuZhou.png,困难难度狩猎中魔物血量减少X%,,公会任意玩家本次活动中使用封印碎片X次,,2,20,1

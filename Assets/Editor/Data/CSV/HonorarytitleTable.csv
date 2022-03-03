@@ -1,0 +1,12 @@
+﻿ID,TitleName,Dec,CharacterRating,TitleItem,TitleBaseAtttibute,Atlas,Spt
+ID,头衔名称,描述,所需人物评分,今生所需道具（不填为空）,头衔属性,图集,图片资源
+1,旅人,卧虎藏龙,0,1002=5,0=27=0=4|0=36=0=4,TitleIcon,UI_TitleIcon_lvren.png
+2,漫游者,卧虎藏龙,100,1002=10,0=27=0=4|0=36=0=5,TitleIcon,UI_TitleIcon_manyouzhe.png
+3,风行者,卧虎藏龙,200,1003=5,0=27=0=4|0=36=0=6,TitleIcon,UI_TitleIcon_fengxingzhe.png
+4,猎风者,卧虎藏龙,300,1003=10,0=27=0=4|0=36=0=7,TitleIcon,UI_TitleIcon_liefengzhe.png
+5,旅行家,卧虎藏龙,400,1004=5,0=27=0=4|0=36=0=8,TitleIcon,UI_TitleIcon_lvxingjia.png
+6,冒险家,卧虎藏龙,1000,1004=10,0=27=0=4|0=36=0=9,TitleIcon,UI_TitleIcon_maoxianjia.png
+7,征服者,卧虎藏龙,5000,1005=5,0=27=0=4|0=36=0=10,TitleIcon,UI_TitleIcon_zhengfuzhe.png
+8,四海行者,卧虎藏龙,10000,1005=10,0=27=0=4|0=36=0=11,TitleIcon,UI_TitleIcon_sihaiyouzhe.png
+9,仙境游侠,卧虎藏龙,30000,1006=5,0=27=0=4|0=36=0=12,TitleIcon,UI_TitleIcon_xianjingyouxia.png
+10,自由之志,卧虎藏龙,100000,1006=10,0=27=0=4|0=36=0=13,TitleIcon,UI_TitleIcon_ziyouzhizhi.png

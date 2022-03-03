@@ -1,0 +1,10 @@
+﻿ID,Type,TargetID,Members,Title,Args,Atlas,Sprite,LocalizationArea
+ID,类型,目标ID,组成员,组标题,可选参数,图集名称,图标名称,本地化区域划分(0所有1中2日4香港8韩16北美，多地区时数字叠加，例：日韩都上就配4+8=12)
+1,1,7,3000=3002|4000=4011,,94.00|-193.00,Map,UI_map_Icon_Pulongdela.png,
+2,1,16,3200=3200|4200=4202,,-58.00|-117.00,Map,UI_map_Icon_Jifen.png,
+3,1,21,3600=3600|4600=4603,,170.00|-269.00,Map,UI_map_Icon_Yisilude.png,
+4,1,85,3500=3501|4500=4500,,94.00|187.00,Map,UI_map_Icon_Aierpalan.png,9
+5,1,26,3300=3301|4300=4317,,-38.00|-421.00,Map,UI_map_Icon_Mengluoke.png,
+6,1,55,3700=3700|4700=4706,,-286.00|-40.30,Map,UI_map_Icon_Keleisihanmu.png,9
+7,1,50,3400=3400|4400=4402,,378.29|-545.79,Map,UI_map_Icon_Aierbeita.png,
+8,1,47,3100=3100,,226.28|-420.70,Map,UI_map_Icon_Feiyang.png,

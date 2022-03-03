@@ -1,0 +1,27 @@
+﻿NAME,SchoolName,ICON,TEXT1,TEXT2,TEXT3,DifficultyStar,RecommendPoint,FeatureText,RecommendClass,RecommendClassIconAtlas,RecommendClassIconSprite
+流派名称,流派名称备注,流派ICON,描述文本1,描述文本2,描述文本3,星星,加点数量,特征(1 辅助 2 输出 3 防御),成型id,头像图标图集,头像sprite
+200001,敏剑,,极致攻速、稳定输出,Str、Agi、Dex,狂击、剑武器加速、先锋追击,2,86|99|40,2|1|3,210101,Skill_School,UI_Skill_School_Minqi.png
+200002,枪骑,,技能伤害、射程增长,Str、Agi、Dex,骑乘术、连刺攻击、骑乘攻击,2,99|65|50,2|1|3,210102,Skill_School,UI_Skill_School_Tiqi.png
+200003,防御,,极致防御、团队核心,Str、Vit、Dex,坚定打击、狮子奋迅、钢铁意志,3,99|92|27,3|1|2,210103,Skill_School,UI_Skill_School_Fangqi.png
+200011,盾牌,,技能伤害、稳定输出,Str、Agi、Dex,盾击、回旋盾击、刺盾,2,99|83|45,2|3|1,220101,Skill_School,UI_Skill_School_Dunpai.png
+200012,圣十字,,高额爆发、混合伤害,Str、Int、Dex,圣十字攻击、圣十字审判、信任,2,96|94|30,2|3|1,220102,Skill_School,UI_Skill_School_Shenpan.png
+200013,援护,,极致防御、保护团队,Vit、Str、Dex,信任、神佑之光、自动防御,3,99|91|30,3|1|2,220103,Skill_School,UI_Skill_School_Yuanhu.png
+300001,赞美,,高额回复、快速吟唱,Int、Vit、Dex,治愈术、天使之颂歌、光耀之堂,2,99|43|84,1|3|2,310101,Skill_School,UI_Skill_School_Zanmei.png
+300002,驱魔,,高额输出、快速吟唱,Int、Dex、Vit,神圣之光、转生术、十字驱魔攻击,3,99|96|15,2|1|3,310102,Skill_School,UI_Skill_School_Qumo.png
+300003,暴牧,,极致攻速、稳定输出,Str、Agi、Luk,霸邪之阵、天使之躯、撒水祈福,1,80|80|70,2|3|1,310103,Skill_School,UI_Skill_School_BaoMu.png
+300011,气功,,技能伤害、稳定输出,Str、Agi、Dex,蓄气、爆气、浸透劲,2,99|72|57,2|1|3,320101,Skill_School,UI_Skill_School_Qigong.png
+300012,连打,,高额爆发、连续打击,Str、Agi、Dex,连环全身掌、猛龙夸强、阿修罗霸凰拳,3,99|73|53,2|1|3,320102,Skill_School,UI_Skill_School_Lianda.png
+400001,火焰,,高额输出、快速吟唱,Int、Dex、Vit,火箭术、陨石术、火柱攻击,2,99|99|2,2|1|3,410101,Skill_School,UI_Skill_School_Huonian.png
+400002,冰雷,,高额输出、快速吟唱,Int、Dex、Vit,冰箭术、雷鸣术、暴风雪,3,99|99|2,2|1|3,410102,Skill_School,UI_Skill_School_Binglei.png
+500001,双刀,,极致攻速、稳定输出,Str、Agi、Dex,施毒、二刀连击、涂毒,2,90|99|32,2|1|3,510101,Skill_School,UI_Skill_School_Shuangdao.png
+500002,拳刃,,极致攻速、效率暴击,Str、Agi、Luk,隐匿、音速投掷、音速投掷加速,2,83|81|70,2|1|3,510102,Skill_School,UI_Skill_School_Baoci.png
+600001,战铁,,技能伤害、兼具坦度,Str、Agi、Dex,大地之击、金钱攻击、速度激发,2,92|92|42,2|1|3,610101,Skill_School,UI_Skill_School_Zhantie.png
+600002,制作,,低买高卖、属性置换器制作,Dex、Luk、Str,低买买进、高价卖出、露天商店,3,83|84|50,1|3|2,610102,Skill_School,UI_Skill_School_Shangren.png
+600011,投掷,,高额输出、远程物理,Str、Dex、Vit,强酸攻击、火烟瓶投掷、强酸火烟瓶投掷,3,99|90|32,2|1|3,620101,Skill_School,UI_Skill_School_TouZhi.png
+600012,生命体,,特殊召唤、指挥作战,Str、Agi、Dex,生命体召唤、生物协同、生命标记,2,99|68|58,1|3|2,620102,Skill_School,UI_Skill_School_ShengMingTi.png
+700001,速射,,极致攻速、稳定输出,Dex、Agi、Luk,二连矢、闪电冲击、鹗枭之眼,2,90|75|69,2|1|3,710101,Skill_School,UI_Skill_School_Lieying.png
+700002,陷阱,,高额输出、提前布置,Int、Dex、Agi,爆散陷阱、地雷陷阱、霜冻陷阱,3,99|99|2,2|1|3,710102,Skill_School,UI_Skill_School_Xianjing.png
+700011,颂音,,高额恢复、团队增益,Dex、Agi、Luk,伊登的苹果、回归之歌、战鼓震天,2,90|75|69,1|3|2,720101,Skill_School,UI_Skill_School_Songyin.png
+700012,狂想曲,,高额爆发、快速吟唱,Int、Dex、Agi,临机应变、幻想乐章、奥义箭乱舞,3,99|99|2,2|1|3,720102,Skill_School,UI_Skill_School_Kuangxiang.png
+700021,颂音,,高额恢复、团队增益,Dex、Agi、Luk,为你服务、回归之歌、战鼓震天,2,90|75|69,1|3|2,721101,Skill_School,UI_Skill_School_Songyin.png
+700022,狂想曲,,高额爆发、快速吟唱,Int、Dex、Agi,临机应变、幻想乐章、奥义箭乱舞,3,99|99|2,2|1|3,721102,Skill_School,UI_Skill_School_Kuangxiang.png

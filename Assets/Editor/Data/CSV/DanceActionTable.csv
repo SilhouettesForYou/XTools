@@ -1,0 +1,14 @@
+﻿Id,AnimationTableId,AnimationIcon,AnimationAtlas
+编号,动画表编号,动画图标,动画图集
+1,110002,UI_Skill_Other_DanceAction01.png,Skill_Other
+2,110003,UI_Skill_Other_DanceAction02.png,Skill_Other
+3,110004,UI_Skill_Other_DanceAction03.png,Skill_Other
+4,110005,UI_Skill_Other_DanceAction05.png,Skill_Other
+5,110006,UI_Skill_Other_DanceAction07.png,Skill_Other
+6,110007,UI_Skill_Other_DanceAction08.png,Skill_Other
+7,110008,UI_Skill_Other_DanceAction09.png,Skill_Other
+8,100094,UI_Skill_Other_DanceAction09.png,Skill_Other
+9,100136,UI_Skill_Other_DanceAction09.png,Skill_Other
+10,100137,UI_Skill_Other_DanceAction09.png,Skill_Other
+11,100138,UI_Skill_Other_DanceAction09.png,Skill_Other
+12,100139,UI_Skill_Other_DanceAction09.png,Skill_Other

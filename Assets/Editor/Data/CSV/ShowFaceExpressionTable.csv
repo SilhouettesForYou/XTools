@@ -1,0 +1,15 @@
+﻿ID,Icon,MaleFaceExpression,FemaleFaceExpression,Time
+ID,图标资源,"男角色表情贴图资源（害羞、白眼，高兴，花痴，么么哒，邪恶，懵逼）
+",女角色贴图资源,持续时间
+1,UI_PhotoExpression__F_Haixiu.png,7=7,7=7,11
+2,UI_PhotoExpression__F_Baiyan.png,8=8,8=8,11
+3,UI_PhotoExpression__F_Gaoxing.png,0=0,0=0,11
+4,UI_PhotoExpression__F_Huachi.png,6=6,6=6,11
+5,UI_PhotoExpression__F_Qinqin.png,1=1,1=1,11
+6,UI_PhotoExpression__F_Xiee.png,9=9,9=9,11
+7,UI_PhotoExpression__F_Mengquan.png,2=2,2=2,11
+8,UI_PhotoExpression__F_Maimeng.png,3=3,3=3,11
+9,UI_PhotoExpression__F_Chaoxiao.png,10=10,10=10,11
+10,UI_PhotoExpression__F_Taoyan.png,11=11,11=11,11
+,,,,
+,,,,

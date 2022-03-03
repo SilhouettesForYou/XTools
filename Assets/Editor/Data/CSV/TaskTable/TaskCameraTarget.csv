@@ -1,0 +1,3 @@
+﻿targetID,photoAimId
+目标id,"相机拍照目标id(对应CheckInCameraTable中的id,多目标时用|隔开)"
+1,101|102

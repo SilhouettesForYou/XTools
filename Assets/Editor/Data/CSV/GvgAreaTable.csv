@@ -1,0 +1,5 @@
+﻿ID,Comment,AreaName,Castles,GuildDungeonMonsterPreviewCenter,TreasureBoxPreviewCenter,ShopPreviewCenter,GuildDungeonMonsterPreviewNormal,TreasureBoxPreviewNormal,ShopPreviewNormal,MapAtlas,MapName,SceneID
+地区ID,注释,地区名字,城堡,中心城堡公会地城魔物预览,中心城堡城主宝箱奖励预览（奖励包ID）,中心城堡特色兑换道具预览,非中心城堡公会地城魔物预览,非中心城堡城主宝箱奖励预览（奖励包ID）,非中心城堡特色兑换道具预览,小地图图集,小地图名字,对应场景ID
+1,,普隆德拉地区,1|2|3|4,41028|41019|41026|41010|41016|41002|41003,8302150,8302190,41028|41019|41026|41010|41016|41002|41003,8302160,8302190,GVG,GVG/UI_GVG_Map_pulongdela.png,101
+2,,吉芬地区,11|12|13|14,41217|41221|41223|41208|41211|41212|41206,8302170,8302200,41217|41221|41223|41208|41211|41212|41206,8302180,8302200,GVG,GVG/UI_GVG_Map_jifen.png,102
+3,,斐扬地区,21|22|23|24,41317|41321|41323|41331|41304|41316|41312,8302150,8302190,41317|41321|41323|41331|41304|41316|41312,8302160,8302190,GVG,GVG/UI_GVG_Map_feiyang.png,103

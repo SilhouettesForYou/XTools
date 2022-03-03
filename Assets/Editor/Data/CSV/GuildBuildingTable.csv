@@ -1,0 +1,7 @@
+﻿Id,Building,BriefIntroduction,ItemAtlas,ItemIcon,ItemAtlas2D,ItemIcon2D
+编号,值,简介,图标图集,图标位置,2D图标图集,2D图标位置
+1,大厅,即公会等级，关联公会成长和福利，影响其他建筑上限 ,GuildBanquet,UI_GuildBanquet_jianzhu02.png,GuildBanquet,UI_GuildBanquet_jianzhuyulan02.png
+2,华丽水晶,神秘又神圣的华丽水晶，能够授予强大的力量,GuildBanquet,UI_GuildBanquet_jianzhu04.png,GuildBanquet,UI_GuildBanquet_jianzhuyulan04.png
+3,贩卖机,公会的百宝箱，提升可解锁各种新奇玩意,GuildBanquet,UI_GuildBanquet_jianzhu03.png,GuildBanquet,UI_GuildBanquet_jianzhuyulan03.png
+4,娱乐室,公会主要活动场所，提升可增加成员上限，解锁场所物件,GuildBanquet,UI_GuildBanquet_jianzhu01.png,GuildBanquet,UI_GuildBanquet_jianzhuyulan01.png
+5,仓库,公会里存放战利品和礼盒的场所，提升可增加存放上限,GuildBanquet,UI_GuildBanquet_jianzhu05.png,GuildBanquet,UI_GuildBanquet_jianzhuyulan05.png

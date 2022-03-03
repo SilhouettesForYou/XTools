@@ -1,0 +1,15 @@
+﻿ID,Point,AwardId,Atlas,Icon,Color,NumberColor,ListAtlas,ListIcon,AddAttr
+ID,典藏值点数(领取奖励所需典藏值),典藏值奖励（awardid),等级图标图集,等级图标名称,进度条颜色,等级字体颜色,等级列表图集,等级列表图标名称,属性
+0,,,VehicleIcon,UI_Vehicles_Icon_qianlan_01.png,85acd5,85acd5,,,
+1,20,4510010,VehicleIcon,UI_Vehicles_Icon_qianlan_01.png,85acd5,85acd5,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=47=100|0=49=30
+2,40,4510020,VehicleIcon,UI_Vehicles_Icon_qianlan_01.png,85acd5,85acd5,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=27=5|0=36=5 
+3,80,4510030,VehicleIcon,UI_Vehicles_Icon_qianlan_01.png,85acd5,85acd5,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=28=100|0=37=100 
+4,120,4510040,VehicleIcon,UI_Vehicles_Icon_qianlan_01.png,85acd5,85acd5,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=102=-100
+5,200,4510050,VehicleIcon,UI_Vehicles_Icon_qianlan_01.png,85acd5,85acd5,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=203=100|0=213=100 
+6,300,4510060,VehicleIcon,UI_Vehicles_Icon_lvse_01.png,38988b,38988b,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=47=100|0=49=30
+7,450,4510070,VehicleIcon,UI_Vehicles_Icon_lvse_01.png,38988b,38988b,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=27=5|0=36=5  
+8,600,4510080,VehicleIcon,UI_Vehicles_Icon_lvse_01.png,38988b,38988b,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=28=100|0=37=100 
+9,750,4510090,VehicleIcon,UI_Vehicles_Icon_lvse_01.png,38988b,38988b,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=102=-100
+10,950,4510100,VehicleIcon,UI_Vehicles_Icon_lvse_01.png,38988b,38988b,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=203=100|0=213=100
+11,1200,4510110,VehicleIcon,UI_Vehicles_Icon_shenlan_01.png,598bc5,598bc5,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=47=100|0=49=30
+12,1500,4510120,VehicleIcon,UI_Vehicles_Icon_shenlan_01.png,598bc5,598bc5,FashionRating,UI_Fashion_Icon_01.png|UI_Fashion_Icon_01 (2).png|UI_Fashion_Icon_03.png,0=27=5|0=36=5

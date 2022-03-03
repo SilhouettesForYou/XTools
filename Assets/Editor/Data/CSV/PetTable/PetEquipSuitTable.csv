@@ -1,0 +1,7 @@
+﻿PetEquipSuitID,Description,TwoPairsEffect,FourPairsEffect,SixPairsEffect,TwoPairsEffectText,FourPairsEffectText,SixPairsEffectText
+套装ID,套装的文本描述,2件套属性ID（0=属性id=属性值|0=属性id=属性值…或者1=buffid=buff参数...|1=buffid=buff参数…）,,,2件套描述,4件套描述,6件套描述
+11,<color=#52c56fff>优等生</color>,0=402=800|0=403=800,1=1014201=0=0,,攻击力+8%,每有一个资质大于1350，提升4%物理和魔法攻击,
+12,<color=#52c56fff>魔力之泉</color>,0=78=150,1=1014401=0=0,,魔法回复+1.5%,攻击力提升，提升值为最大魔法值的25%,
+13,<color=#52c56fff>无尽之刃</color>,0=55=10,1=1014601=0=0,,暴击+10,"暴击超过40时,每一点多余的暴击提升0.3%暴击伤害,最高不超过25%",
+14,<color=#52c56fff>神恩之赐</color>,0=401=800,1=1014801=0=0,,生命上限+8%,每损失20%生命值，伤害减免+7%,
+15,<color=#52c56fff>疾风之力</color>,0=71=800,1=1015501=0=0,,攻击速度+8%,每次攻击时增加4%攻速，最多叠加5层。,

@@ -1,0 +1,8 @@
+﻿ID,Goldcoin,CurrencyID,RewardID,Difficultylevel,Atlas,Icon,CapraEffect
+商店编号,金币,货币奖励,道具奖励,星级,头像图集,头像图标,小游戏特效类型（0为银币配套特效，1为铜币配套特效）
+1,103=30,102=3000,2010012=1,1,Icon_ItemAvatar01,UI_icon_item_avatar_01.png,0
+2,103=300,102=30000,2032004=1,2,Icon_ItemAvatar01,UI_icon_item_avatar_02.png,0
+3,103=3000,102=300000,2032004=15,3,Icon_ItemAvatar01,UI_icon_item_avatar_03.png,0
+4,103=30,101=300000,2010012=1,1,Icon_ItemAvatar01,UI_icon_item_avatar_07.png,1
+5,103=300,101=3000000,2032004=1,2,Icon_ItemAvatar01,UI_icon_item_avatar_08.png,1
+6,103=3000,101=30000000,2032004=15,3,Icon_ItemAvatar01,UI_icon_item_avatar_09.png,1

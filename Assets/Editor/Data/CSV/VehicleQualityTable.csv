@@ -1,0 +1,7 @@
+﻿Id,Attr,Name,Atlas,ItemIcon,AttrTips,parameter,parameter1,parameter2,InitialQuality,OnceQuality,OnceLv,OnceConsume,Model,SecondQuality,SecondLv,SecondConsume,SecondModel
+ID,五项素质及对应初始值,素质属性名称,图集,Icon,属性的轻提示,系数A，这里支持配小数,系数B，这里正整数,系数C，这里支持小数,初始素质上限,1阶素质上限,1阶等级,1阶消耗,1阶模型，配置格式：职业ID=配饰ID,2阶素质上限,2阶等级,2阶消耗,2阶模型，配置格式：职业ID=配饰ID
+1,0=27=400,勇猛,Vehicles,UI_Vehicles_Icon_Yongmeng.png,提升物理系技能的伤害能力,0.008,0,0.04,300,600,20,102=50000,3000=1|5000=2|7000=3|4000=4|2000=5|6000=6,900,30,102=100000,3000=1|5000=2|7000=3|4000=4|2000=5|6000=6
+2,0=36=400,机灵,Vehicles,UI_Vehicles_Icon_Zhongcheng.png,提升魔法系技能的伤害能力,0.008,0,0.04,300,600,20,102=50000,,900,30,102=100000,
+3,0=47=400,爱心,Vehicles,UI_Vehicles_Icon_Aixin.png.png,提升生命上限,0.050,0,0.4,300,600,20,102=50000,,900,30,102=100000,
+4,0=28=400,活泼,Vehicles,UI_Vehicles_Icon_Huopo.png,提升物理系技能的伤害能力,0.025,0,0,300,600,20,102=50000,,900,30,102=100000,
+5,0=37=400,可爱,Vehicles,UI_Vehicles_Icon_Jianqiang.png,提升魔法系技能的伤害能力,0.025,0,0,300,600,20,102=50000,,900,30,102=100000,

@@ -1,0 +1,17 @@
+﻿ID,Comment,Type,SubType,Title,Content,UnlockCondition,Bonus,PreviewPath,LocalizationArea
+ID,策划备注,类型,子类型,标题,包含内容,解锁条件,积分,预览图片路径,本地化区域划分(0所有1中2日4香港8韩16北美，多地区时数字叠加，例：日韩都上就配4+8=12)
+2000,开场,2,2,,20000=20000,1,15,PlotIcon\UI_PlotIcon_IsBlack_17.png|PlotIcon\UI_PlotIcon_IsBlack_18.png,
+2001,建国神话,2,2,,20003=20003,4,15,PlotIcon\UI_PlotIcon_IsBlack_01.png|PlotIcon\UI_PlotIcon_IsBlack_02.png,
+2002,爆炸的记忆,2,2,,20004=20004,6,15,PlotIcon\UI_PlotIcon_Plot_20_1.png|PlotIcon\UI_PlotIcon_Plot_20_2.png,
+2003,拉了西斯之死,2,2,,20002=20002,8,15,PlotIcon\UI_PlotIcon_IsBlack_11.png|PlotIcon\UI_PlotIcon_IsBlack_12.png,
+2004,被盐化的场景,2,2,,20005=20005,10,15,PlotIcon\UI_PlotIcon_IsBlack_09.png|PlotIcon\UI_PlotIcon_IsBlack_10.png,
+2005,诡异的梦境,2,2,,20006=20006,10,15,PlotIcon\UI_PlotIcon_IsBlack_05.png|PlotIcon\UI_PlotIcon_IsBlack_06.png,
+2006,芭蕾揭示死海古卷,2,2,,20007=20007,12,15,PlotIcon\UI_PlotIcon_Plot_23_1.png|PlotIcon\UI_PlotIcon_Plot_23_2.png,
+2007,露希尔救场,2,2,,20010=20010,12,15,PlotIcon\UI_PlotIcon_Plot_22_1.png|PlotIcon\UI_PlotIcon_Plot_22_2.png,
+2008,白衣自杀，黑衣狂暴,2,2,,20011=20011,13,15,PlotIcon\UI_PlotIcon_IsBlack_13.png|PlotIcon\UI_PlotIcon_IsBlack_14.png,
+2009,光与暗的终点,2,2,,20012=20012,1008,15,PlotIcon\UI_PlotIcon_Plot_49_1.png|PlotIcon\UI_PlotIcon_Plot_49_2.png,
+2010,刺客的壁画,2,2,,20013=20013,14,15,PlotIcon\UI_PlotIcon_Plot_31_1.png|PlotIcon\UI_PlotIcon_Plot_31_2.png,
+2011,圣痕褪去,2,2,,20014=20014,16,15,PlotIcon\UI_PlotIcon_Plot_47_1.png|PlotIcon\UI_PlotIcon_Plot_47_2.png,
+2012,人鱼,2,2,,20001=20001,1001,15,PlotIcon\UI_PlotIcon_IsBlack_07.png|PlotIcon\UI_PlotIcon_IsBlack_08.png,
+2013,鬼女,2,2,,20016=20016,1010,15,PlotIcon\UI_PlotIcon_IsBlack_03.png|PlotIcon\UI_PlotIcon_IsBlack_04.png,
+2014,双人契约,2,2,,20015=20015,1009,15,PlotIcon\UI_PlotIcon_IsBlack_16.png|PlotIcon\UI_PlotIcon_IsBlack_15.png,9

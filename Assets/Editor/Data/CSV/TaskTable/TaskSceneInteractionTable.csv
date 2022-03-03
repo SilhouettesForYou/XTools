@@ -1,0 +1,5 @@
+﻿ID,Des,DynamicSceneId,DurationTime,IconAtlas,Icon,InteractionTxt,PlayerAction,NPCAction,CameraId
+交互id，会在任务表里面用到,描述,场景id=触发器id（触发其中一个物件触发器就算完成）,持续时间（任务时需要持续这个交互状态N秒）,提示图集,提示图标,,调用主角特殊动作ID,NPC调用动作,调用镜头ID
+110049,惬意的秋千,7=500|7=531,5,main,UI_main_Interactive_Seat.png,荡秋千……,1001,,30
+110050,接受卡尔西的邀请,2006=20013|2006=20006,2,main,UI_main_Interactive_Seat.png,饮酒中……,2002,,20
+138438,与导师们合影,2092=138438,,main,UI_main_Interactive_Seat.png,设置中……,,,

@@ -1,0 +1,8 @@
+﻿IndexId,TextTemplate
+索引ID,文本模板
+400007001,"精炼+{jinglian}时，GetAttrDes({attr1},{value1})"
+400211001,全部属性+{value1}
+430005501,GetAttrName({attr1})-{value1}
+1001,精炼+{0}时，GetAttrDesStart(1)
+1002,精炼每+{1}，GetAttrDesStart(2)
+400006001,"精炼每+{jlper}，GetAttrDes({attr1},{value1})"

@@ -1,0 +1,45 @@
+﻿Category,Name,Comment,Value
+分类,名字,注释,值
+聊天,ChatTimeLimit,聊天时间限制（秒）(世界|公会|队伍|附近|观战|好友),10|2|2|5|2|2
+,ChatWorldLevel,世界频道发言等级,20
+,ChatWorldConsume,世界频道发言消耗,302=0
+,ChatMaxNum,输入最大字数限制(世界|公会|队伍|附近|观战|好友),84|84|84|84|84|84
+,ChatSaveMaxNum,消息本地保存上限(条数)(世界|公会|队伍|附近|系统|观战|好友),30|30|30|30|50|30|30
+,ChatSaveMaxMini,MINI框消息本地保存上限(条数),20
+,ChatGuildCacheNum,公会频道消息服务器存储数量,30
+,ChatGuildCacheTime,公会频道消息服务器存储时间（小时）,5
+,OrgMiniSetting,mini框默认选择显示配置（1世界 2公会 3队伍 4附近 5好友 6系统）,1|2|3|4|5|6
+,AudioTimeLimit,语音消息时间长度（秒）,14
+,AudioMaxNumLimit,语音消息翻译可显示最大字数（中文2字符）,70
+,AutoAudioSaveNum,自动播放语音队列数量限制,10
+,Audiocountdown,发送语音消息倒计时提示时间（秒）,10
+系统公告,AwardSystemMessage,功能玩法对应的系统公告（Reason=MessageID）,11=60001|104=60002|99=60003|110=60003|103=60004|69=60007|101=60005|61=60009|55=60010|56=60011|102=60013|52=60012|106=60014|140=60103|141=60103|10=60001|168=62034|156=60015|142=60016|115=60002|158=60017|105=60006|100=60018|177=60019|85=60020|86=60020|80=60021|81=60022|162=60023|212=60024|279=60025|24=60026|299=70003|256=62043
+,SystemMessageMinTime,系统公告最短时间（秒）,3
+好友,RecentContactsNum,最近联系人列表数量,20
+,FriendsMaxNum,好友数量上限,80
+,FriendsTimeTab,好友时间标签刷新时间（min）,10
+,FriendsChatCacheNum,好友消息服务器存储数量,100
+,FriendsChatCacheTime,好友消息服务器存储时间（天）,30
+,FriendsRelationLimit,友好度上限,9999
+,FriendsRelationLimitDay,友好度每日增加上限,999
+,FriendlinessOnline,上线提示的好友度要求,5
+,FriendMaxNum,好友输入最大字数限制(字符),84
+,FriendsRelationSource,通过type(1:聊天、2：组队击杀mvpmini、3：组队副本）总共可以count次，增加好友度(add) =>（type=count=add),1=5=1|2=3=5|3=5=5
+,FriendsRelationTitle,好友关系名称（低于N时，显示为xxxx，N1=xxxx1|N2=xxxx2）,9=FriendsRelation1Key|99=FriendsRelation2Key|999=FriendsRelation3Key
+,FilterChatLimitLevel,需要过滤消息和提示开启消息过滤对方的等级（≤N）,20
+多功能界面,SendItemSetting,发送道具功能可以使用的频道（1世界 2公会 3队伍 4附近 5好友 6系统）,2|3|4|5
+,SendItemTimeLiness,发送道具链接时效性（min）,60
+,FrequentWordsNum,历史输入最大存储数量,12
+,CollectFrequentWordsNum,星标常用语最大数量,10
+聊天室相关限制,RoomChatMaxNum,聊天室输入最大字数限制,84
+,RoomChatSaveMaxNum,聊天室消息本地保存上限(条数),30
+,RoomAudioTimeLimit,聊天室语音消息时间长度（秒）,30
+,RoomAudioMaxNumLimit,聊天室语音消息翻译可显示最大字数（中文2字符）,70
+,RoomAutoAudioSaveNum,聊天室自动播放语音队列数量限制,10
+,RoomAudiocountdown,聊天室发送语音消息倒计时提示时间（秒）,10
+,ShortcutChatFriendsRelation,快捷聊天好友度限制,5
+,ShortcutChatMaxNum,同时开启的快捷聊天数量,7
+拍照委托公会援助,PhotoGuildAidCD,拍照委托公会援助冷却时间,25
+艾特功能,AtFunctionOpen,艾特功能可以在哪些频道使用（2队伍 3公会 4世界 5附近 6系统 10聊天室 11观战 20好友）,2|3|10|12
+屏蔽列表,BlockListMax,屏蔽列表中最多屏蔽几个玩家,30
+,BlockListChannels,频道限制（1世界 2公会 3队伍 4附近 5好友 6系统）,2|3|4|5|10|11|12|20

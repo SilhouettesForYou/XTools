@@ -1,0 +1,12 @@
+﻿ID,Comment,Altas,Sprite,CanScale,FontColor,Offset
+ID,注释,图集名,Sprite名,可以缩放,字体颜色,偏移量
+1,默认气泡,Common,UI_Chat_Bubble.png,True,None#2,0.3=0.9=0.3
+2,白色气泡,Common,UI_Chat_Bubble.png,False,None#1,1=1=0.3
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

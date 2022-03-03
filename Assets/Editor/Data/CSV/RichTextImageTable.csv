@@ -1,0 +1,21 @@
+﻿ID,Comment,Type,spname,atname,size,width,anim
+ID,注释,类型 1=quad,图标名,图集,大小,高宽比,是否播放动画
+1,充能石柱友方,1,UI_map_Battle_tower_1.png,MapUI,30,1.8,0
+2,充能石柱敌方,1,UI_map_Battle_tower_2.png,MapUI,30,1.8,0
+3,充能石柱中立,1,UI_map_Battle_tower_0.png,MapUI,30,1.8,0
+4,召唤石碑友方,1,UI_map_Battle_Stela_1.png,MapUI,30,1.8,0
+5,召唤石碑敌方,1,UI_map_Battle_Stela_2.png,MapUI,30,1.8,0
+6,召唤石碑中立,1,UI_map_Battle_Stela_0.png,MapUI,30,1.8,0
+7,守护者友方,1,UI_map_Battle_Guardian_1.png,MapUI,30,1.8,0
+8,守护者敌方,1,UI_map_Battle_Guardian_2.png,MapUI,30,1.8,0
+9,基地大门友方,1,UI_map_Battle_Gate_1.png,MapUI,30,1.8,0
+10,基地大门敌方,1,UI_map_Battle_Gate_2.png,MapUI,30,1.8,0
+11,基地水晶友方,1,UI_map_Battle_Crystal_1.png,MapUI,30,1.8,0
+12,基地水晶敌方,1,UI_map_Battle_Crystal_2.png,MapUI,30,1.8,0
+13,大炮友方,1,UI_map_Battle_Cannon_1.png,MapUI,30,1.8,0
+14,大炮敌方,1,UI_map_Battle_Cannon_2.png,MapUI,30,1.8,0
+15,问号,1,UI_common_Tishi_02.png,Common,20,1.125,0
+16,委托证明,1,UI_Delegate_Litter.png,Delegate,20,0.8,0
+103,ro喵喵果实,1,UI_icon_item_huobi01.png,Icon_ItemConsumables01,20,0.8,0
+102,zeny币,1,UI_icon_item_huobi02.png,Icon_ItemConsumables01,20,0.8,0
+101,铜币,1,UI_icon_item_Zeng.png,Icon_ItemConsumables01,20,0.8,0

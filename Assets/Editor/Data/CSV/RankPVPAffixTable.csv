@@ -1,0 +1,11 @@
+﻿AffixID,Comment,IconAtlas,Icon,Name,Instruction,EffectType,EffectParam,Buff
+词缀ID,备注（策划用）,图标Atlas,词缀图标,词缀名称,词缀文字说明,效果类型,效果参数,效果Buff
+1,基地加速,Ranked5v5_icon,ui_5v5_icon_speed up_01.png,基地加速,玩家在出生点移动速度提升40%,1,0=5V5FuHuoJiaSu0|1=5V5FuHuoJiaSu1,
+2,独立作战,Ranked5v5_icon,ui_5v5_icon_Fight alone_01.png,独立作战,周围没有队友时，属性提升,2,10,5170401
+3,终极时刻,Ranked5v5_icon,ui_5v5_icon_character of energy_01.png,终极时刻,最后一分钟以及加时，属性提升！,3,60,5170501
+4,车辆遥控,Ranked5v5_icon,ui_5v5_icon_remote control_01.png,车辆遥控,在己方半场，敌方车辆附近没有玩家时，车辆会缓慢退回中点,4,73=100,
+5,稳定装置,Ranked5v5_icon,ui_5v5_icon_Energy stability_01.png,稳定装置,推车速度恒定为120%,5,74=2000,
+6,终极加速,Ranked5v5_icon,ui_5v5_icon_energy savings_01.png,终极加速,我方在游戏最后阶段及加时阶段推车速度提高,6,60=74=10000,
+7,祭坛强化,Ranked5v5_icon,ui_5v5_icon_altar_01.png,祭坛强化,我方开局就可占领一次祭坛,7,,
+8,祭坛增效,Ranked5v5_icon,ui_5v5_icon_altar_02.png,祭坛增效,祭坛增益BUFF效果增强,8,5170301,
+9,遥控炸弹,Ranked5v5_icon,ui_5v5_icon_altar_03.png,遥控炸弹,祭坛开启后，敌方推车人会有概率爆炸，对敌方造成基于生命上限的百分比伤害,9,,5171801

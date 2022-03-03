@@ -1,0 +1,11 @@
+﻿ID,Name,Actor,Num,Scene,Path,Idle,Action,MainDriverBeHitAction
+ID,载具名,载具模型资源名,可载乘客数,所在场景ID,载具路线信息,角色Idle动作,角色动作,主驾受击动作（操控者在坐骑上受击时播放的动作，竖线前填男、竖线后填女，变身载具主驾不播受击）
+1,波利热气球,Mount_ReQiQiu,2,7,VehiclePathTest,Zuo,Zuo,Common_M_Zuo|Common_F_Zuo
+2,气球束,Mount_QiQiuShu,1,7,VehiclePathQiqiu,La,La,Common_M_La|Common_F_La
+3,波利岛热气球,Mount_ReQiQiu,1,13,VehiclePathBoli,Zuo,Zuo,Common_M_Zuo|Common_F_Zuo
+4,天堂鸟,Mount_TianTangNiao,1,7,VehiclePathNiao,La,La,Common_M_La|Common_F_La
+5,天堂鸟,Mount_TianTangNiao,1,7,VehiclePathQSTniao,La,La,Common_M_La|Common_F_La
+6,气球束,Mount_QiQiuShu,1,7,VehiclePathCSDqiqiu,La,La,Common_M_La|Common_F_La
+7,气球束,Mount_QiQiuShu,1,7,VehiclePathICEqiqiu,La,La,Common_M_La|Common_F_La
+8,天堂鸟,Mount_TianTangNiao,1,7,VehiclePathjiaotangniao,La,La,Common_M_La|Common_F_La
+9,天堂鸟,Mount_TianTangNiao,1,7,VehiclePathdazao,La,La,Common_M_La|Common_F_La

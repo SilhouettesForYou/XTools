@@ -1,0 +1,13 @@
+﻿ID,Comment,Name,Type,Desc,IconAtlas,IconName,BuffId,Cost,CoolDown
+命令ID,注释,命令名字,类型（1：副本内手动触发的命令，2：战前攻击型祝福，3：战前防御型祝福,命令描述,图标图集,图标名字,命令对应的buff id,魔力消耗,冷却时间
+1,回城,传送,1,传送回到天地树前的召唤阵内,Skill_Other,UI_Skill_OtOther_HuiCheng.png,5157801,,5
+2,陨石召唤,陨石召唤,2,造成伤害时，概率对目标范围砸一颗陨石,BuffBox,UI_Common_Icon_Buff_YunShi.png,5152501,,0
+3,神圣之怒,神圣之怒,2,使用治愈术治疗时，对治疗目标附近敌人造成AOE伤害,BuffBox,UI_Common_Icon_Buff_ShenShengZhiNu.png,5152601,,0
+4,荆棘铠甲,荆棘铠甲,2,受到普通攻击时，会对攻击方造成伤害,BuffBox,UI_Common_Icon_Buff_JingJiKaiJia.png,5152701,,0
+5,炸弹,炸弹,2,攻击时概率发生爆炸，造成范围伤害,BuffBox,UI_Common_Icon_Buff_ZhaDan.png,5152801,,0
+6,连击,连击,2,攻击时获得伤害增加，最多可叠加5层,BuffBox,UI_Common_Icon_Buff_LianJi.png,5153101,,0
+7,坚硬皮肤,坚硬皮肤,3,每隔30秒给自身添加护盾,BuffBox,UI_Common_Icon_Buff_JianYingPiFu.png,5153301,,0
+8,回魂圣水,回魂圣水,3,当血量小于50%时，受治疗量和生命药水恢复量提升,BuffBox,UI_Common_Icon_Buff_HuiHunShengShui.png,5153501,,0
+9,圣辉铠甲,圣辉铠甲,3,单次受到伤害不超过最大生命的15%，20秒可触发一次,BuffBox,UI_Common_Icon_Buff_ShengHuiKaiJia.png,5153801,,0
+10,神树之根,神树之根,3,站立时会缓缓恢复生命，移动时会增加防御力,BuffBox,UI_Common_Icon_Buff_ShenShuZhiGen.png,5153901,,0
+11,防护之力,防护之力,3,当周围怪物数量多于5个时，有概率免疫一次伤害,BuffBox,UI_Common_Icon_Buff_FangHuZhiLi.png,5154101,,0

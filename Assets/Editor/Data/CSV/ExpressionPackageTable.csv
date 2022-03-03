@@ -1,0 +1,6 @@
+﻿Type,Dynamic,UnlockType,UnlockID,DesName,Atlas,IconName
+表情包类型ID,是否动态表情,1 道具解锁|0不需要解锁,解锁id,表情包名,表情图集,表情包头像资源名
+1,,0,,波利表情包,Emoji,ui_EmojiA_13
+2,,1,66660002,搞怪哥布林,Emoji,ui_EmojiA_20
+3,,1,66660001,小恶魔波利,Emoji,ui_EmojiA_26
+10,1,0,,气泡表情,DynamicExpression,come_0

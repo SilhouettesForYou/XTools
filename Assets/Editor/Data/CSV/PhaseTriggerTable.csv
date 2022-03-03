@@ -1,0 +1,7 @@
+﻿Id,TriggerName,TriggerPx,TriggerPy,TriggerPz,TriggerSx,TriggerSy,TriggerSz,SceneId
+TriggerID,Trigger名称,Trigger中心点X坐标,Trigger中心点Y坐标,Trigger中心点Z坐标,TriggerX坐标轴大小,TriggerY坐标轴大小,TriggerZ坐标轴大小,场景Id
+1001,测试Trigger,75.99,7.67,107.84,2,1,2,1
+5001,镜像测试Trigger,123,10,53,6,5,6,5
+5002,新相位测试Trigger,63,10,84,6,5,6,5
+1002,新建Trigger,0,0,0,1,1,1,1
+1003,新建Trigger,0,0,0,1,1,1,1

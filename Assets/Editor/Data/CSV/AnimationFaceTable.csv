@@ -1,0 +1,4 @@
+﻿ID,Name,ActionName,SearchMode,MaxTime,SpecialEffect,EffectParent,AudioPath
+编号 注意不能和AnimationTable里面的Id重复,名字,动作名,检索方式（0不检索；1根据性别和prefab检索；2根据职业检索）默认1,最长时间（-1代表使用默认时间）,挂载的特效ID,特效挂载节点（0脚下  1右手  2左手 3头盔 4背后 5尾部 6Mount7Cart8非人形）,音效（要填路径）
+999,测试,Take 001,,-1,,,
+

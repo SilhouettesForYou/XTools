@@ -1,0 +1,6 @@
+﻿NoticeLoadID,LoadLevelLimit,NoticeLoadContent
+公告ID,等级区间,任务内容
+101,0=300,54001
+102,10=300,54002
+103,10=300,54003
+104,16=300,54004

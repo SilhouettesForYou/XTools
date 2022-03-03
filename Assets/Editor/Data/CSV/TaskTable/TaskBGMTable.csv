@@ -1,0 +1,6 @@
+﻿ID,BGM,ParamKeys,ParamValues,
+音乐ID,背景音乐event名,fmod参数keys,fmod参数values,
+1001,BGM_Chuxinzhe_Part_2,Chuxinzhe,1,初心者学院变调1
+1002,BGM_Chuxinzhe_Part_2,Chuxinzhe,2,初心者学院变调2
+1003,BGM_Traning,,,初心者学院-战斗训练
+1004,BGM_TakePhoto,,,初心者学院-拍照

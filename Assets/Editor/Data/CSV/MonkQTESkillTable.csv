@@ -1,0 +1,5 @@
+﻿ID,FirstSkillID,SecondSkillID,ThirdSkillID,FourthSkillID,FifthSkillID,SixthSkillID,PlanName,Desc,UseLimitsProfession
+ID,第一栏位ID,第二栏位ID,第三栏位ID,第四栏位ID,第五栏位ID,第六栏位ID,方案名称,描述,允许使用职业
+1,320106,320107,,,,,入门连招流,武僧常用连续技组合，可在猛龙夸强释放后打出阿修罗霸凰拳,3201|3202
+2,320106,320107,320204,,,,均衡连招流,舍弃控制手法的连招循环，可在气绝崩击释放后打出阿修罗霸凰拳,3202
+3,320106,320107,320203,320204,,,控制连招流,概率定身目标的控制连续技循环，可在气绝崩击释放后打出阿修罗霸凰拳,3202

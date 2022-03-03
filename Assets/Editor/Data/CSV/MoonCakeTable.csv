@@ -1,0 +1,15 @@
+﻿ID,Name,Place,Atlas1,Icon1,Atlas2,Icon2,Description,Count,Award,OrnamentID,MainSonId
+道具id,（策划用 不需要本地化）松饼名,对应松饼拼盘位置,拼盘图标图集,拼盘图标名,图片图集,图片图标名,松饼描述,领奖所需数量,累计奖励（食用数量=道具id=数量）,松饼嘴饰ID,活动id（TimeLimitActivityTable的id）
+2080001,经典芝麻味松饼,1,MidAutumn,UI_MidAutumn_09.png,MidAutumn,UI_MidAutumn_14.png,细腻醇香的芝麻馅包在半月形的糯米皮中，放在铺满松针的蒸屉上蒸熟。带有松香的芝麻味松饼，没有多余的修饰，是最记忆悠长的味道,,,,
+2080002,甜蜜草莓特色松饼,2,MidAutumn,UI_MidAutumn_01.png,MidAutumn,UI_MidAutumn_20.png,草莓鲜果搭配云朵般的淡奶油，莓果汁浸染的粉红色糯米皮，加上现烤的草莓饼干。如果说草莓味松饼我最想送的一个人，大概是儿时的自己，陪伴我甜美的童年时光,30,1030007,1090028,1401
+2080003,浓情可可特色松饼,3,MidAutumn,UI_MidAutumn_05.png,MidAutumn,UI_MidAutumn_19.png,精选可可粉加上香浓牛奶制成的巧克力酱，可可味的糯米皮，加上一大块牛奶巧克力。很多人最喜欢的味道就是巧克力，我称之为“可可魔力”，无法抵挡的巧克力诱惑,30,1030008,1090029,1401
+2080004,蛋黄流沙特色松饼,4,MidAutumn,UI_MidAutumn_13.png,MidAutumn,UI_MidAutumn_18.png,用冒油的海鸭蛋黄制成的调料，栀子果浸染的金黄色糯米皮，蒸好后淋上一层色拉油，撒一点芝麻作点缀。一口咬下去，金灿灿的蛋黄馅流出，咸甜搭配的味道，沙沙的口感让人欲罢不能,30,1030009,1090030,1401
+2080005,芋泥满满特色松饼,5,MidAutumn,UI_MidAutumn_11.png,MidAutumn,UI_MidAutumn_17.png,香甜的芋泥酱，紫薯糯米皮，装饰着Q弹的白玉丸子。芋泥是最治愈的味道，绵密细腻，我想可以用温柔来形容它,30,1030010,1090031,1401
+2080006,飘香桂花特色松饼,6,MidAutumn,UI_MidAutumn_07.png,MidAutumn,UI_MidAutumn_16.png,桂花蜜调制的馅料，添加晒干桂花制作的糯米皮，鲜桂花点缀。制作桂花酱时，清香弥漫，我把它包进松饼里，让每一个人都感受到这份美好,30,1030011,1090032,1401
+2080007,神秘口味特色松饼,7,MidAutumn,UI_MidAutumn_03.png,MidAutumn,UI_MidAutumn_15.png,米莉特制松饼，非常好吃，独此一家哦。它的味道呢，只有自己去尝试才知道！,30,1030012,1090033,1401
+2080102,暖心年糕汤,1,SpringFestival,UI_SpringFestival_dish5_Empty.png,SpringFestival,UI_SpringFestival_dish5.png,,,,,1421
+2080103,元气五谷饭,2,SpringFestival,UI_SpringFestival_dish4_Empty.png,SpringFestival,UI_SpringFestival_dish4.png,,,,,1421
+2080104,多吃不胖烤肉,3,SpringFestival,UI_SpringFestival_dish6_Empty.png,SpringFestival,UI_SpringFestival_dish6.png,,,,,1421
+2080105,美味海鲜煎饼,4,SpringFestival,UI_SpringFestival_dish2_Empty.png,SpringFestival,UI_SpringFestival_dish2.png,,,,,1421
+2080106,甜蜜韩果,5,SpringFestival,UI_SpringFestival_dish1_Empty.png,SpringFestival,UI_SpringFestival_dish1.png,,,,,1421
+2080107,幸运甜米露,6,SpringFestival,UI_SpringFestival_dish3_Empty.png,SpringFestival,UI_SpringFestival_dish3.png,,,,,1421
