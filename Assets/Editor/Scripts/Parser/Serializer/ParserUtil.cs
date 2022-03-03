@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using XTools;
 
 namespace Serializer
@@ -16,10 +18,10 @@ namespace Serializer
 
         private static Type GetAssemblyType(string typeName)
         {
-            var classes = Assembly.Load("Serializer").GetTypes();
+            var classes = Assembly.GetExecutingAssembly().GetTypes().Where(t => String.Equals(t.Namespace, "Serializer", StringComparison.Ordinal)).ToArray();
             foreach (var item in classes)
             {
-                if (typeName == item.Name)
+                if (item.Name.ToLower().Contains(typeName.ToLower()))
                 {
                     return item;
                 }
@@ -37,9 +39,9 @@ namespace Serializer
             else if (typeName.StartsWith("Sequence"))
             {
                 typeName = typeName.Trim();
-                var subType = typeName.Substring("Sequence<".Length, typeName.Length - "Sequence<, 3>".Length);
+                var subType = typeName.Substring("Sequence<".Length, typeName.Length - "Sequence<, #>".Length);
                 var subTypeFullName = GetTypeFullName(subType);
-                var type = Type.GetType($"MoonCommonLib.MSeq`1[[{subTypeFullName}]], MoonCommonLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
+                var type = Type.GetType($"Serializer.Seq`1[[{subTypeFullName}]]");
                 return type.AssemblyQualifiedName;
             }
             else if (typeName.StartsWith("vector"))
@@ -102,7 +104,7 @@ namespace Serializer
                 var subType = typeName.Substring("Sequence<".Length, typeName.Length - "Sequence<, #>".Length);
                 var subTypeFullName = GetTypeFullName(subType);
                 var num = byte.Parse(typeName.Substring(typeName.Length - 2, 1));
-                var parserTypeName = "";
+                var parserTypeName = $"Serializer.SeqParser`1[[{subTypeFullName}]]";
                 var type = Type.GetType(parserTypeName);
                 var subParser = GetParser(subType, false);
                 var argTypes = new Type[2] { typeof(byte), subParser.GetType() };
@@ -119,7 +121,7 @@ namespace Serializer
                 typeName = typeName.Trim();
                 var subType = typeName.Substring("vector<".Length, typeName.Length - "vector<>".Length);
                 var subTypeFullName = GetTypeFullName(subType);
-                var parserTypeName = "";
+                var parserTypeName = $"Serializer.VectorParser`1[[{subTypeFullName}]]";
                 var type = Type.GetType(parserTypeName);
                 var subParser = GetParser(subType, false);
                 var argTypes = new Type[1] { subParser.GetType() };
@@ -165,6 +167,47 @@ namespace Serializer
                 return GetParser($"vector<vector<{baseType}>>");
             }
             return null;
+        }
+
+        public static FieldTypes GetFieldType(string typeName)
+        {
+            var res = FieldTypes.NONE;
+            if (TypeDefine.GetBasicTypeStr().Contains(typeName))
+            {
+                Enum.TryParse(typeName.ToUpper().Replace(" ", ""), true, out res);
+            }
+            else if (typeName.ToLower().StartsWith("sequence"))
+            {
+                var type = typeName.Substring("sequence<".Length, typeName.Length - "sequence<, #>".Length);
+                Enum.TryParse($"sequence_{type}".ToUpper(), true, out res); ;
+            }
+            else if (typeName.ToLower().StartsWith("vector"))
+            {
+                var subTypeName = typeName.Substring("vector<".Length, typeName.Length - "vector<>".Length);
+                if (subTypeName.ToLower().StartsWith("sequence"))
+                {
+                    var type = subTypeName.Substring("sequence<".Length, subTypeName.Length - "sequence<, #>".Length);
+                    Enum.TryParse($"vector_sequence_{type}".ToUpper().Replace(" ", ""), true, out res);
+                }
+                else if (subTypeName.ToLower().StartsWith("vector"))
+                {
+                    var type = typeName.Substring("vector<".Length, typeName.Length - "vector<>".Length);
+                    Enum.TryParse($"vector_vector_{type}".ToUpper().Replace(" ", ""), true, out res);
+                }
+                else
+                {
+                    Enum.TryParse($"vector_{subTypeName}".ToUpper().Replace(" ", ""), true, out res);
+                }
+            }
+
+            return res;
+        }
+
+        public static sbyte GetSequenceLength(string typeName)
+        {
+            sbyte length;
+            sbyte.TryParse(Regex.Replace(typeName, @"[^0-9]+", ""), out length);
+            return length;
         }
     }
 }

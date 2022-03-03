@@ -1,6 +1,6 @@
 namespace Serializer
 {
-    public class StrinParser : Parser<string>
+    public class StringParser : Parser<string>
     {
         public override object DefaultValue => string.Empty;
 

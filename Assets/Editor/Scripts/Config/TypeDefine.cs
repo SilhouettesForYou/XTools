@@ -111,6 +111,7 @@ namespace XTools
         {
             if (_basicTypeMap == null)
             {
+                _basicTypeMap = new Dictionary<string, Type>();
                 _basicTypeMap.Add("char", typeof(char));
                 _basicTypeMap.Add("bool", typeof(bool));
                 _basicTypeMap.Add("double", typeof(double));

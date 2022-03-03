@@ -69,7 +69,7 @@ namespace XTools
                     if (item.path != null)
                     {
                         var raw = DeserializeJson.Deserialize<TableInfo>(item.path) as TableInfo;
-                        JsonDataStash.Instance().Stash(raw.MainTableName, raw.TableLocations, raw.Fields);
+                        JsonDataStash.Instance().Stash(item, raw.MainTableName, raw.TableLocations, raw.Fields);
                     }
                 }
                 if (curSelectItem != null && curSelectItem.Value == null)

@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using Serializer;
 using Sirenix.OdinInspector;
 using System;
 using System.Collections;
@@ -25,22 +26,39 @@ namespace XTools
         public TableLocation[] tableLocations;
         public TableFieldInfo[] fields;
 
-        public void Stash(string name, TableLocation[] locations, TableFieldInfo[] _fields)
+        public void Stash(JsonDataModule module, string name, TableLocation[] locations, TableFieldInfo[] _fields)
         {
             mainTableName = name;
             tableLocations = locations;
             fields = _fields;
-        }
-    }
 
-    public class Parser : SingleBase<Parser>
-    {
-        public static FieldTypes ParseTypeFromString(string stringType, out int size)
-        {
-            size = 0;
+            module.mainTableName = mainTableName;
 
+            module.tableLocations.Clear();
+            foreach (var item in JsonDataStash.Instance().tableLocations)
+            {
+                module.tableLocations.Add(item.ExcelPath);
+            }
 
-            return FieldTypes.NONE;
+            module.fields.Clear();
+            foreach (var item in JsonDataStash.Instance().fields)
+            {
+                var field = new FieldBase();
+                field.fieldName = item.FieldName;
+                field.fieldTypeName.fieldType = ParserUtil.GetFieldType(item.FieldTypeName);
+                field.fieldTypeName.size = ParserUtil.GetSequenceLength(item.FieldTypeName);
+
+                var parser = ParserUtil.GetParser(field.fieldTypeName.fieldType, (sbyte)field.fieldTypeName.size);
+                field.defaultValue = parser.DefaultValue.ToString();
+                field.forClient = item.ForClient;
+                field.forServer = item.ForServer;
+                field.clientPosId = item.ClientPosID;
+                field.serverPosId = item.ServerPosID;
+                field.editorPosId = item.EditorPosID;
+                field.indexType = item.IndexType;
+                field.needLocal = item.NeedLocal;
+                module.fields.Add(field);
+            }
         }
     }
 }
