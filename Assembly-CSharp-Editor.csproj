@@ -77,6 +77,16 @@
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\VectorParser.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\ParserUtil.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\SeqParser.cs" />
+    <Compile Include="Assets\Editor\Scripts\CSV\CSVParser.cs" />
+    <Compile Include="Assets\Editor\Scripts\CSV\CSVChecker\CSVTableChecker.cs" />
+    <Compile Include="Assets\Editor\Scripts\CSV\CSVUtil.cs" />
+    <Compile Include="Assets\Editor\Scripts\CSV\CSVReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Editor\Data\CSV\TaskTable\EditorMetaData\TaskAcceptTableEditorMetaData.xml" />
+    <None Include="Assets\Editor\Data\CSV\TaskTable\EditorMetaData\TaskDropTableEditorMetaData.xml" />
+    <None Include="Assets\Editor\Data\CSV\TaskTable\EditorMetaData\TaskTableEditorMetaData.xml" />
+    <None Include="Assets\Editor\Data\CSV\TaskTable\EditorMetaData\TaskChapterTableEditorMetaData.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
