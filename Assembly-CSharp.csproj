@@ -387,6 +387,9 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Aspose.Cells">
+      <HintPath>Assets\Plugins\Aspose.Cells.dll</HintPath>
+    </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Unity\2020.3.30f1\2020.3.30f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
     </Reference>

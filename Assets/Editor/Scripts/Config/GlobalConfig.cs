@@ -8,6 +8,8 @@ namespace XTools
     {
         public static string DATA_DIR = "Assets/Editor/Data/";
         public static string JSON_DIR = DATA_DIR + "Configs/";
+
+        public static string CSV_PATH = DATA_DIR + "CSV/";
     }
 }
 

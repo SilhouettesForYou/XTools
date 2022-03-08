@@ -22,6 +22,7 @@ namespace XTools
 
     public class JsonDataStash : SingleBase<JsonDataStash>
     {
+        private Dictionary<string, Parser> _parserCache = new Dictionary<string, Parser>();
         public string mainTableName;
         public TableLocation[] tableLocations;
         public TableFieldInfo[] fields;
@@ -49,7 +50,11 @@ namespace XTools
                 field.fieldTypeName.size = ParserUtil.GetSequenceLength(item.FieldTypeName);
 
                 var parser = ParserUtil.GetParser(field.fieldTypeName.fieldType, (sbyte)field.fieldTypeName.size);
-                field.defaultValue = parser.DefaultValue.ToString();
+                if (!_parserCache.ContainsKey(item.FieldTypeName))
+                {
+                    _parserCache.Add(item.FieldTypeName, parser);
+                }
+                field.defaultValue = item.DefaultValue;
                 field.forClient = item.ForClient;
                 field.forServer = item.ForServer;
                 field.clientPosId = item.ClientPosID;
@@ -59,6 +64,12 @@ namespace XTools
                 field.needLocal = item.NeedLocal;
                 module.fields.Add(field);
             }
+        }
+
+        public void ExportToLua(string name, ExportTarget target, KeyOrIndex key, bool isSavingString = false, bool isGenerateRequire = false)
+        {
+            var csv = CSVUtils.GetCSVSheetInfo(name);
+
         }
     }
 }
