@@ -130,7 +130,9 @@ namespace XTools
         {
             foreach (var name in tableLocations)
             {
-                JsonDataStash.Instance().ExportToLua(name, target, key, isSavingString, isGenerateRequire);
+                Writer writer = new LuaWriter<JsonDataModule>(name.Replace(".csv", ""));
+                writer.Write(this);
+
             }
         }
 
@@ -143,6 +145,6 @@ namespace XTools
 
         [ShowInInspector, LabelText("Field")]
         [ListDrawerSettings(ListElementLabelName = "fieldName", DraggableItems = false, Expanded = false)]
-        public List<FieldBase> fields = new List<FieldBase>();
+        public Dictionary<string, FieldBase> fields = new Dictionary<string, FieldBase>();
     }
 }

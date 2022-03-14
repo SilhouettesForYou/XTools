@@ -62,14 +62,8 @@ namespace XTools
                 field.editorPosId = item.EditorPosID;
                 field.indexType = item.IndexType;
                 field.needLocal = item.NeedLocal;
-                module.fields.Add(field);
+                module.fields.Add(field.fieldName, field);
             }
-        }
-
-        public void ExportToLua(string name, ExportTarget target, KeyOrIndex key, bool isSavingString = false, bool isGenerateRequire = false)
-        {
-            var csv = CSVUtils.GetCSVSheetInfo(name);
-
         }
     }
 }

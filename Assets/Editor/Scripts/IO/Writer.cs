@@ -1,13 +1,23 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using System.IO;
 
 namespace XTools
 {
-    public abstract class Writer
+    public class Writer
     {
-        public Writer(string name) { }
+        protected string name = "";
+        protected string postfix = "";
+        protected string path = "";
+        protected CSVUtils.WorkSheetInfo workSheetInfo;
 
-        public abstract void Write();
+        public Writer(string name)
+        {
+            this.name = name;
+            workSheetInfo = CSVUtils.GetCSVSheetInfo(name);
+        }
+
+        public virtual void Write(object obj)
+        {
+        }
     }
 }

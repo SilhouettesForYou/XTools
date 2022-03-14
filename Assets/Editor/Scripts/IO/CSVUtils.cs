@@ -16,11 +16,11 @@ namespace XTools
             {
                 DicId2RowIndex = new Dictionary<int, int>();
                 DicColumnName2Index = new Dictionary<string, int>();
-                for (int i = 0; i < TableSheet.Cells.MaxDataRow; i++)
+                for (int i = 2; i < TableSheet.Cells.MaxDataRow + 1; i++)
                 {
                     DicId2RowIndex.Add(TableSheet.Cells[i, 0].IntValue, i);
                 }
-                for (int i = 0; i < TableSheet.Cells.MaxDataColumn; i++)
+                for (int i = 0; i < TableSheet.Cells.MaxDataColumn + 1; i++)
                 {
                     DicColumnName2Index.Add(TableSheet.Cells[0, i].StringValue, i);
                 }
@@ -48,7 +48,11 @@ namespace XTools
             {
                 workSheetInfo.TableSheet = sheet;
                 workSheetInfo.Init();
-                return CacheOfTable[tableName] = workSheetInfo;
+                if (!CacheOfTable.ContainsKey(tableName))
+                    CacheOfTable.Add(tableName, workSheetInfo);
+                else
+                    CacheOfTable[tableName] = workSheetInfo;
+                return workSheetInfo;
             }
 
             return null;

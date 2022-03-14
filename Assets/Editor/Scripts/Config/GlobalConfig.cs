@@ -10,6 +10,7 @@ namespace XTools
         public static string JSON_DIR = DATA_DIR + "Configs/";
 
         public static string CSV_PATH = DATA_DIR + "CSV/";
+        public static string OUTPUT_LUA_PATH = DATA_DIR + "Output/Lua/";
     }
 }
 
