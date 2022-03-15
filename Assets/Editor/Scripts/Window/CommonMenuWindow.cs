@@ -1,18 +1,12 @@
-﻿using System.Collections;
+﻿using Sirenix.OdinInspector.Editor;
+using Sirenix.Utilities.Editor;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
-namespace Sirenix.OdinInspector.Demos.RPGEditor
+
+namespace XTools
 {
-    using Sirenix.OdinInspector.Editor;
-    using Sirenix.Utilities;
-    using Sirenix.Utilities.Editor;
-    using System.Globalization;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using UnityEditor;
-    using UnityEngine;
-    using Utilities;
     public class CommonMenuWindow : OdinEditorWindow
     {
         /// <summary>
@@ -310,12 +304,12 @@ namespace Sirenix.OdinInspector.Demos.RPGEditor
             Rect temprect = position;
             temprect.x = position.x + father.x;
             temprect.y = position.y + father.y - height +( 2)* itemheight;
-            temprect.width = maxLang * itemheight + 50;
+            temprect.width = maxLang * 5 + 50;
             temprect.height = height;
-            width = maxLang * itemheight + 50;
+            width = maxLang * 5 + 50;
             MainWindow = this;
             SetupSeperator();
-            ShowAsDropDown(temprect, new Vector2(maxLang * itemheight + 50, height));
+            ShowAsDropDown(temprect, new Vector2(maxLang * 5 + 50, height));
             Focus();
 
         }
@@ -354,9 +348,9 @@ namespace Sirenix.OdinInspector.Demos.RPGEditor
             
             seperator.fixedWidth = width;
             seperator.fontSize = 12;
-            seperator.font = GlobalConfig.msyhbd_font;
-            seperator.normal.background = (Texture2D)GlobalConfig.menuwhite_tex;
-            seperator.hover.background = (Texture2D)GlobalConfig.menublue_tex;
+            seperator.font = GlobalConfig.FONT;
+            seperator.normal.background = (Texture2D)GlobalConfig.MENU_NORMAL_TEX;
+            seperator.hover.background = (Texture2D)GlobalConfig.MENU_HOVER_BLUE_TEX;
             seperator.fontStyle = FontStyle.Normal;
             seperator.alignment = TextAnchor.MiddleLeft;
             seperator.focused.background = null;
@@ -405,7 +399,7 @@ namespace Sirenix.OdinInspector.Demos.RPGEditor
                     for (int idx = 0; idx < menuItems.Count; idx++)
                     {
                         MenuItem item = (MenuItem)menuItems[idx];
-                        seperator.normal.background = selectindex == idx ? (Texture2D)GlobalConfig.menublue_tex : (Texture2D)GlobalConfig.menuwhite_tex;
+                        seperator.normal.background = selectindex == idx ? (Texture2D)GlobalConfig.MENU_HOVER_BLUE_TEX : (Texture2D)GlobalConfig.MENU_NORMAL_TEX;
                         if (ItemIsEnable(idx) ) {
                             if (rectlist != null) { 
                                 rectlist.Add(new Rect(0, tempheight, width, itemheight));
@@ -418,7 +412,7 @@ namespace Sirenix.OdinInspector.Demos.RPGEditor
                             }
                             if (item.menuItems.Count() > 0)
                             {
-                                GUI.DrawTexture(new Rect(width - 30, idx * itemheight + 6 - linenum *(itemheight / (separator)), 10, 10), GlobalConfig.menuarrow_tex, ScaleMode.ScaleAndCrop);
+                                GUI.DrawTexture(new Rect(width - 30, idx * itemheight + 6 - linenum *(itemheight / (separator)), 10, 10), GlobalConfig.MENU_ARROW_TEX, ScaleMode.ScaleAndCrop);
                             }
                             if (item.rightlabel != "")
                             {
@@ -435,14 +429,14 @@ namespace Sirenix.OdinInspector.Demos.RPGEditor
                                     rectlist.Add(new Rect(0, tempheight, width, itemheight ));
                                     tempheight += itemheight ;
                                 }
-                                seperator.normal.background = (Texture2D)GlobalConfig.menuwhite_tex;
+                                seperator.normal.background = (Texture2D)GlobalConfig.MENU_NORMAL_TEX;
                                 seperator.hover.background = null;
                                 seperator.fontSize = item.fontSize;
                                 Color color = seperator.normal.textColor;
                                 seperator.normal.textColor = noenblecolor;
                                 EditorGUILayout.DropdownButton(item.showcontent, FocusType.Passive, seperator, GUILayout.Width(width), GUILayout.Height(itemheight ));
                                 seperator.normal.textColor = enblecolor;
-                                seperator.hover.background = (Texture2D)GlobalConfig.menublue_tex;
+                                seperator.hover.background = (Texture2D)GlobalConfig.MENU_HOVER_BLUE_TEX;
                             }
                             else
                             {
@@ -451,7 +445,7 @@ namespace Sirenix.OdinInspector.Demos.RPGEditor
                                     rectlist.Add(new Rect(0, tempheight, width, itemheight / separator));
                                     tempheight += itemheight / separator;
                                 }
-                                seperator.normal.background = (Texture2D)GlobalConfig.menuwhite_tex;
+                                seperator.normal.background = (Texture2D)GlobalConfig.MENU_NORMAL_TEX;
                                 seperator.hover.background = null;
                                 seperator.fontSize = item.fontSize;
                                 EditorGUILayout.DropdownButton(item.showcontent, FocusType.Passive, seperator, GUILayout.Width(width), GUILayout.Height(itemheight / (separator * 2)));
@@ -459,8 +453,8 @@ namespace Sirenix.OdinInspector.Demos.RPGEditor
                                 r.y = r.y - linenum;
                                 linenum++;
                                 r.height = (itemheight / 4) + 13;
-                                GUI.DrawTexture(r, GlobalConfig.menuwhite_tex);
-                                seperator.hover.background = (Texture2D)GlobalConfig.menublue_tex;
+                                GUI.DrawTexture(r, GlobalConfig.MENU_NORMAL_TEX);
+                                seperator.hover.background = (Texture2D)GlobalConfig.MENU_HOVER_BLUE_TEX;
                             }
                         }
                     }

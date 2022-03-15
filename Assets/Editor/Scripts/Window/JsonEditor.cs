@@ -12,6 +12,9 @@ namespace XTools
 {
     public class JsonEditorWindow : OdinMenuEditorWindow
     {
+        protected int selectIndex = 0;
+        protected Rect buttonRectTools = new Rect(0, -5, GlobalConfig.MENU_TOOLS_NAME.Length * 20, 24);
+        public CommonMenuWindow menu;
         public OdinMenuTree menuTree { get; set; }
         public static JsonEditorWindow MainWindow;
 
@@ -21,7 +24,7 @@ namespace XTools
             MainWindow = GetWindow<JsonEditorWindow>();
             MainWindow.position = GUIHelper.GetEditorWindowRect().AlignCenter(1280, 800);
             MainWindow.minSize = new Vector2(1280, 800);
-            MainWindow.titleContent = new GUIContent("Ö÷´°¿Ú");
+            MainWindow.titleContent = new GUIContent("Main Window");
             MainWindow.Show();
         }
 
@@ -37,6 +40,24 @@ namespace XTools
             menuTree.Selection.SelectionChanged += OnClickMenuItem;
             LoadMenuTree();
             return menuTree;
+        }
+
+        protected override void OnGUI()
+        {
+            EditorStyles.popup.fontSize = 12;
+            EditorStyles.popup.fixedHeight = 18;
+            EditorStyles.popup.alignment = TextAnchor.MiddleCenter;
+
+            SirenixEditorGUI.BeginHorizontalToolbar();
+            {
+                if (EditorGUILayout.DropdownButton(new GUIContent(GlobalConfig.MENU_TOOLS_NAME), FocusType.Passive, selectIndex == 1 ? CustomEditorStyle.dropdownButtonSelected : CustomEditorStyle.dropdownButtonNormal, GUILayout.Width(GlobalConfig.MENU_TOOLS_NAME.Length * 20), GUILayout.Height(24)))
+                {
+                    CreateMenuTools();
+                }
+            }
+            SirenixEditorGUI.EndHorizontalToolbar();
+
+            base.OnGUI();
         }
 
         private void LoadMenuTree()
@@ -76,6 +97,32 @@ namespace XTools
                 {
                     curSelectItem.Value = AssetDatabase.LoadAssetAtPath(curSelectItem.AssetPath, typeof(UnityEngine.Object));
                 }
+            }
+        }
+
+        protected void CreateMenuTools()
+        {
+            menu = ScriptableObject.CreateInstance<CommonMenuWindow>();
+            menu.AddItem(GlobalConfig.MENU_TOOLS_EXPORT_LUA_ALL, 0, MenuFunctions.ExportLuaAll);
+            menu.DropDown(buttonRectTools, position, delegate () {
+                selectIndex = 0;
+                menu = null;
+            });
+            selectIndex = 1;
+        }
+
+        protected void OnMouseChangePosition()
+        {
+            Vector2 mouserPosition = Event.current.mousePosition;
+            if (selectIndex > 0)
+            {
+                if (buttonRectTools.Contains(mouserPosition) && selectIndex != 1)
+                {
+                    menu.CloseAndChild();
+                    menu.Close();
+                    CreateMenuTools();
+                }
+                this.Repaint();
             }
         }
     }
