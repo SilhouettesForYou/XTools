@@ -66,6 +66,20 @@ namespace Serializer
             }
             return res;
         }
+
+        public override string SerializeLua(object obj)
+        {
+            TV[] value = (TV[])obj;
+            string res = "{ ";
+            var splistStr = ", ";
+            for (int i = 0; i < value.Length; i++)
+            {
+                res += _parser.SerializeLua(value[i]);
+                if (i != value.Length - 1)
+                    res += splistStr;
+            }
+            return res + " }";
+        }
     }
 
 }

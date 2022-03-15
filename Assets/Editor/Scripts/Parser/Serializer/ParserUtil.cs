@@ -191,7 +191,7 @@ namespace Serializer
                 }
                 else if (subTypeName.ToLower().StartsWith("vector"))
                 {
-                    var type = typeName.Substring("vector<".Length, typeName.Length - "vector<>".Length);
+                    var type = subTypeName.Substring("vector<".Length, subTypeName.Length - "vector<>".Length);
                     Enum.TryParse($"vector_vector_{type}".ToUpper().Replace(" ", ""), true, out res);
                 }
                 else

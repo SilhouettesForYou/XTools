@@ -126,13 +126,13 @@ namespace XTools
         public string path { get; set; }
 
         [Button("Export To Lua", ButtonSizes.Medium, ButtonStyle.FoldoutButton, Expanded = false), GUIColor(255 / 255.0f, 138 / 255.0f, 174 / 255.0f)]
-        private void ExportToLua(ExportTarget target, KeyOrIndex key, bool isSavingString = false, bool isGenerateRequire = false)
+        private void ExportToLua(ExportTarget target, KeyOrIndex key)
         {
             foreach (var name in tableLocations)
             {
-                Writer writer = new LuaWriter<JsonDataModule>(name.Replace(".csv", ""));
+                Writer writer = new LuaWriter(name.Replace(".csv", ""));
+                writer.SetConfig(new LuaWriterConfig(target, key));
                 writer.Write(this);
-
             }
         }
 
@@ -144,7 +144,7 @@ namespace XTools
         public List<String> tableLocations = new List<string>();
 
         [ShowInInspector, LabelText("Field")]
-        [ListDrawerSettings(ListElementLabelName = "fieldName", DraggableItems = false, Expanded = false)]
+        [DictionaryDrawerSettings(KeyLabel = "Field Name", ValueLabel = "Field", DisplayMode = DictionaryDisplayOptions.CollapsedFoldout)]
         public Dictionary<string, FieldBase> fields = new Dictionary<string, FieldBase>();
     }
 }

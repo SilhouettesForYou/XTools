@@ -25,5 +25,10 @@ namespace Serializer
             return obj.ToString();
         }
 
+        public override string SerializeLua(object obj)
+        {
+            return $"\"{obj}\"";
+        }
+
     }
 }

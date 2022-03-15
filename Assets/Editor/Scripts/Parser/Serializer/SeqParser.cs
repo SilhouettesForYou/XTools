@@ -127,5 +127,20 @@ namespace Serializer
             }
             return res;
         }
+
+        public override string SerializeLua(object obj)
+        {
+            string res = "{ ";
+            Seq<TV> value = (Seq<TV>)obj;
+            var splitStr = ", ";
+            int capacity = Math.Min(value.Capacity, _length);
+            for (int i = 0; i < capacity; i++)
+            {
+                res += _parser.SerializeLua(value[i]);
+                if (i != capacity - 1)
+                    res += splitStr;
+            }
+            return res + " }";
+        }
     }
 }

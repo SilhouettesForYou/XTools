@@ -23,6 +23,13 @@ namespace XTools
     public class JsonDataStash : SingleBase<JsonDataStash>
     {
         private Dictionary<string, Parser> _parserCache = new Dictionary<string, Parser>();
+        public Dictionary<string, Parser> ParserCache
+        {
+            get
+            {
+                return _parserCache;
+            }
+        }
         public string mainTableName;
         public TableLocation[] tableLocations;
         public TableFieldInfo[] fields;
@@ -36,13 +43,13 @@ namespace XTools
             module.mainTableName = mainTableName;
 
             module.tableLocations.Clear();
-            foreach (var item in JsonDataStash.Instance().tableLocations)
+            foreach (var item in Instance().tableLocations)
             {
                 module.tableLocations.Add(item.ExcelPath);
             }
 
             module.fields.Clear();
-            foreach (var item in JsonDataStash.Instance().fields)
+            foreach (var item in Instance().fields)
             {
                 var field = new FieldBase();
                 field.fieldName = item.FieldName;

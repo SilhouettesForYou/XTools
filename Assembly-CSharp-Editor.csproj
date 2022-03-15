@@ -61,6 +61,7 @@
     <Compile Include="Assets\Editor\Scripts\Parser\JsonParser.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\LongParser.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\VectorParser.cs" />
+    <Compile Include="Assets\Editor\Scripts\IO\LuaWriter.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\FloatParser.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\CharParser.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\BoolParser.cs" />
@@ -73,13 +74,13 @@
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\ParserUtil.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\StringParser.cs" />
     <Compile Include="Assets\Editor\Scripts\Common\SingleBase.cs" />
+    <Compile Include="Assets\Editor\Scripts\IO\Writer.cs" />
     <Compile Include="Assets\Editor\Scripts\Common\Utils.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\IntParser.cs" />
     <Compile Include="Assets\Editor\Scripts\Modules\TableInfo.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\Parser.cs" />
     <Compile Include="Assets\Editor\Scripts\Parser\Serializer\EnumParser.cs" />
-    <Compile Include="Assets\Editor\Scripts\IO\Writer.cs" />
-    <Compile Include="Assets\Editor\Scripts\IO\LuaWriter.cs" />
+    <Compile Include="Assets\Editor\Scripts\IO\WriterConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\Data\CSV\TaskTable\EditorMetaData\TaskAcceptTableEditorMetaData.xml" />

@@ -39,5 +39,11 @@ namespace Serializer
             var value = obj ?? false;
             return (bool)value ? "1" : "0";
         }
+
+        public override string SerializeLua(object obj)
+        {
+            var value = obj ?? false;
+            return (bool)value ? "true" : "false";
+        }
     }
 }

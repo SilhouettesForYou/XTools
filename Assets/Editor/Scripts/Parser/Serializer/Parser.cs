@@ -27,6 +27,8 @@ namespace Serializer
 
         public abstract string SerializeExcel(object obj);
 
+        public abstract string SerializeLua(object obj);
+
     }
 
     public abstract class Parser<T> : Parser
