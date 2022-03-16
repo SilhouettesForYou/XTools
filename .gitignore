@@ -1,8 +1,6 @@
-UserSettings/
-ProjectSettings/
-Logs/
-Library/
-.vs/
-obj/
-Temp/
-Assets/Editor/Data/Output/
+Logs/*
+Library/*
+.vs/*
+obj/*
+Temp/*
+Assets/Editor/Data/Output/*

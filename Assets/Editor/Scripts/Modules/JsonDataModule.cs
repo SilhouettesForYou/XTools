@@ -3,6 +3,7 @@ using Sirenix.OdinInspector;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 namespace XTools
@@ -130,9 +131,11 @@ namespace XTools
         {
             foreach (var name in tableLocations)
             {
+                EditorUtility.DisplayProgressBar("Export To Lua", name, 0.5f);
                 Writer writer = new LuaWriter(name.Replace(".csv", ""));
                 writer.SetConfig(new LuaWriterConfig(target, key));
                 writer.Write(this);
+                EditorUtility.ClearProgressBar();
             }
         }
 

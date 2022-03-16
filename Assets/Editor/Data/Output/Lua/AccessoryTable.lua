@@ -1,4 +1,4 @@
 local t = {}
-t[1] = { [0] = 1, [1] = "Helmet_Monster_BoLiHeYe_01", [2] = 1 }
-t[2] = { [0] = 2, [1] = "Adornment_Monster_BoLiYanJing_01", [2] = 2 }
+t[1] = { AccessoryID = 1, AccessoryModel = "Helmet_Monster_BoLiHeYe_01", AccessoryType = 1 }
+t[2] = { AccessoryID = 2, AccessoryModel = "Adornment_Monster_BoLiYanJing_01", AccessoryType = 2 }
 return t
