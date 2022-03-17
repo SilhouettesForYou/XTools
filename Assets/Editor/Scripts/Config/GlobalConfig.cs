@@ -9,7 +9,8 @@ namespace XTools
     {
         public static string DATA_DIR = "Assets/Editor/Data/";
         public static string JSON_DIR = DATA_DIR + "Configs/";
-
+        public static string ASSET_DIR = DATA_DIR + "AssetStore/";
+        public static string JSON_ASSET_NAME = ASSET_DIR + "json.asset";
         public static string CSV_PATH = DATA_DIR + "CSV/";
         public static string OUTPUT_LUA_PATH = DATA_DIR + "Output/Lua/";
 
@@ -85,7 +86,10 @@ namespace XTools
         }
 
         public static string MENU_TOOLS_NAME = "Tools";
-        public static string MENU_TOOLS_EXPORT_LUA_ALL = "Export Lua (All)";
+        public static string MENU_TOOLS_EXPORT_LUA_ALL_SERVER_WITH_INDEX = "Export Lua (All)/Server with index";
+        public static string MENU_TOOLS_EXPORT_LUA_ALL_CLIENT_WITH_INDEX = "Export Lua (All)/Client with index";
+        public static string MENU_TOOLS_EXPORT_LUA_ALL_SERVER_WITH_KEY = "Export Lua (All)/Server with key";
+        public static string MENU_TOOLS_EXPORT_LUA_ALL_CLIENT_WITH_KEY = "Export Lua (All)/Client with key";
     }
 }
 

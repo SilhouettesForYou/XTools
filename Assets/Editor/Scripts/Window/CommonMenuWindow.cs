@@ -412,7 +412,7 @@ namespace XTools
                             }
                             if (item.menuItems.Count() > 0)
                             {
-                                GUI.DrawTexture(new Rect(width - 30, idx * itemheight + 6 - linenum *(itemheight / (separator)), 10, 10), GlobalConfig.MENU_ARROW_TEX, ScaleMode.ScaleAndCrop);
+                                GUI.DrawTexture(new Rect(width - 15, idx * itemheight + 9 - linenum *(itemheight / (separator)), 10, 10), GlobalConfig.MENU_ARROW_TEX, ScaleMode.ScaleAndCrop);
                             }
                             if (item.rightlabel != "")
                             {

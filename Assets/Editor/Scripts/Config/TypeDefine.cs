@@ -5,6 +5,13 @@ using UnityEngine;
 
 namespace XTools
 {
+    public enum ExportLuaType
+    {
+        SERVER_WITH_INDEX = 0,
+        CLIENT_WITH_INDEX = 1,
+        SERVER_WITH_KEY = 2,
+        CLIENT_WITH_KEY = 3
+    }
     public enum FieldTypes
     {
         NONE = -1,

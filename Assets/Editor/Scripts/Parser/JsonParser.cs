@@ -20,7 +20,7 @@ namespace XTools
         }
     }
 
-    public class JsonDataStash : SingleBase<JsonDataStash>
+    public class JsonDataProcesser : SingleBase<JsonDataProcesser>
     {
         private Dictionary<string, Parser> _parserCache = new Dictionary<string, Parser>();
         public Dictionary<string, Parser> ParserCache
@@ -71,6 +71,11 @@ namespace XTools
                 field.needLocal = item.NeedLocal;
                 module.fields.Add(field.fieldName, field);
             }
+        }
+
+        public void ExportToLua(ExportLuaType exportType)
+        {
+            
         }
     }
 }

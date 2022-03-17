@@ -28,6 +28,41 @@ namespace XTools
             MainWindow.Show();
         }
 
+        [MenuItem("XTools/Export Json")]
+        public static void ExportJsonToAsset()
+        {
+            var asset = AssetDatabase.LoadAssetAtPath<JsonDataModuleList>(GlobalConfig.JSON_ASSET_NAME);
+            if (asset != null)
+            {
+                asset.jsonList.Clear();
+            }
+            else
+            {
+                asset = ScriptableObject.CreateInstance<JsonDataModuleList>();
+                AssetDatabase.CreateAsset(asset, GlobalConfig.JSON_ASSET_NAME);
+            }
+            
+            if (!Directory.Exists(GlobalConfig.JSON_DIR))
+            {
+                return;
+            }
+
+            var files = Directory.GetFiles(GlobalConfig.JSON_DIR, $"*.json", SearchOption.AllDirectories);
+
+            foreach (var file in files)
+            {
+                var name = Utils.GetFileNameFromPath(file, Path.AltDirectorySeparatorChar);
+                var obj = CreateInstance<JsonDataModule>();
+                obj.path = file;
+                var raw = DeserializeJson.Deserialize<TableInfo>(obj.path) as TableInfo;
+                JsonDataProcesser.Instance().Stash(obj, raw.MainTableName, raw.TableLocations, raw.Fields);
+                asset.jsonList.Add(obj);
+            }
+
+            AssetDatabase.SaveAssets();
+            Debug.Log("<color=#97DBAE>Export Successfully</color>");
+        }
+
         protected override OdinMenuTree BuildMenuTree()
         {
             if (menuTree != null)
@@ -90,7 +125,7 @@ namespace XTools
                     if (item.path != null)
                     {
                         var raw = DeserializeJson.Deserialize<TableInfo>(item.path) as TableInfo;
-                        JsonDataStash.Instance().Stash(item, raw.MainTableName, raw.TableLocations, raw.Fields);
+                        JsonDataProcesser.Instance().Stash(item, raw.MainTableName, raw.TableLocations, raw.Fields);
                     }
                 }
                 if (curSelectItem != null && curSelectItem.Value == null)
@@ -103,7 +138,10 @@ namespace XTools
         protected void CreateMenuTools()
         {
             menu = ScriptableObject.CreateInstance<CommonMenuWindow>();
-            menu.AddItem(GlobalConfig.MENU_TOOLS_EXPORT_LUA_ALL, 0, MenuFunctions.ExportLuaAll);
+            menu.AddItem(GlobalConfig.MENU_TOOLS_EXPORT_LUA_ALL_SERVER_WITH_INDEX, 0, MenuFunctions.ExportLuaAllForServerWithIndex);
+            menu.AddItem(GlobalConfig.MENU_TOOLS_EXPORT_LUA_ALL_CLIENT_WITH_INDEX, 0, MenuFunctions.ExportLuaAllForClientWithIndex);
+            menu.AddItem(GlobalConfig.MENU_TOOLS_EXPORT_LUA_ALL_SERVER_WITH_KEY, 0, MenuFunctions.ExportLuaAllForServerWithKey);
+            menu.AddItem(GlobalConfig.MENU_TOOLS_EXPORT_LUA_ALL_CLIENT_WITH_KEY, 0, MenuFunctions.ExportLuaAllForClientWithKey);
             menu.DropDown(buttonRectTools, position, delegate () {
                 selectIndex = 0;
                 menu = null;

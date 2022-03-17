@@ -41,7 +41,7 @@ namespace XTools
 
                         var fieldTypeName = module.fields[col.Key].fieldTypeName.ToString();
                         var cell = workSheetInfo.TableSheet.Cells[row.Value, col.Value].StringValue;
-                        var parser = JsonDataStash.Instance().ParserCache[fieldTypeName];
+                        var parser = JsonDataProcesser.Instance().ParserCache[fieldTypeName];
                         parser.Parse(cell, out object res);
                         var element = parser.SerializeLua(res);
                         var splitStr = (col.Value + 1 == workSheetInfo.DicColumnName2Index.Count) ? "" : ", ";

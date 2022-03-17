@@ -127,7 +127,7 @@ namespace XTools
         public string path { get; set; }
 
         [Button("Export To Lua", ButtonSizes.Medium, ButtonStyle.FoldoutButton, Expanded = false), GUIColor(255 / 255.0f, 138 / 255.0f, 174 / 255.0f)]
-        private void ExportToLua(ExportTarget target, KeyOrIndex key)
+        public void ExportToLua(ExportTarget target, KeyOrIndex key)
         {
             foreach (var name in tableLocations)
             {
