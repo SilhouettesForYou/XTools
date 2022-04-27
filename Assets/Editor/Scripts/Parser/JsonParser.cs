@@ -1,11 +1,10 @@
 using Newtonsoft.Json;
 using Serializer;
-using Sirenix.OdinInspector;
-using System;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using System.IO;
-using System.Text.RegularExpressions;
+using UnityEditor;
 using UnityEngine;
 
 namespace XTools
@@ -75,7 +74,55 @@ namespace XTools
 
         public void ExportToLua(ExportLuaType exportType)
         {
-            
+            IEnumerator _enum = null;
+            switch (exportType)
+            {
+                case ExportLuaType.SERVER_WITH_INDEX:
+                    _enum = _ExportToLua(ExportTarget.Server, KeyOrIndex.Index);
+                    break;
+                case ExportLuaType.CLIENT_WITH_INDEX:
+                    _enum = _ExportToLua(ExportTarget.Client, KeyOrIndex.Index);
+                    break;
+                case ExportLuaType.SERVER_WITH_KEY:
+                    _enum = _ExportToLua(ExportTarget.Server, KeyOrIndex.Key);
+                    break;
+                case ExportLuaType.CLIENT_WITH_KEY:
+                    _enum = _ExportToLua(ExportTarget.Client, KeyOrIndex.Key);
+                    break;
+            }
+            if (_enum != null && _enum.MoveNext())
+            {
+                return;
+            }
+        }
+
+
+        private IEnumerator _ExportToLua(ExportTarget target, KeyOrIndex key)
+        {
+            var asset = AssetDatabase.LoadAssetAtPath<JsonDataModuleList>(GlobalConfig.JSON_ASSET_NAME);
+            if (asset == null)
+            {
+                yield return null;
+            }
+
+            foreach (var item in asset.jsonList)
+            {
+                try
+                {
+                    foreach (var name in item.tableLocations)
+                    {
+                        Writer writer = new LuaWriter(name.Replace(".csv", ""));
+                        writer.SetConfig(new LuaWriterConfig(target, key));
+                        writer.Write(item);
+                    }
+                }
+                catch(Exception e)
+                {
+                    Debug.Log($"<color=#F24A72>Export Error: {item.mainTableName}</color>");
+                }
+                
+            }
+            yield return null;
         }
     }
 }
