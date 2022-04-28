@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2342cde1-e77d-1bcb-1eb5-17fde3ff8f75}</ProjectGuid>
+    <ProjectGuid>{5455d9bd-7b1d-3b25-1480-7395a7886b24}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>XNode</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_30;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_30;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ODIN_INSPECTOR;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -36,102 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\CombineGroupAttributeExample3.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Attribute Processors\Scripts\PutAttributesOnAnyType.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\PropertyTooltipExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\VerticalGroupExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\HideInEditorAndPlayModeExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\TwoDimensionalArrayExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Attribute Processors\Scripts\CustomAttributeProcessorLocatorExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\SerializeAnything.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ShowPropertiesInTheInspectorExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\FoldoutGroupAttributeExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\CustomContextMenuExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\TableMatrixExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\HideReferenceObjectPickerExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\IncorrectUseOfOdinSerializeAttributeExamples1.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\UnityPreviewFieldsExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ColorPaletteExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\InlineEditorExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\DebugSerializationExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\EnumToggleButtonsExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\SuffixLabelExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\GUIColorExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\DisableInEditorAndPlayModeExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\TitleExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\PrefabRelatedAttributesExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\StringMemberHelperExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ProgressBarExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\TitleGroupExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\IncorrectUseOfOdinSerializeAttributeExamples2.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\SceneAndAssetsOnlyExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\CustomValueDrawerExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\PropertyOrderExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Attribute Processors\Scripts\CustomizeDictionaryKeyValueExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ShowInInspectorExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ListExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\GenericMenuExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\DictionaryExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ButtonWithParametersExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\CustomGroupExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\InfoBoxExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\MinMaxSliderExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\HideLabelExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\ValidationExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\OnInspectorGUIExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\DisplayAsStringExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Attribute Processors\Scripts\TabGroupByDeclaringType.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\IndentExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\InlineButtonExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\InlinePropertyExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ValueDropdownExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\MinesweeperExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\BoxGroupExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\WrapExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ShowDrawerChainExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\MultiLinePropertyExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ValidateInputExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\StaticInspectorsExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\HorizontalGroupAttributeExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ReadOnlyExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\HealthBarExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ToggleExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\DefaultDrawerChanges.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Attribute Processors\Scripts\AttributeProcessorForListItemsExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\MinMaxValueValueExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\CombineGroupAttributeExample1.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Attribute Processors\Scripts\BasicAttributeProcessorExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\PriorityExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\FolderPathExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\CombineGroupAttributeExample2.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\CustomDrawerExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\DrawWithUnityExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ToggleLeftExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\TabExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\GenericDrawerExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\EnableAndDisableIfExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\RequiredExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Attribute Processors\Scripts\Foo.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\AttributesOnClassesExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\DelegateExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ButtonGroupExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\ReflectionExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ShowAndHideIfExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\EnumPagingExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Attribute Processors\Scripts\Bar.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\TableListExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Drawers\Scripts\InstancedDrawerExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\FilePathExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ResponsiveButtonGroupExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\OnValueChangedExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\ButtonExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\NoBoilerplate.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Attribute Processors\Scripts\AttributeProcessorPriorityExample.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\DisableContextMenuExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\AssetListExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Attributes Overview\Scripts\LabelTextExamples.cs" />
-     <Compile Include="Assets\ThirdParty\Sirenix\Demos\Custom Attribute Processors\Scripts\SelfAndChildrenExample.cs" />
-     <None Include="Assets\JsonDotNet\link.xml" />
+     <Compile Include="Assets\ThirdParty\xNode\Scripts\NodeGraph.cs" />
+     <Compile Include="Assets\ThirdParty\xNode\Scripts\NodePort.cs" />
+     <Compile Include="Assets\ThirdParty\xNode\Scripts\Attributes\NodeEnum.cs" />
+     <Compile Include="Assets\ThirdParty\xNode\Scripts\NodeDataCache.cs" />
+     <Compile Include="Assets\ThirdParty\xNode\Scripts\SceneGraph.cs" />
+     <Compile Include="Assets\ThirdParty\xNode\Scripts\Node.cs" />
+     <None Include="Assets\ThirdParty\xNode\Scripts\XNode.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2020.3.30f1\2020.3.30f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -354,11 +265,32 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>D:\Unity\2020.3.30f1\2020.3.30f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Graphs">
+        <HintPath>D:\Unity\2020.3.30f1\2020.3.30f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+        <HintPath>D:\Unity\2020.3.30f1\2020.3.30f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+        <HintPath>D:\Unity\2020.3.30f1\2020.3.30f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+        <HintPath>E:\Codes\Unity\XTools\Library\PackageCache\com.unity.collab-proxy@1.15.12\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>E:\Codes\Unity\XTools\Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>E:\Codes\Unity\XTools\Library\PackageCache\com.unity.collab-proxy@1.15.12\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>E:\Codes\Unity\XTools\Library\PackageCache\com.unity.collab-proxy@1.15.12\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
     <Reference Include="Aspose.Cells">
         <HintPath>E:\Codes\Unity\XTools\Assets\Plugins\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>E:\Codes\Unity\XTools\Library\PackageCache\com.unity.collab-proxy@1.15.12\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>D:\Unity\2020.3.30f1\2020.3.30f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -705,110 +637,14 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>D:\Unity\2020.3.30f1\2020.3.30f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="PsdPlugin">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>E:\Codes\Unity\XTools\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Sirenix.Source.csproj">
-      <Project>{28d49f62-35be-1ba3-0273-09f3bd884003}</Project>
-      <Name>Sirenix.Source</Name>
-    </ProjectReference>
-    <ProjectReference Include="XNode.csproj">
-      <Project>{5455d9bd-7b1d-3b25-1480-7395a7886b24}</Project>
-      <Name>XNode</Name>
-    </ProjectReference>
-    <ProjectReference Include="XNodeEditor.csproj">
-      <Project>{43a13729-e85d-adde-e820-204f1bacafe3}</Project>
-      <Name>XNodeEditor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
